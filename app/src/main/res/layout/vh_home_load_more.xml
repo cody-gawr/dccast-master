@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+  <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/progress_layout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@android:style/Widget.Holo.ProgressBar.Large"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="@dimen/margin_size_medium"
+        android:layout_marginBottom="@dimen/margin_size_medium"
+        android:layout_gravity="center"/>
+
+  </FrameLayout>
+
+</layout>

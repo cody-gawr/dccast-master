@@ -1,0 +1,1166 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:138:5-146:16
+	android:grantUriPermissions
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:142:9-43
+	android:authorities
+		INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:140:9-60
+	android:exported
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:141:9-33
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:139:9-58
+manifest
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:2:1-284:12
+INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:2:1-284:12
+INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:2:1-284:12
+INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:2:1-284:12
+MERGED from [io.realm:realm-android-library:3.7.2] /Users/hope/.gradle/caches/transforms-2/files-2.1/fbfd98b6a815fff4ce3832d92fe8021c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/e5adedb2f7ad11747bb8a719e5b59776/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.databinding:databinding-adapters:3.4.2] /Users/hope/.gradle/caches/transforms-2/files-2.1/c8483a9a50a800402c86065d89b409ef/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.4.2] /Users/hope/.gradle/caches/transforms-2/files-2.1/3b767a145771cd67812970d4ec5d94c0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6308c534a74daff42bdc051f4933c9b4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-ui-ktx:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/bb7ab406f2106dcf1f588d4d2e252bdd/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-ui:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/73abd78971bdbc511b354ed9453f722c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.1.0-alpha03] /Users/hope/.gradle/caches/transforms-2/files-2.1/fa8ef3c88a4b2e5c7a5ee1d6172a6308/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/hope/.gradle/caches/transforms-2/files-2.1/b454e5bf2dfc591de35f821248fd0dc1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:3.0.0-beta1] /Users/hope/.gradle/caches/transforms-2/files-2.1/078e03935734d44c6eaa9c81c9737ccc/AndroidManifest.xml:2:1-13:12
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/f3ab6d9ae93be8cb12fcd964bb1b613e/AndroidManifest.xml:2:1-13:12
+MERGED from [:k4l-video-trimmer] /Volumes/Data/Oogway/workspace/live_android/dccast-master/k4l-video-trimmer/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-16:12
+MERGED from [com.facebook.android:facebook-share:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/be5c4b00a2ebd2278d275fc7fec0475d/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c7eb782d4b420d0c953c2124789ebd9b/AndroidManifest.xml:21:1-37:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/981395434b30616ca8b24179fbf48e3f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6fd5a2a91e6972748a7e8b124d3381b6/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/hope/.gradle/caches/transforms-2/files-2.1/d3c8ce0274ad7e248281ccdb9cdc39bd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/831f9d689a4e6b4bca35819b3513ea0a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ac8365bbb20c2f7cdf8666434843f5b3/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/c467500fcd0a00b6ca47cd2c352174ea/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/6ffa02614a7b76a7124f49f42b8a552d/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/5b243e4b7a912ddfa52ce2c9c055cbcc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/bb901f458e892387f060b64707e43905/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c6b89b8f9383bf541f62f86c909303be/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/f2e8cfb98497f701e2fc701d1c81b685/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/e0cf246a3c4baa5d93d0a123b073b729/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/00bb9fe44f44fae3824eac0b648fea9d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/7c974ef0cc92b9f49427976c54940195/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/1125eb0ab67a2d00ce42bb4d51f8f82d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/b428910484f5853b68184234e528838b/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/e7619d4330a32078b570c783a5cffbce/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/291fc61da420a7229102c95ec8cd56d9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/e16331e91f26203ad7381d0d8f788bb5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/3307158e9cdeb46614b54c037a34a349/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha02] /Users/hope/.gradle/caches/transforms-2/files-2.1/01f298639cacaae52dae49a2b80bb2da/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6ddb2bd38ef5050b1c0b28258a6ad88e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.kakao.sdk:kakaolink:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/d121aecfa130ac69e2999b6d180f415e/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/0bc7881186974d8bcaec954cd0490160/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6a896ad0973606f6cfa67d5df27cb76e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/693147c623e715f6f105c1a9f36b0bbe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/c6a5c5f5e319714bda275d2900065b86/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/74b6b757c481f0b5271e343763d6a2a7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-runtime-ktx:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/e9f9b6cc6a1fe5b30013ec5128cb7b53/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/502b5af96a200eae92f33e10afb274c7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:21:1-53:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/4b6af757b6b58ad683e1758e36745691/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/406930c3fb0b8f8e5f4ec4a74ed6ddac/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/bd9f94b6f9c8c9f93ed2cb17719cff2f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/a5b71d4e3e75bba291b1235448a9f684/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/27d6038cc951f0bf44b30e3dc6ee6913/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/96a7b6c379e9de15dc5dbbd838797bea/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/4e5230e25865171a0ec48dc1cd4a4982/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha02] /Users/hope/.gradle/caches/transforms-2/files-2.1/8ee337dd89a41dd32d31e43f008d159c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/513a671d69957eefed4b725309bdea0a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c392c617cf8e8f0d5a11a583bae9f1a0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/7f43b2a14851dedbec1850f95815deca/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/49c4bdae2d3a3b766af3955f727e02b4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/71f5eae6ee3961b57cb9afe703584aac/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.navigation:navigation-common:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/99b8a30279af55b14b227b3513024504/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce373984032d64bbae07371906de01a6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c8e64b9eaf3de5d42075347e7cfa00be/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/c1bf0e0f2ca34c14bff853240dd97d9e/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/5d27567be0daf4b911398dd4801a0c48/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/f902fbf6e3fd7bbcb40d15e6411b2590/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/f8ce016859e105a3a90b2ce06c9bec5e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/b239fb1be953ab827cc42e266efd3bfe/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/a7c79c99d73e6dcd5fff7c836dba7529/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/ee51acc7c955647ef65d87e1c856e76c/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/4968496b3a3870413199cff965526db0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/abfc210c00b832d84bb313b290bacdae/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/8ce085155a53adb3a9d5e5efbfab6d13/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/e413a9638c4c249dcb4ac4c78b809d44/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/92dd051a2bdcadc9b0f1c3718a201c34/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c6d6d3255c3711b773345e1bb0610e21/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ee55ce8ff41f14c52fcd543fc5dddcc8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/42a32a179456b75a31a8f4e2653f8d9a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/0960a960aad2617ab58ab2ce0ff53dcc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.kakao.sdk:network:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/95d090a6e9d06c8be0c479979126f6f6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:common:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae21a7f0faf106eedb816320689312a4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.romandanylyk:pageindicatorview:1.0.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/44956abcc53477c2a8d17e867f8cebc8/AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/85fe8787ef85e61472cfdac846cb7f22/AndroidManifest.xml:2:1-11:12
+MERGED from [com.yanzhenjie:recyclerview-swipe:1.2.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/98c8ff60bfddd8ef7d30fc1c883ac72e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android:flexbox:1.1.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/744123d71fe472084765dc7bd14b45ba/AndroidManifest.xml:17:1-26:12
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/5105005c7016f1fd927426392182a808/AndroidManifest.xml:2:1-12:12
+MERGED from [com.nabinbhandari.android:permissions:3.8] /Users/hope/.gradle/caches/transforms-2/files-2.1/ad91db493fc35470205f3d242754520a/AndroidManifest.xml:2:1-17:12
+MERGED from [com.wowza.gocoder.sdk.android:com.wowza.gocoder.sdk:1.5b7] /Users/hope/.gradle/caches/transforms-2/files-2.1/c3460c65bf6e7f2acd31356d2274c561/AndroidManifest.xml:2:1-12:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/c0aa9e84eb6354ffc7d3e61e13e2808d/AndroidManifest.xml:2:1-9:12
+MERGED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:2:1-41:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/hope/.gradle/caches/transforms-2/files-2.1/5a985046f88cb8818c5a1de583fdddc6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.kakao.sdk:message-template:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/8f397ee2226508b4154c65e19ed5644f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kakao.sdk:util:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/7c0ed2a24a6ce575fb1de264c115183c/AndroidManifest.xml:2:1-11:12
+INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:2:1-284:12
+INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:2:1-284:12
+INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:2:1-284:12
+	package
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:4:5-26
+		INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:2:1-284:12
+		INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:2:1-284:12
+		INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:6:3-64
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:6:20-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:7:3-76
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/4968496b3a3870413199cff965526db0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/4968496b3a3870413199cff965526db0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:7:20-74
+uses-permission#android.permission.CAMERA
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:8:3-62
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:8:20-60
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:9:3-68
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:9:20-66
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:10:3-66
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:10:20-64
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:11:3-77
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:11:20-75
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:12:3-75
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:12:20-73
+uses-permission#android.permission.ACTION_MANAGE_OVERLAY_PERMISSION
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:13:3-88
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:13:20-86
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:15:3-74
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:15:20-72
+permission#android.permission.MEDIA_CONTENT_CONTROL
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:16:3-72
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:16:15-70
+uses-feature#android.hardware.camera
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:18:3-20:32
+	android:required
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:20:7-30
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:19:7-45
+uses-feature#0x00020000
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:21:3-23:32
+	android:glEsVersion
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:22:7-39
+	android:required
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:23:7-30
+uses-feature#android.hardware.camera.any
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:24:3-26:33
+	android:required
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:26:7-31
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:25:7-49
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:27:3-29:33
+	android:required
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:29:7-31
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:28:7-55
+uses-feature#android.hardware.camera.flash
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:30:3-32:33
+	android:required
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:32:7-31
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:31:7-51
+uses-feature#android.hardware.microphone
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:33:3-35:33
+	android:required
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:35:7-31
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:34:7-49
+application
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:37:3-282:17
+MERGED from [com.google.android.material:material:1.1.0-alpha03] /Users/hope/.gradle/caches/transforms-2/files-2.1/fa8ef3c88a4b2e5c7a5ee1d6172a6308/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha03] /Users/hope/.gradle/caches/transforms-2/files-2.1/fa8ef3c88a4b2e5c7a5ee1d6172a6308/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/hope/.gradle/caches/transforms-2/files-2.1/b454e5bf2dfc591de35f821248fd0dc1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/hope/.gradle/caches/transforms-2/files-2.1/b454e5bf2dfc591de35f821248fd0dc1/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.0.0-beta1] /Users/hope/.gradle/caches/transforms-2/files-2.1/078e03935734d44c6eaa9c81c9737ccc/AndroidManifest.xml:11:5-20
+MERGED from [com.airbnb.android:lottie:3.0.0-beta1] /Users/hope/.gradle/caches/transforms-2/files-2.1/078e03935734d44c6eaa9c81c9737ccc/AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/f3ab6d9ae93be8cb12fcd964bb1b613e/AndroidManifest.xml:11:5-20
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/f3ab6d9ae93be8cb12fcd964bb1b613e/AndroidManifest.xml:11:5-20
+MERGED from [:k4l-video-trimmer] /Volumes/Data/Oogway/workspace/live_android/dccast-master/k4l-video-trimmer/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-14:19
+MERGED from [:k4l-video-trimmer] /Volumes/Data/Oogway/workspace/live_android/dccast-master/k4l-video-trimmer/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-14:19
+MERGED from [com.facebook.android:facebook-share:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/be5c4b00a2ebd2278d275fc7fec0475d/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/be5c4b00a2ebd2278d275fc7fec0475d/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c7eb782d4b420d0c953c2124789ebd9b/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c7eb782d4b420d0c953c2124789ebd9b/AndroidManifest.xml:28:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6fd5a2a91e6972748a7e8b124d3381b6/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6fd5a2a91e6972748a7e8b124d3381b6/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/hope/.gradle/caches/transforms-2/files-2.1/d3c8ce0274ad7e248281ccdb9cdc39bd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/hope/.gradle/caches/transforms-2/files-2.1/d3c8ce0274ad7e248281ccdb9cdc39bd/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/831f9d689a4e6b4bca35819b3513ea0a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/831f9d689a4e6b4bca35819b3513ea0a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ac8365bbb20c2f7cdf8666434843f5b3/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ac8365bbb20c2f7cdf8666434843f5b3/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/c467500fcd0a00b6ca47cd2c352174ea/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/c467500fcd0a00b6ca47cd2c352174ea/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/6ffa02614a7b76a7124f49f42b8a552d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/6ffa02614a7b76a7124f49f42b8a552d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/5b243e4b7a912ddfa52ce2c9c055cbcc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/5b243e4b7a912ddfa52ce2c9c055cbcc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/bb901f458e892387f060b64707e43905/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/bb901f458e892387f060b64707e43905/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c6b89b8f9383bf541f62f86c909303be/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c6b89b8f9383bf541f62f86c909303be/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/f2e8cfb98497f701e2fc701d1c81b685/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/f2e8cfb98497f701e2fc701d1c81b685/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/e0cf246a3c4baa5d93d0a123b073b729/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/e0cf246a3c4baa5d93d0a123b073b729/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/00bb9fe44f44fae3824eac0b648fea9d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/00bb9fe44f44fae3824eac0b648fea9d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/7c974ef0cc92b9f49427976c54940195/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/7c974ef0cc92b9f49427976c54940195/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/b428910484f5853b68184234e528838b/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/b428910484f5853b68184234e528838b/AndroidManifest.xml:10:5-20
+MERGED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:28:5-51:19
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce373984032d64bbae07371906de01a6/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce373984032d64bbae07371906de01a6/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/c1bf0e0f2ca34c14bff853240dd97d9e/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/c1bf0e0f2ca34c14bff853240dd97d9e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/f8ce016859e105a3a90b2ce06c9bec5e/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/f8ce016859e105a3a90b2ce06c9bec5e/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/85fe8787ef85e61472cfdac846cb7f22/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/85fe8787ef85e61472cfdac846cb7f22/AndroidManifest.xml:9:5-20
+MERGED from [com.nabinbhandari.android:permissions:3.8] /Users/hope/.gradle/caches/transforms-2/files-2.1/ad91db493fc35470205f3d242754520a/AndroidManifest.xml:11:5-15:19
+MERGED from [com.nabinbhandari.android:permissions:3.8] /Users/hope/.gradle/caches/transforms-2/files-2.1/ad91db493fc35470205f3d242754520a/AndroidManifest.xml:11:5-15:19
+MERGED from [com.wowza.gocoder.sdk.android:com.wowza.gocoder.sdk:1.5b7] /Users/hope/.gradle/caches/transforms-2/files-2.1/c3460c65bf6e7f2acd31356d2274c561/AndroidManifest.xml:9:5-10:19
+MERGED from [com.wowza.gocoder.sdk.android:com.wowza.gocoder.sdk:1.5b7] /Users/hope/.gradle/caches/transforms-2/files-2.1/c3460c65bf6e7f2acd31356d2274c561/AndroidManifest.xml:9:5-10:19
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/c0aa9e84eb6354ffc7d3e61e13e2808d/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/c0aa9e84eb6354ffc7d3e61e13e2808d/AndroidManifest.xml:7:5-20
+MERGED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:11:5-39:19
+MERGED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:11:5-39:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-alpha03] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce373984032d64bbae07371906de01a6/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-share:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/be5c4b00a2ebd2278d275fc7fec0475d/AndroidManifest.xml:28:18-44
+	android:label
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:41:7-39
+	android:hardwareAccelerated
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:43:7-42
+	tools:ignore
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:46:7-94
+	android:largeHeap
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:42:7-31
+	android:icon
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:40:7-41
+	android:allowBackup
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:39:7-33
+	android:theme
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:44:7-38
+	android:usesCleartextTraffic
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:45:7-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:38:7-40
+uses-library#org.apache.http.legacy
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:48:5-83
+	android:required
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:48:57-81
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:48:19-56
+activity#notq.dccast.screens.navigation_menu.cast.search.ActivitySearchGroups
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:50:5-53:16
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:52:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:51:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:50:15-87
+activity#notq.dccast.screens.navigation_menu.cast.search.ActivitySearchFollowers
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:54:5-57:16
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:56:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:55:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:54:15-90
+activity#notq.dccast.screens.navigation_menu.settings.contact.ActivityContactUsDetail
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:58:5-61:16
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:60:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:59:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:58:15-95
+activity#notq.dccast.screens.navigation_menu.settings.contact.ActivityContactUs
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:62:5-65:16
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:64:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:63:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:62:15-89
+activity#notq.dccast.screens.navigation_menu.settings.ActivityOpenSource
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:66:5-68:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:68:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:67:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:66:15-82
+activity#notq.dccast.screens.navigation_menu.settings.ActivityWebView
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:69:5-71:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:71:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:70:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:69:15-79
+activity#notq.dccast.screens.navigation_menu.live.ActivityThumbnailChooser
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:72:5-76:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:76:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:75:9-42
+	android:configChanges
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:74:9-44
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:73:9-78
+activity#notq.dccast.screens.navigation_menu.vod.ActivitySelectGallery
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:77:5-80:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:80:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:79:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:78:9-74
+activity#notq.dccast.screens.navigation_menu.content.my_channel.ActivityEditProfile
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:81:5-84:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:84:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:83:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:82:9-87
+activity#notq.dccast.screens.home.mandu.ActivityManduHistoryWebView
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:85:5-88:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:88:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:87:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:86:9-71
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:90:5-92:50
+	android:value
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:92:9-48
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:91:9-54
+meta-data#com.kakao.sdk.AppKey
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:93:5-95:48
+	android:value
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:95:9-46
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:94:9-44
+service#notq.dccast.screens.home.radio_mode.PlayerService
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:96:5-98:33
+	android:enabled
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:98:9-31
+	android:exported
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:97:9-33
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:96:14-67
+service#notq.dccast.screens.home.video_service.PopupService
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:99:5-101:34
+	android:exported
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:101:9-32
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:100:9-64
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:106:5-108:49
+	android:resource
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:108:9-47
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:107:9-79
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:109:5-111:66
+	android:value
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:111:9-64
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:110:9-85
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:116:5-118:48
+	android:resource
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:118:9-46
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:117:9-80
+service#notq.dccast.notification.MyFirebaseMessagingService
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:120:5-126:15
+	android:exported
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:122:9-33
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:121:9-64
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:123:7-125:23
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:124:9-69
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:124:17-67
+receiver#androidx.media.session.MediaButtonReceiver
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:128:5-132:16
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:128:15-72
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:129:7-131:23
+action#android.intent.action.MEDIA_BUTTON
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:130:9-68
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:130:17-66
+provider#com.facebook.FacebookContentProvider
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:134:5-137:34
+	android:authorities
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:136:9-86
+	android:exported
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:137:9-32
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:135:9-60
+activity#notq.dccast.screens.video_trimmer.ActivityTrimmer
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:148:5-151:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:151:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:150:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:149:9-62
+activity#notq.dccast.screens.navigation_menu.cast.user_follow.ActivityUserFollow
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:152:5-156:58
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:154:9-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:156:9-56
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:155:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:153:9-84
+activity#notq.dccast.screens.navigation_menu.cast.search_friend.ActivitySearchFriend
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:157:5-161:58
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:159:9-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:161:9-56
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:160:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:158:9-88
+activity#notq.dccast.screens.navigation_menu.cast.search_friend.ActivityAddFriend
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:162:5-166:58
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:164:9-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:166:9-56
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:165:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:163:9-85
+activity#notq.dccast.screens.navigation_menu.live.ActivityLiveSettings
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:167:5-171:53
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:169:9-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:171:9-51
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:170:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:168:9-74
+activity#notq.dccast.screens.navigation_menu.vod.ActivityUploadVOD
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:172:5-175:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:175:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:174:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:173:9-70
+activity#notq.dccast.screens.navigation_menu.cast.group.group_detail.ActivityGroupDetail
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:176:5-180:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:180:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:179:9-42
+	android:configChanges
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:178:9-70
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:177:9-92
+activity#notq.dccast.screens.navigation_menu.cast.group.add_people.ActivityAddPeople
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:181:5-185:58
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:183:9-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:185:9-56
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:184:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:182:9-88
+activity#notq.dccast.screens.navigation_menu.cast.group.create_group.ActivityCreateGroup
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:186:5-190:50
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:188:9-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:190:9-48
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:189:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:187:9-92
+activity#notq.dccast.screens.navigation_menu.content.subscribe.ActivitySubscribe
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:191:5-195:58
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:193:9-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:195:9-56
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:194:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:192:9-84
+activity#notq.dccast.screens.navigation_menu.content.recent.ActivityRecent
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:196:5-199:72
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:198:9-42
+	android:configChanges
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:199:9-70
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:197:9-78
+activity#notq.dccast.screens.navigation_menu.content.my_channel.ActivityMyChannel
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:200:5-204:58
+	android:windowSoftInputMode
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:204:9-56
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:203:9-42
+	android:configChanges
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:202:9-70
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:201:9-85
+activity#notq.dccast.screens.navigation_menu.my_live_history.ActivityMyLiveHistory
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:205:5-209:58
+	android:windowSoftInputMode
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:209:9-56
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:208:9-42
+	android:configChanges
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:207:9-70
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:206:9-86
+activity#notq.dccast.screens.navigation_menu.content.ActivityMyContent
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:210:5-213:72
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:212:9-42
+	android:configChanges
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:213:9-70
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:211:9-74
+activity#notq.dccast.screens.navigation_menu.favorite.ActivityFavorite
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:214:5-217:72
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:216:9-42
+	android:configChanges
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:217:9-70
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:215:9-74
+activity#notq.dccast.screens.navigation_menu.notification.ActivityNotification
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:218:5-221:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:221:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:220:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:219:9-82
+activity#notq.dccast.screens.navigation_menu.settings.history.ActivityHistoryInformation
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:222:5-225:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:225:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:224:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:223:9-92
+activity#notq.dccast.screens.navigation_menu.settings.notification.ActivityNotificationSettings
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:226:5-229:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:229:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:228:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:227:9-99
+activity#notq.dccast.screens.navigation_menu.settings.ActivitySettings
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:230:5-233:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:233:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:232:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:231:9-74
+activity#notq.dccast.screens.login.ActivityForgetPassword
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:234:5-237:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:237:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:236:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:235:9-61
+activity#notq.dccast.screens.login.ActivitySignUp
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:238:5-241:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:241:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:240:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:239:9-53
+activity#notq.dccast.screens.login.ActivityLogin
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:242:5-245:47
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:245:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:244:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:243:9-52
+activity#notq.dccast.screens.home.search.ActivitySearch
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:246:5-249:72
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:248:9-42
+	android:configChanges
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:249:9-70
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:247:9-59
+activity#notq.dccast.screens.splash.ActivitySplash
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:250:5-259:16
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:253:9-45
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:252:9-42
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:251:9-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:254:7-258:23
+action#android.intent.action.MAIN
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:255:9-60
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:255:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:257:9-68
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:257:19-66
+activity#notq.dccast.screens.home.ActivityHome
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:260:5-276:16
+	android:screenOrientation
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:263:9-45
+	android:windowSoftInputMode
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:265:9-48
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:264:9-42
+	android:configChanges
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:262:9-70
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:261:9-50
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/kakaolink_host+data:scheme:@string/kakao_scheme
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:266:7-275:23
+action#android.intent.action.VIEW
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:267:9-60
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:267:17-58
+category#android.intent.category.DEFAULT
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:269:9-67
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:269:19-65
+category#android.intent.category.BROWSABLE
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:270:9-69
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:270:19-67
+data
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:272:9-274:52
+	android:host
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:273:13-50
+	android:scheme
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:274:13-50
+activity#notq.dccast.screens.navigation_menu.live.ActivityLiveStream
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:277:5-281:72
+	android:windowSoftInputMode
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:279:9-52
+	android:resizeableActivity
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:280:9-42
+	android:configChanges
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:281:9-70
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:278:9-72
+uses-sdk
+INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+MERGED from [io.realm:realm-android-library:3.7.2] /Users/hope/.gradle/caches/transforms-2/files-2.1/fbfd98b6a815fff4ce3832d92fe8021c/AndroidManifest.xml:7:5-9:41
+MERGED from [io.realm:realm-android-library:3.7.2] /Users/hope/.gradle/caches/transforms-2/files-2.1/fbfd98b6a815fff4ce3832d92fe8021c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/e5adedb2f7ad11747bb8a719e5b59776/AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.8.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/e5adedb2f7ad11747bb8a719e5b59776/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:databinding-adapters:3.4.2] /Users/hope/.gradle/caches/transforms-2/files-2.1/c8483a9a50a800402c86065d89b409ef/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.4.2] /Users/hope/.gradle/caches/transforms-2/files-2.1/c8483a9a50a800402c86065d89b409ef/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.4.2] /Users/hope/.gradle/caches/transforms-2/files-2.1/3b767a145771cd67812970d4ec5d94c0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.4.2] /Users/hope/.gradle/caches/transforms-2/files-2.1/3b767a145771cd67812970d4ec5d94c0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6308c534a74daff42bdc051f4933c9b4/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6308c534a74daff42bdc051f4933c9b4/AndroidManifest.xml:20:5-43
+MERGED from [android.arch.navigation:navigation-ui-ktx:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/bb7ab406f2106dcf1f588d4d2e252bdd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui-ktx:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/bb7ab406f2106dcf1f588d4d2e252bdd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/73abd78971bdbc511b354ed9453f722c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-ui:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/73abd78971bdbc511b354ed9453f722c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha03] /Users/hope/.gradle/caches/transforms-2/files-2.1/fa8ef3c88a4b2e5c7a5ee1d6172a6308/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha03] /Users/hope/.gradle/caches/transforms-2/files-2.1/fa8ef3c88a4b2e5c7a5ee1d6172a6308/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/hope/.gradle/caches/transforms-2/files-2.1/b454e5bf2dfc591de35f821248fd0dc1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha3] /Users/hope/.gradle/caches/transforms-2/files-2.1/b454e5bf2dfc591de35f821248fd0dc1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.0.0-beta1] /Users/hope/.gradle/caches/transforms-2/files-2.1/078e03935734d44c6eaa9c81c9737ccc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.airbnb.android:lottie:3.0.0-beta1] /Users/hope/.gradle/caches/transforms-2/files-2.1/078e03935734d44c6eaa9c81c9737ccc/AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/f3ab6d9ae93be8cb12fcd964bb1b613e/AndroidManifest.xml:7:5-9:41
+MERGED from [uk.co.chrisjenx:calligraphy:2.3.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/f3ab6d9ae93be8cb12fcd964bb1b613e/AndroidManifest.xml:7:5-9:41
+MERGED from [:k4l-video-trimmer] /Volumes/Data/Oogway/workspace/live_android/dccast-master/k4l-video-trimmer/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:k4l-video-trimmer] /Volumes/Data/Oogway/workspace/live_android/dccast-master/k4l-video-trimmer/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-share:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/be5c4b00a2ebd2278d275fc7fec0475d/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/be5c4b00a2ebd2278d275fc7fec0475d/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c7eb782d4b420d0c953c2124789ebd9b/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c7eb782d4b420d0c953c2124789ebd9b/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/981395434b30616ca8b24179fbf48e3f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/981395434b30616ca8b24179fbf48e3f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6fd5a2a91e6972748a7e8b124d3381b6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6fd5a2a91e6972748a7e8b124d3381b6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/hope/.gradle/caches/transforms-2/files-2.1/d3c8ce0274ad7e248281ccdb9cdc39bd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/hope/.gradle/caches/transforms-2/files-2.1/d3c8ce0274ad7e248281ccdb9cdc39bd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/831f9d689a4e6b4bca35819b3513ea0a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/831f9d689a4e6b4bca35819b3513ea0a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ac8365bbb20c2f7cdf8666434843f5b3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:17.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ac8365bbb20c2f7cdf8666434843f5b3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/c467500fcd0a00b6ca47cd2c352174ea/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/c467500fcd0a00b6ca47cd2c352174ea/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/6ffa02614a7b76a7124f49f42b8a552d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/6ffa02614a7b76a7124f49f42b8a552d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/5b243e4b7a912ddfa52ce2c9c055cbcc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/5b243e4b7a912ddfa52ce2c9c055cbcc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/bb901f458e892387f060b64707e43905/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/bb901f458e892387f060b64707e43905/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c6b89b8f9383bf541f62f86c909303be/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c6b89b8f9383bf541f62f86c909303be/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/f2e8cfb98497f701e2fc701d1c81b685/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/f2e8cfb98497f701e2fc701d1c81b685/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/e0cf246a3c4baa5d93d0a123b073b729/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/e0cf246a3c4baa5d93d0a123b073b729/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/00bb9fe44f44fae3824eac0b648fea9d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/00bb9fe44f44fae3824eac0b648fea9d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/7c974ef0cc92b9f49427976c54940195/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/7c974ef0cc92b9f49427976c54940195/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/1125eb0ab67a2d00ce42bb4d51f8f82d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/1125eb0ab67a2d00ce42bb4d51f8f82d/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/b428910484f5853b68184234e528838b/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/b428910484f5853b68184234e528838b/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/e7619d4330a32078b570c783a5cffbce/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/e7619d4330a32078b570c783a5cffbce/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/291fc61da420a7229102c95ec8cd56d9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/291fc61da420a7229102c95ec8cd56d9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/e16331e91f26203ad7381d0d8f788bb5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-fragment:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/e16331e91f26203ad7381d0d8f788bb5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/3307158e9cdeb46614b54c037a34a349/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/3307158e9cdeb46614b54c037a34a349/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha02] /Users/hope/.gradle/caches/transforms-2/files-2.1/01f298639cacaae52dae49a2b80bb2da/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha02] /Users/hope/.gradle/caches/transforms-2/files-2.1/01f298639cacaae52dae49a2b80bb2da/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6ddb2bd38ef5050b1c0b28258a6ad88e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6ddb2bd38ef5050b1c0b28258a6ad88e/AndroidManifest.xml:20:5-44
+MERGED from [com.kakao.sdk:kakaolink:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/d121aecfa130ac69e2999b6d180f415e/AndroidManifest.xml:8:5-11:52
+MERGED from [com.kakao.sdk:kakaolink:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/d121aecfa130ac69e2999b6d180f415e/AndroidManifest.xml:8:5-11:52
+MERGED from [androidx.browser:browser:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/0bc7881186974d8bcaec954cd0490160/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/0bc7881186974d8bcaec954cd0490160/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6a896ad0973606f6cfa67d5df27cb76e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6a896ad0973606f6cfa67d5df27cb76e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/693147c623e715f6f105c1a9f36b0bbe/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/693147c623e715f6f105c1a9f36b0bbe/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/c6a5c5f5e319714bda275d2900065b86/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/c6a5c5f5e319714bda275d2900065b86/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/74b6b757c481f0b5271e343763d6a2a7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/74b6b757c481f0b5271e343763d6a2a7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime-ktx:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/e9f9b6cc6a1fe5b30013ec5128cb7b53/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime-ktx:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/e9f9b6cc6a1fe5b30013ec5128cb7b53/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/502b5af96a200eae92f33e10afb274c7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-runtime:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/502b5af96a200eae92f33e10afb274c7/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/4b6af757b6b58ad683e1758e36745691/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/4b6af757b6b58ad683e1758e36745691/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/406930c3fb0b8f8e5f4ec4a74ed6ddac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/406930c3fb0b8f8e5f4ec4a74ed6ddac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/bd9f94b6f9c8c9f93ed2cb17719cff2f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/bd9f94b6f9c8c9f93ed2cb17719cff2f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/a5b71d4e3e75bba291b1235448a9f684/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/a5b71d4e3e75bba291b1235448a9f684/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/27d6038cc951f0bf44b30e3dc6ee6913/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/27d6038cc951f0bf44b30e3dc6ee6913/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/96a7b6c379e9de15dc5dbbd838797bea/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/96a7b6c379e9de15dc5dbbd838797bea/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/4e5230e25865171a0ec48dc1cd4a4982/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/4e5230e25865171a0ec48dc1cd4a4982/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha02] /Users/hope/.gradle/caches/transforms-2/files-2.1/8ee337dd89a41dd32d31e43f008d159c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha02] /Users/hope/.gradle/caches/transforms-2/files-2.1/8ee337dd89a41dd32d31e43f008d159c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/513a671d69957eefed4b725309bdea0a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/513a671d69957eefed4b725309bdea0a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c392c617cf8e8f0d5a11a583bae9f1a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c392c617cf8e8f0d5a11a583bae9f1a0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/7f43b2a14851dedbec1850f95815deca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/7f43b2a14851dedbec1850f95815deca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/49c4bdae2d3a3b766af3955f727e02b4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/49c4bdae2d3a3b766af3955f727e02b4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/71f5eae6ee3961b57cb9afe703584aac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common-ktx:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/71f5eae6ee3961b57cb9afe703584aac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/99b8a30279af55b14b227b3513024504/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.navigation:navigation-common:1.0.0-alpha11] /Users/hope/.gradle/caches/transforms-2/files-2.1/99b8a30279af55b14b227b3513024504/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce373984032d64bbae07371906de01a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha03] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce373984032d64bbae07371906de01a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c8e64b9eaf3de5d42075347e7cfa00be/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c8e64b9eaf3de5d42075347e7cfa00be/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/c1bf0e0f2ca34c14bff853240dd97d9e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha01] /Users/hope/.gradle/caches/transforms-2/files-2.1/c1bf0e0f2ca34c14bff853240dd97d9e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/5d27567be0daf4b911398dd4801a0c48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/5d27567be0daf4b911398dd4801a0c48/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/f902fbf6e3fd7bbcb40d15e6411b2590/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/f902fbf6e3fd7bbcb40d15e6411b2590/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/f8ce016859e105a3a90b2ce06c9bec5e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/f8ce016859e105a3a90b2ce06c9bec5e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/b239fb1be953ab827cc42e266efd3bfe/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/b239fb1be953ab827cc42e266efd3bfe/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/a7c79c99d73e6dcd5fff7c836dba7529/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/a7c79c99d73e6dcd5fff7c836dba7529/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/ee51acc7c955647ef65d87e1c856e76c/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/ee51acc7c955647ef65d87e1c856e76c/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/4968496b3a3870413199cff965526db0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/4968496b3a3870413199cff965526db0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/abfc210c00b832d84bb313b290bacdae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/abfc210c00b832d84bb313b290bacdae/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/8ce085155a53adb3a9d5e5efbfab6d13/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/8ce085155a53adb3a9d5e5efbfab6d13/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/e413a9638c4c249dcb4ac4c78b809d44/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/e413a9638c4c249dcb4ac4c78b809d44/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/92dd051a2bdcadc9b0f1c3718a201c34/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/92dd051a2bdcadc9b0f1c3718a201c34/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c6d6d3255c3711b773345e1bb0610e21/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c6d6d3255c3711b773345e1bb0610e21/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ee55ce8ff41f14c52fcd543fc5dddcc8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ee55ce8ff41f14c52fcd543fc5dddcc8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/42a32a179456b75a31a8f4e2653f8d9a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/42a32a179456b75a31a8f4e2653f8d9a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/0960a960aad2617ab58ab2ce0ff53dcc/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/0960a960aad2617ab58ab2ce0ff53dcc/AndroidManifest.xml:20:5-44
+MERGED from [com.kakao.sdk:network:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/95d090a6e9d06c8be0c479979126f6f6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:network:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/95d090a6e9d06c8be0c479979126f6f6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:common:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae21a7f0faf106eedb816320689312a4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:common:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae21a7f0faf106eedb816320689312a4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.romandanylyk:pageindicatorview:1.0.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/44956abcc53477c2a8d17e867f8cebc8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.romandanylyk:pageindicatorview:1.0.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/44956abcc53477c2a8d17e867f8cebc8/AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/85fe8787ef85e61472cfdac846cb7f22/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/85fe8787ef85e61472cfdac846cb7f22/AndroidManifest.xml:5:5-7:41
+MERGED from [com.yanzhenjie:recyclerview-swipe:1.2.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/98c8ff60bfddd8ef7d30fc1c883ac72e/AndroidManifest.xml:20:5-22:41
+MERGED from [com.yanzhenjie:recyclerview-swipe:1.2.3] /Users/hope/.gradle/caches/transforms-2/files-2.1/98c8ff60bfddd8ef7d30fc1c883ac72e/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android:flexbox:1.1.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/744123d71fe472084765dc7bd14b45ba/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android:flexbox:1.1.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/744123d71fe472084765dc7bd14b45ba/AndroidManifest.xml:22:5-24:41
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/5105005c7016f1fd927426392182a808/AndroidManifest.xml:8:5-10:41
+MERGED from [com.pixplicity.easyprefs:library:1.9.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/5105005c7016f1fd927426392182a808/AndroidManifest.xml:8:5-10:41
+MERGED from [com.nabinbhandari.android:permissions:3.8] /Users/hope/.gradle/caches/transforms-2/files-2.1/ad91db493fc35470205f3d242754520a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.nabinbhandari.android:permissions:3.8] /Users/hope/.gradle/caches/transforms-2/files-2.1/ad91db493fc35470205f3d242754520a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.wowza.gocoder.sdk.android:com.wowza.gocoder.sdk:1.5b7] /Users/hope/.gradle/caches/transforms-2/files-2.1/c3460c65bf6e7f2acd31356d2274c561/AndroidManifest.xml:7:5-44
+MERGED from [com.wowza.gocoder.sdk.android:com.wowza.gocoder.sdk:1.5b7] /Users/hope/.gradle/caches/transforms-2/files-2.1/c3460c65bf6e7f2acd31356d2274c561/AndroidManifest.xml:7:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/c0aa9e84eb6354ffc7d3e61e13e2808d/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/c0aa9e84eb6354ffc7d3e61e13e2808d/AndroidManifest.xml:5:5-43
+MERGED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:7:5-9:41
+MERGED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/hope/.gradle/caches/transforms-2/files-2.1/5a985046f88cb8818c5a1de583fdddc6/AndroidManifest.xml:7:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/hope/.gradle/caches/transforms-2/files-2.1/5a985046f88cb8818c5a1de583fdddc6/AndroidManifest.xml:7:5-43
+MERGED from [com.kakao.sdk:message-template:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/8f397ee2226508b4154c65e19ed5644f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:message-template:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/8f397ee2226508b4154c65e19ed5644f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:util:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/7c0ed2a24a6ce575fb1de264c115183c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:util:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/7c0ed2a24a6ce575fb1de264c115183c/AndroidManifest.xml:7:5-9:41
+INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.kakao.sdk:kakaolink:1.21.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/d121aecfa130ac69e2999b6d180f415e/AndroidManifest.xml:11:9-49
+	android:targetSdkVersion
+		INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:143:7-145:47
+	android:resource
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:145:11-45
+	android:name
+		ADDED from /Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/AndroidManifest.xml:144:11-61
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:k4l-video-trimmer] /Volumes/Data/Oogway/workspace/live_android/dccast-master/k4l-video-trimmer/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [:k4l-video-trimmer] /Volumes/Data/Oogway/workspace/live_android/dccast-master/k4l-video-trimmer/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-78
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c7eb782d4b420d0c953c2124789ebd9b/AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c7eb782d4b420d0c953c2124789ebd9b/AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c7eb782d4b420d0c953c2124789ebd9b/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c7eb782d4b420d0c953c2124789ebd9b/AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c7eb782d4b420d0c953c2124789ebd9b/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c7eb782d4b420d0c953c2124789ebd9b/AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c7eb782d4b420d0c953c2124789ebd9b/AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/c7eb782d4b420d0c953c2124789ebd9b/AndroidManifest.xml:34:19-64
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6fd5a2a91e6972748a7e8b124d3381b6/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6fd5a2a91e6972748a7e8b124d3381b6/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/6fd5a2a91e6972748a7e8b124d3381b6/AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ae64e65a658df35b31ab6b8cabda9421/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/77a7a6223bb0b7b589172499791ac3f6/AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ac8365bbb20c2f7cdf8666434843f5b3/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ac8365bbb20c2f7cdf8666434843f5b3/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ac8365bbb20c2f7cdf8666434843f5b3/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ac8365bbb20c2f7cdf8666434843f5b3/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ac8365bbb20c2f7cdf8666434843f5b3/AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/6ffa02614a7b76a7124f49f42b8a552d/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/6ffa02614a7b76a7124f49f42b8a552d/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/6ffa02614a7b76a7124f49f42b8a552d/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/hope/.gradle/caches/transforms-2/files-2.1/6ffa02614a7b76a7124f49f42b8a552d/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/26914fcb33cf440257df3fcd40d66228/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/9d2c0d1ef8a474470042746e2e0e9516/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/ce28a55556d3e3e77ecd9469908a4397/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/7c974ef0cc92b9f49427976c54940195/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/7c974ef0cc92b9f49427976c54940195/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/7c974ef0cc92b9f49427976c54940195/AndroidManifest.xml:24:13-58
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.40.0] /Users/hope/.gradle/caches/transforms-2/files-2.1/54fbed75aab9f141b746159fb48dd8e7/AndroidManifest.xml:48:25-92
+activity#com.nabinbhandari.android.permissions.PermissionsActivity
+ADDED from [com.nabinbhandari.android:permissions:3.8] /Users/hope/.gradle/caches/transforms-2/files-2.1/ad91db493fc35470205f3d242754520a/AndroidManifest.xml:12:9-14:67
+	android:theme
+		ADDED from [com.nabinbhandari.android:permissions:3.8] /Users/hope/.gradle/caches/transforms-2/files-2.1/ad91db493fc35470205f3d242754520a/AndroidManifest.xml:14:13-64
+	android:name
+		ADDED from [com.nabinbhandari.android:permissions:3.8] /Users/hope/.gradle/caches/transforms-2/files-2.1/ad91db493fc35470205f3d242754520a/AndroidManifest.xml:13:13-85
+activity#com.linecorp.linesdk.auth.internal.LineAuthenticationActivity
+ADDED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:20:9-25:69
+	android:launchMode
+		ADDED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:24:13-43
+	android:exported
+		ADDED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:23:13-37
+	android:configChanges
+		ADDED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:22:13-74
+	android:theme
+		ADDED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:21:13-89
+activity#com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity
+ADDED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:26:9-38:20
+	android:exported
+		ADDED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:29:13-36
+	android:configChanges
+		ADDED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:28:13-74
+	android:name
+		ADDED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:27:13-97
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:lineauth
+ADDED from [:line-sdk-4.0.8:] /Users/hope/.gradle/caches/transforms-2/files-2.1/851b1a47815bd66d2b6b64f93a70d1e4/AndroidManifest.xml:30:13-37:29

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      tools:ignore="UselessLeaf">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/layout_back_header"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/settings_bg"
+          android:orientation="vertical">
+
+        <notq.dccast.screens.navigation_menu.settings.SettingsItem
+            android:id="@+id/all_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:si_checked="true"
+            app:si_ischeck="true"
+            app:si_title="@string/settings_all_notification"/>
+
+        <notq.dccast.screens.navigation_menu.settings.SettingsItem
+            android:id="@+id/live_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            app:si_checked="true"
+            app:si_ischeck="true"
+            app:si_title="@string/settings_live_notification"/>
+
+        <notq.dccast.screens.navigation_menu.settings.SettingsItem
+            android:id="@+id/vod_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            app:si_checked="true"
+            app:si_ischeck="true"
+            app:si_title="@string/settings_vod_notification"/>
+
+      </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+  </LinearLayout>
+
+</layout>

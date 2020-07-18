@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_size_xxlarge"
+        android:paddingTop="@dimen/margin_size_xlarge"
+        android:paddingRight="@dimen/margin_size_xxlarge"
+        android:paddingBottom="@dimen/margin_size_xlarge">
+
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:id="@+id/iv_item_follower_user"
+          android:layout_width="@dimen/cast_list_follow_user_image_size"
+          android:layout_height="@dimen/cast_list_follow_user_image_size"
+          android:src="@drawable/ic_notification_placeholder"/>
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginStart="@dimen/margin_size_xlarge"
+          android:layout_marginLeft="@dimen/margin_size_xlarge"
+          android:layout_marginEnd="@dimen/margin_size_xlarge"
+          android:gravity="center_vertical"
+          android:layout_marginRight="@dimen/margin_size_xlarge"
+          android:orientation="horizontal">
+
+        <LinearLayout android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" tools:ignore="NestedWeights">
+
+          <TextView
+              android:id="@+id/lbl_item_follower_username"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/recent_user_name"
+              android:ellipsize="end"
+              android:maxLines="3"
+              android:textStyle="bold"
+              tools:text="Kendall Jenner"/>
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:layout_marginTop="@dimen/margin_size_small">
+
+            <TextView
+                android:id="@+id/lbl_item_subscribe_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/subscribe_item_description"
+                android:textSize="12sp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                tools:text="@string/subscriptions_stat"/>
+
+          </FrameLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lbl_on_air"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_on_air"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:layout_marginLeft="@dimen/margin_size_xlarge"
+            android:padding="10dp"
+            android:textSize="10sp"
+            android:text="@string/on_air"/>
+
+      </LinearLayout>
+
+      <TextView
+          android:id="@+id/lbl_follow"
+          android:layout_width="90dp"
+          android:layout_height="wrap_content"
+          android:background="@drawable/cast_list_followers_follow"
+          android:gravity="center"
+          android:text="@string/cast_list_follow"
+          android:textColor="@color/colorPrimary"
+          android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone">
+
+      <ProgressBar
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+  </FrameLayout>
+
+</layout>

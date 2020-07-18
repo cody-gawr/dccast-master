@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <androidx.constraintlayout.motion.widget.MotionLayout
+      android:id="@+id/mainMotionLayout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layoutDescription="@xml/main_scene">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/dc_loader"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:elevation="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="dc_load.json"
+        app:lottie_loop="true"/>
+
+    <View
+        android:id="@+id/backgroundDim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="10dp"/>
+
+    <FrameLayout
+        android:id="@+id/container_for_cast_list_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:elevation="20dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent">
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_my_live_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+              <TextView
+                  android:id="@+id/lbl_my_live_history"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@color/cast_list_header_bg"
+                  android:paddingLeft="@dimen/margin_size_xxlarge"
+                  android:paddingTop="@dimen/margin_size_xlarge"
+                  android:paddingBottom="@dimen/margin_size_xlarge"
+                  android:text="@string/my_live_history"
+                  android:textColor="@color/cast_list_header_text"
+                  android:textSize="11sp"/>
+
+              <androidx.recyclerview.widget.RecyclerView
+                  android:id="@+id/recyclerViewMyLive"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+              <TextView
+                  android:id="@+id/lbl_follower_count"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@color/cast_list_header_bg"
+                  android:paddingLeft="@dimen/margin_size_xxlarge"
+                  android:paddingTop="@dimen/margin_size_xlarge"
+                  android:paddingBottom="@dimen/margin_size_xlarge"
+                  android:text="@string/followers_count"
+                  android:textColor="@color/cast_list_header_text"
+                  android:textSize="11sp"/>
+
+              <com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView
+                  android:id="@+id/recyclerView"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+          </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:id="@+id/layout_no_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:ignore="UseCompoundDrawables"
+        >
+
+          <!--<ImageView-->
+          <!--android:layout_width="wrap_content"-->
+          <!--android:layout_height="wrap_content"-->
+          <!--android:layout_gravity="center_horizontal"-->
+          <!--android:src="@drawable/ic_no_data"-->
+          <!--tools:ignore="ContentDescription"-->
+          <!--/>-->
+
+          <com.airbnb.lottie.LottieAnimationView
+              android:layout_width="120dp"
+              android:layout_height="120dp"
+              android:elevation="30dp"
+              android:layout_gravity="center_horizontal"
+              app:lottie_autoPlay="true"
+              app:lottie_fileName="no_data.json"
+              app:lottie_loop="true"/>
+
+          <TextView
+              android:id="@+id/no_data"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginTop="@dimen/margin_size_medium"
+              android:text="@string/cast_line_no_data"
+              android:textColor="@color/colorGrey"
+          />
+
+        </LinearLayout>
+
+      </FrameLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+  </androidx.constraintlayout.motion.widget.MotionLayout>
+
+</layout>

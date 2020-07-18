@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_size_xxlarge"
+        android:paddingTop="@dimen/margin_size_xlarge"
+        android:paddingRight="@dimen/margin_size_xxlarge"
+        android:paddingBottom="@dimen/margin_size_xlarge">
+
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:id="@+id/iv_item_follower_user"
+          android:layout_width="@dimen/cast_list_follow_user_image_size"
+          android:layout_height="@dimen/cast_list_follow_user_image_size"
+          android:src="@drawable/ic_notification_placeholder"/>
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="@dimen/margin_size_xlarge"
+          android:layout_marginLeft="@dimen/margin_size_xlarge"
+          android:layout_marginEnd="@dimen/margin_size_xlarge"
+          android:layout_marginRight="@dimen/margin_size_xlarge"
+          android:layout_weight="1"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbl_item_follower_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/recent_user_name"
+            android:textStyle="bold"
+            tools:text="Kendall Jenner"/>
+
+      </LinearLayout>
+
+      <FrameLayout android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+        <FrameLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_add_friend"
+            android:visibility="gone"
+            android:background="?attr/selectableItemBackgroundBorderless">
+
+          <TextView
+              android:id="@+id/lbl_add_friend"
+              android:layout_width="90dp"
+              android:layout_height="wrap_content"
+              android:background="@drawable/cast_list_followers_follow"
+              android:gravity="center"
+              android:text="@string/cast_list_add_friend"
+              android:textColor="@color/colorPrimary"
+              android:textSize="12sp"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/lbl_friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="@string/add_friend_friends"
+            android:textColor="@color/cast_list_no_item_text"
+            android:textSize="12sp"/>
+
+        <FrameLayout
+            android:id="@+id/layout_check"
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:visibility="visible">
+
+          <ProgressBar
+              android:layout_width="20dp"
+              android:layout_height="20dp"
+              android:layout_gravity="center"/>
+
+        </FrameLayout>
+
+      </FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone">
+
+      <ProgressBar
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+  </FrameLayout>
+
+</layout>

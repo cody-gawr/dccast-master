@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      tools:ignore="UselessLeaf">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/layout_back_header"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/margin_default"
+            android:paddingRight="@dimen/margin_default">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/margin_size_xxlarge"
+              android:layout_marginRight="@dimen/margin_default"
+              android:layout_marginBottom="@dimen/margin_size_xxlarge"
+              android:text="@string/group_add_people_to"/>
+
+          <com.google.android.flexbox.FlexboxLayout
+              android:id="@+id/flex_layout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              app:flexWrap="wrap"
+              app:maxLine="5">
+
+            <EditText
+                android:id="@+id/et_search_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size_xxlarge"
+                android:layout_marginBottom="@dimen/margin_size_xxlarge"
+                android:background="@android:color/transparent"
+                android:cursorVisible="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:minWidth="40dp"
+                android:textColor="#0077FF"
+                android:textSize="12sp"/>
+
+          </com.google.android.flexbox.FlexboxLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrey"/>
+
+      </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/recyclerView"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+
+      <FrameLayout
+          android:id="@+id/layout_member_load"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/white"
+          android:visibility="visible">
+
+        <ProgressBar
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_size_xxxxlarge"/>
+
+      </FrameLayout>
+
+      <com.airbnb.lottie.LottieAnimationView
+          android:id="@+id/dc_loader"
+          android:layout_width="120dp"
+          android:layout_height="120dp"
+          android:layout_gravity="center"
+          android:elevation="30dp"
+          app:lottie_autoPlay="true"
+          app:lottie_fileName="dc_load.json"
+          app:lottie_loop="true"/>
+
+    </FrameLayout>
+
+  </LinearLayout>
+
+</layout>

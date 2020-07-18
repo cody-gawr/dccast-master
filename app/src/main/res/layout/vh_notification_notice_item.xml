@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <LinearLayout
+      android:id="@+id/layout_item"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="?attr/selectableItemBackground"
+      android:gravity="center"
+      android:orientation="horizontal"
+      android:padding="@dimen/margin_size_large">
+
+    <FrameLayout
+        android:layout_width="@dimen/notification_notice_user_image_size"
+        android:layout_height="@dimen/notification_notice_user_image_size">
+
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:id="@+id/iv_user"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:src="@drawable/ic_notification_placeholder"/>
+
+      <ImageView
+          android:id="@+id/iv_check"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom|end"
+          android:src="@drawable/ic_notification_notice_check"/>
+
+    </FrameLayout>
+
+    <LinearLayout android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/margin_size_xxlarge"
+        android:layout_marginRight="@dimen/margin_size_xlarge"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/lbl_title"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="12sp"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:textColor="@color/black"
+          tools:text="There is a new follower"/>
+
+      <TextView
+          android:id="@+id/lbl_body"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ellipsize="end"
+          android:maxLines="2"
+          android:textSize="12sp"
+          tools:text="There is a new follower"/>
+
+      <TextView
+          android:id="@+id/lbl_date"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ellipsize="end"
+          android:maxLines="2"
+          android:textSize="12sp"
+          tools:text="2019/04/09 14:00:00"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_item"
+        android:visibility="gone"
+        android:layout_width="@dimen/notification_notice_image_size"
+        android:layout_height="@dimen/notification_notice_image_size"/>
+
+  </LinearLayout>
+
+</layout>

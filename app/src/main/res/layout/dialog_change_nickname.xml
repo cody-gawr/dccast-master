@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:padding="@dimen/margin_size_xxlarge"
+      android:orientation="vertical"
+  >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|start"
+        android:text="@string/live_change_nickname"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/margin_size_large"
+        android:textColor="@color/colorPrimary"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_size_large"
+        android:layout_marginBottom="@dimen/margin_size_large"
+        android:orientation="horizontal">
+
+      <androidx.appcompat.widget.AppCompatEditText
+          android:layout_width="0dp"
+          android:id="@+id/et_nickname"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:gravity="center_vertical"
+          android:maxLines="1"
+          android:hint="@string/live_change_nickname_hint"
+          android:paddingLeft="@dimen/margin_size_xlarge"
+          android:textSize="13sp"
+          android:background="@drawable/bg_change_nickname_input"/>
+
+      <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+          android:text="@string/change_nickname_check"
+          android:gravity="center"
+          android:id="@+id/status_check"
+          android:paddingLeft="@dimen/margin_size_xxxlarge"
+          android:paddingRight="@dimen/margin_size_xxxlarge"
+          android:background="@color/colorPrimary"
+          android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_size_xlarge"
+        android:text="@string/change_nickname_not_verified"
+        android:textColor="@color/badge_text_red"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin_size_xlarge"
+        android:text="@string/live_change_nickname_body"
+        android:textStyle="bold"
+        android:alpha="0.5"
+        android:textColor="@color/group_add_member"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/cancel_change_nickname"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textAllCaps="false"
+          android:theme="@style/ButtonStyleReportCancel"
+          android:text="@string/change_nickname_no"/>
+
+      <Button
+          android:id="@+id/change_nickname"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:textAllCaps="false"
+          android:layout_height="wrap_content"
+          android:theme="@style/ButtonStyleReportConfirm"
+          android:text="@string/change_nickname_yes"/>
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+</layout>
+

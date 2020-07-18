@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <Transition
+      app:constraintSetEnd="@id/collapsed"
+      app:constraintSetStart="@id/expanded">
+
+    <KeyFrameSet>
+      <KeyAttribute
+          app:framePosition="100"
+          app:target="@id/backgroundDim">
+        <CustomAttribute
+            app:attributeName="BackgroundColor"
+            app:customColorValue="@color/colorGrey"/>
+      </KeyAttribute>
+
+      <KeyAttribute
+          app:framePosition="0"
+          app:target="@id/backgroundDim">
+        <CustomAttribute
+            app:attributeName="BackgroundColor"
+            app:customColorValue="@android:color/transparent"/>
+      </KeyAttribute>
+    </KeyFrameSet>
+  </Transition>
+
+  <ConstraintSet android:id="@+id/expanded"/>
+  <ConstraintSet android:id="@+id/collapsed"/>
+</MotionScene>

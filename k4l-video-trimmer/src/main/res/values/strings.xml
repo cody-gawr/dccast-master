@@ -1,0 +1,7 @@
+<resources>
+  <string name="cancel">취소</string>
+  <string name="save">등록</string>
+  <string name="short_seconds">초</string>
+    <string name="megabyte">MB</string>
+    <string name="kilobyte">KB</string>
+</resources>

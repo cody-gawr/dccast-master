@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners android:radius="30dp" />
+
+    <solid android:color="@color/group_detail_action_btn_bg" />
+
+    <padding
+        android:bottom="@dimen/margin_size_xlarge"
+        android:left="@dimen/margin_default"
+        android:right="@dimen/margin_size_xlarge"
+        android:top="@dimen/margin_size_xlarge" />
+
+</shape>

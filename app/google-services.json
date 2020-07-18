@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "846927092261",
+    "firebase_url": "https://dccast-c8450.firebaseio.com",
+    "project_id": "dccast-c8450",
+    "storage_bucket": "dccast-c8450.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846927092261:android:e6a8702e463b2c5d",
+        "android_client_info": {
+          "package_name": "notq.dccast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846927092261-g41kmoq9aqs4qgk301ahidga0k3ai4qt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMWcl9gaBk09tOxhNH_GqN-7mRcTy_g6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846927092261-g41kmoq9aqs4qgk301ahidga0k3ai4qt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

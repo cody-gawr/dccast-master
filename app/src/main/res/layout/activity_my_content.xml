@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/white"
+      android:orientation="vertical"
+      tools:ignore="UselessLeaf">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+      <include
+          android:id="@+id/header"
+          layout="@layout/layout_back_header"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/option_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <LinearLayout
+          android:id="@+id/item_my_channel"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="?attr/selectableItemBackground"
+          android:orientation="horizontal"
+          android:paddingLeft="@dimen/margin_default"
+          android:paddingTop="@dimen/margin_default"
+          android:paddingRight="@dimen/margin_default"
+          android:paddingBottom="@dimen/margin_default">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_my_channel"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            android:layout_marginLeft="@dimen/margin_default"
+            android:layout_weight="1"
+            android:text="@string/my_content_channel"
+            android:textColor="@color/settings_item_text"
+            android:textStyle="bold"/>
+
+      </LinearLayout>
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0.1dp"
+          android:background="@color/colorGrey"/>
+
+      <LinearLayout
+          android:id="@+id/item_favorite"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="?attr/selectableItemBackground"
+          android:orientation="horizontal"
+          android:paddingLeft="@dimen/margin_default"
+          android:paddingTop="@dimen/margin_default"
+          android:paddingRight="@dimen/margin_default"
+          android:paddingBottom="@dimen/margin_default">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_favorite_no_border"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            android:layout_marginLeft="@dimen/margin_default"
+            android:layout_weight="1"
+            android:text="@string/my_content_favorite"
+            android:textColor="@color/settings_item_text"
+            android:textStyle="bold"/>
+
+      </LinearLayout>
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0.1dp"
+          android:background="@color/colorGrey"/>
+
+      <LinearLayout
+          android:id="@+id/item_subscribe"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="?attr/selectableItemBackground"
+          android:orientation="horizontal"
+          android:paddingLeft="@dimen/margin_default"
+          android:paddingTop="@dimen/margin_default"
+          android:paddingRight="@dimen/margin_default"
+          android:paddingBottom="@dimen/margin_default">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_subscribe"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            android:layout_marginLeft="@dimen/margin_default"
+            android:layout_weight="1"
+            android:text="@string/my_content_subscribe"
+            android:textColor="@color/settings_item_text"
+            android:textStyle="bold"/>
+
+      </LinearLayout>
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0.1dp"
+          android:background="@color/colorGrey"/>
+
+      <LinearLayout
+          android:id="@+id/item_recent"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="?attr/selectableItemBackground"
+          android:orientation="horizontal"
+          android:paddingLeft="@dimen/margin_default"
+          android:paddingTop="@dimen/margin_default"
+          android:paddingRight="@dimen/margin_default"
+          android:paddingBottom="@dimen/margin_default">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_recent"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_default"
+            android:layout_marginLeft="@dimen/margin_default"
+            android:layout_weight="1"
+            android:text="@string/my_content_recent"
+            android:textColor="@color/settings_item_text"
+            android:textStyle="bold"/>
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"/>
+
+  </LinearLayout>
+
+</layout>

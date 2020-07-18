@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_size_medium"
+        android:paddingRight="@dimen/margin_size_medium"
+        tools:ignore="UselessParent"
+    >
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:gravity="center_vertical|left"
+          android:paddingLeft="@dimen/margin_size_xlarge"
+          android:text="@string/bottom_sheet_title_buuz"
+          android:textColor="@android:color/black"
+          tools:ignore="RtlHardcoded,RtlSymmetry"
+      />
+
+      <FrameLayout
+          android:id="@+id/btn_close_bs"
+          android:layout_width="44dp"
+          android:layout_height="match_parent"
+          android:background="?selectableItemBackground"
+          android:clickable="true"
+          android:focusable="true"
+          tools:ignore="ContentDescription"
+      >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_close"
+        />
+
+      </FrameLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorGrey"
+    />
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp">
+
+      <LinearLayout
+          android:id="@+id/layout_mandu_count"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_marginLeft="@dimen/margin_size_xxlarge"
+          android:layout_marginRight="@dimen/margin_size_xxlarge"
+          android:layout_gravity="left"
+          android:orientation="vertical"
+      >
+
+        <TextView
+            android:id="@+id/mandu_your_dumpling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mandu_your_dumpling"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+        >
+
+          <FrameLayout android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/buuz_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp"
+                tools:text="1670"
+                android:textStyle="bold"
+            />
+
+            <ProgressBar android:layout_width="match_parent"
+                android:id="@+id/mandu_loading"
+                android:visibility="visible"
+                android:layout_gravity="center" android:layout_height="18dp"/>
+
+          </FrameLayout>
+
+          <FrameLayout
+              android:layout_width="24dp"
+              android:layout_height="24dp"
+              android:layout_gravity="center_vertical"
+              android:layout_marginLeft="@dimen/margin_size_large"
+              android:layout_marginStart="@dimen/margin_size_large"
+              android:background="@drawable/buuz_border"
+          >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_buuz_in_bottomsheet"
+                tools:ignore="ContentDescription"
+            />
+
+          </FrameLayout>
+
+        </LinearLayout>
+
+      </LinearLayout>
+
+      <TextView
+          android:id="@+id/lbl_buuz_buy"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="right|center_vertical"
+          android:layout_marginLeft="@dimen/margin_size_xxlarge"
+          android:layout_marginRight="@dimen/margin_size_xxlarge"
+          android:paddingTop="@dimen/margin_size_large"
+          android:paddingBottom="@dimen/margin_size_large"
+          android:paddingRight="@dimen/margin_size_xxxlarge"
+          android:paddingLeft="@dimen/margin_size_xxxlarge"
+          android:textColor="@color/colorPrimary"
+          android:background="@drawable/bg_buuz_buy"
+          android:textSize="18sp"
+          android:text="@string/mandu_buy"
+      />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+    >
+
+      <FrameLayout
+          android:id="@+id/btn_minus"
+          android:layout_width="46dp"
+          android:layout_height="46dp"
+          android:layout_gravity="center_vertical"
+          android:background="@drawable/buuz_add_background"
+          android:clickable="true"
+          android:focusable="true"
+          android:foreground="?selectableItemBackgroundBorderless"
+      >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_minus"
+            tools:ignore="ContentDescription"
+        />
+
+      </FrameLayout>
+
+      <com.airbnb.lottie.LottieAnimationView
+          android:id="@+id/buuz_animation"
+          android:layout_width="116dp"
+          android:layout_height="100dp"
+          android:layout_gravity="center"
+          app:lottie_autoPlay="false"
+          app:lottie_fileName="dc_dumpling.json"
+          app:lottie_loop="false"
+      />
+
+      <FrameLayout
+          android:id="@+id/btn_add"
+          android:layout_width="46dp"
+          android:layout_height="46dp"
+          android:layout_gravity="center_vertical"
+          android:background="@drawable/buuz_add_background"
+          android:clickable="true"
+          android:focusable="true"
+          android:foreground="?selectableItemBackgroundBorderless"
+      >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_add"
+            tools:ignore="ContentDescription"
+        />
+
+      </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_size_xlarge"
+        android:layout_marginStart="@dimen/margin_size_xlarge"
+        android:text="@string/dumpling_field_title"
+        android:textColor="@color/colorPrimary"
+    />
+
+    <EditText
+        android:id="@+id/buuz_count_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_size_xlarge"
+        android:layout_marginRight="@dimen/margin_size_xlarge"
+        android:layout_marginTop="@dimen/margin_size_medium"
+        android:background="@drawable/dumpling_background"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:minHeight="48dp"
+        android:paddingLeft="@dimen/margin_size_medium"
+        android:paddingRight="@dimen/margin_size_medium"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        tools:ignore="Autofill,LabelFor,TextFields"
+    />
+
+    <Button
+        android:id="@+id/btn_send_buuz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_size_xlarge"
+        android:layout_marginRight="@dimen/margin_size_xlarge"
+        android:layout_marginTop="@dimen/margin_size_medium"
+        android:text="@string/btn_send_gifts"
+        android:textAllCaps="false"
+        android:theme="@style/SendBuuzButtonStyle"
+    />
+
+  </LinearLayout>
+
+</layout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf">
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/layout_back_header" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/settings_bg"
+                android:orientation="vertical">
+
+                <notq.dccast.screens.navigation_menu.settings.SettingsItem
+                    android:id="@+id/clear_live_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:si_checked="false"
+                    app:si_ischeck="false"
+                    app:si_title="@string/history_clear_live_history"/>
+
+                <notq.dccast.screens.navigation_menu.settings.SettingsItem
+                    android:id="@+id/clear_vod_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    app:si_checked="false"
+                    app:si_ischeck="false"
+                    app:si_title="@string/history_clear_vod_history"/>
+
+                <notq.dccast.screens.navigation_menu.settings.SettingsItem
+                    android:id="@+id/clear_search_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    app:si_checked="false"
+                    app:si_ischeck="false"
+                    app:si_title="@string/history_clear_search_history"/>
+
+                <notq.dccast.screens.navigation_menu.settings.SettingsItem
+                    android:id="@+id/switch_recent_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    app:si_checked="false"
+                    app:si_ischeck="true"
+                    app:si_title="@string/history_stop_recent_view"/>
+
+                <notq.dccast.screens.navigation_menu.settings.SettingsItem
+                    android:id="@+id/switch_recent_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    app:si_checked="false"
+                    app:si_ischeck="true"
+                    app:si_title="@string/history_stop_recent_history"/>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_size_xxlarge"
+        android:paddingTop="@dimen/margin_size_xlarge"
+        android:paddingRight="@dimen/margin_size_xxlarge"
+        android:paddingBottom="@dimen/margin_size_xlarge">
+
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:id="@+id/iv_user"
+          android:layout_width="@dimen/cast_list_follow_user_image_size"
+          android:layout_height="@dimen/cast_list_follow_user_image_size"
+          android:src="@drawable/ic_notification_placeholder"/>
+
+      <TextView
+          android:id="@+id/lbl_username"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="@dimen/margin_size_xlarge"
+          android:layout_marginLeft="@dimen/margin_size_xlarge"
+          android:layout_marginEnd="@dimen/margin_size_xlarge"
+          android:layout_marginRight="@dimen/margin_size_xlarge"
+          android:layout_weight="1"
+          android:textColor="@color/recent_user_name"
+          android:textStyle="bold"
+          tools:text="Kendall Jenner"/>
+
+      <TextView
+          android:id="@+id/lbl_status"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/cast_list_friends_status"
+          android:ellipsize="marquee"
+          android:gravity="right"
+          android:maxWidth="130dp"
+          android:maxLines="2"
+          android:textColor="@color/cast_list_friends_status_text"
+          android:textSize="12sp"
+          android:visibility="gone"
+          tools:text="This is my public status"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone">
+
+      <ProgressBar
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+  </FrameLayout>
+</layout>

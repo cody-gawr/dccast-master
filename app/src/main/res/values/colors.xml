@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#525EAA</color>
+  <color name="colorPrimaryDark">#313865</color>
+  <color name="colorAccent">#525EAA</color>
+  <color name="colorTabIndicatorToolbar">#313865</color>
+  <color name="colorTabIndicatorCategory">#525EAA</color>
+  <color name="colorNavigationDrawerBackground">#E9EAEB</color>
+  <color name="colorGrey">#CDCED1</color>
+  <color name="colorFav">#383A40</color>
+  <color name="white">#FFF</color>
+  <color name="black">#000</color>
+  <color name="colorSelected">#EAEAEA</color>
+  <color name="shadow">#7F000000</color>
+  <color name="colorUnselectedOrientation">#808B94</color>
+
+  <!--LOGIN-->
+  <color name="login_text_hint">#4DFFFFFF</color>
+  <color name="login_button">#313867</color>
+  <color name="login_forget_password">#80FFFFFF</color>
+  <color name="login_half_oval">#1AB1BBFF</color>
+
+  <!--SETTINGS-->
+  <color name="settings_item_text">#383A40</color>
+  <color name="settings_item_description">#66383A40</color>
+  <color name="settings_item_sub_header">#6E717A</color>
+  <color name="settings_bg">#E4E4E4</color>
+  <color name="check_box_border_default">#E4E4E4</color>
+
+  <!--NOTIFICATION-->
+  <color name="badge_text_red">#E53935</color>
+  <color name="update_green">#8bc341</color>
+  <color name="tab_separator">#1A353945</color>
+  <color name="live_item_circle">#E53935</color>
+
+  <!--MY CONTENT-->
+  <color name="my_content_item_text">#383A40</color>
+  <color name="my_channel_home_stat">#383A40</color>
+  <!--SUBSCRIBE-->
+  <color name="subscribe_item_text">#383A40</color>
+  <color name="subscribe_item_description">#AEB3C1</color>
+  <!--CAST LIST-->
+  <color name="cast_list_header_text">#AD353945</color>
+  <color name="cast_list_header_bg">#E9EAEB</color>
+  <color name="cast_list_no_item_text">#6E717A</color>
+  <color name="recent_user_name">#353945</color>
+  <color name="recent_user_description">#AEB3C1</color>
+  <color name="cast_list_friends_status">#E9EAEB</color>
+  <color name="cast_list_friends_status_text">#727A82</color>
+  <color name="swipe_red_background">#FF4040</color>
+  <!--GROUP-->
+  <color name="create_group_hint_inactive">#6E717A</color>
+  <color name="create_group_underline">#E9EAEB</color>
+  <color name="group_add_member_header_bg">#E9EAEB</color>
+  <color name="group_add_member">#353945</color>
+  <color name="group_add_name">#353945</color>
+  <color name="group_add_username">#AEB3C1</color>
+  <color name="group_add_people_tag_bg">#F1F9FF</color>
+  <color name="group_add_people_tag_text">#2699FB</color>
+  <color name="group_detail_action_btn_bg">#E4E4E4</color>
+  <color name="group_detail_action_btn_text">#16171E</color>
+  <color name="group_detail_name">#000000</color>
+  <color name="group_detail_description">#727A82</color>
+  <color name="group_live_live_share">#6E717A</color>
+  <color name="group_live_group_live">#000000</color>
+  <color name="group_live_cancel_text">#B5B7BB</color>
+  <color name="group_live_cancel_border">#E9EAEB</color>
+  <!--UPLOAD-->
+  <color name="upload_finish_character_counter">#353945</color>
+  <!--LIVE SETTINGS-->
+  <color name="live_settings_arrow_tint">#383A40</color>
+  <color name="live_settings_arrow_background">#E4E4E4</color>
+  <color name="bottom_sheet_dim">#AD000000</color>
+  <color name="bottom_sheet_text">#080808</color>
+  <color name="bottom_sheet_selected">#525EAA</color>
+  <color name="bottom_sheet_default">#AFB0B3</color>
+  <color name="user_follow_search_bg">#E9EAEB</color>
+  <color name="search_hint">#66000000</color>
+  <color name="colorDefaultLike">#999BA1</color>
+  <color name="mandu_history_header_bg">#F8F8F8</color>
+
+  <color name="color_search_hint_black">#73000000</color>
+  <color name="added_friend">#6E717A</color>
+  <color name="add_friend">#525EAA</color>
+</resources>

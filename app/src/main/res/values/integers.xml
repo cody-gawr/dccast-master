@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <integer-array name="menu_icons">
+    <item>@drawable/ic_channel</item>
+    <item>@drawable/ic_live</item>
+    <item>@drawable/ic_vod</item>
+    <item>@drawable/ic_favorite</item>
+    <item>@drawable/ic_cast_list</item>
+    <item>@drawable/ic_notification</item>
+  </integer-array>
+
+  <integer-array name="category_icons">
+    <item>@drawable/ic_category_sport</item>
+    <item>@drawable/ic_category_stock</item>
+    <item>@drawable/ic_category_travel</item>
+    <item>@drawable/ic_category_beauty</item>
+    <item>@drawable/ic_category_food</item>
+    <item>@drawable/ic_category_entertainment</item>
+    <item>@drawable/ic_category_game</item>
+  </integer-array>
+</resources>

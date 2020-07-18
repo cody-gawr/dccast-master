@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <androidx.core.widget.NestedScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_size_xxlarge"
+        android:background="@android:color/white">
+
+      <TextView
+          android:id="@+id/report_title"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_vertical|start"
+          android:text="@string/vod_report_title"
+          android:textStyle="bold"
+          android:layout_marginBottom="@dimen/margin_size_large"
+          android:textColor="@color/colorPrimary"
+      />
+
+      <RadioGroup
+          android:id="@+id/report_types"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/margin_size_xlarge"
+          android:layout_marginBottom="@dimen/margin_size_xlarge">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/report_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/vod_report_1"/>
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/report_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vod_report_2"/>
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/report_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vod_report_3"/>
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/report_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vod_report_4"/>
+
+      </RadioGroup>
+
+      <androidx.appcompat.widget.AppCompatEditText
+          android:id="@+id/report_field"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:minHeight="100dp"
+          android:gravity="start"
+          android:padding="@dimen/margin_size_xlarge"
+          android:textSize="13sp"
+          android:hint="@string/vod_report_detail_hint"
+          android:background="@drawable/bg_report_input"
+          android:layout_marginBottom="@dimen/margin_size_xlarge"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_marginBottom="@dimen/margin_size_xlarge">
+
+        <Button
+            android:id="@+id/cancel_report"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:theme="@style/ButtonStyleReportCancel"
+            android:text="@string/vod_report_cancel"/>
+
+        <Button
+            android:id="@+id/send_report"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:theme="@style/ButtonStyleReportConfirm"
+            android:text="@string/vod_report_send"/>
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+  </androidx.core.widget.NestedScrollView>
+
+</layout>

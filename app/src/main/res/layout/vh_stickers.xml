@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+  <FrameLayout
+      android:layout_width="80dp"
+      android:layout_height="90dp"
+      android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+      <ImageView android:layout_width="match_parent" android:layout_height="match_parent"
+          android:id="@+id/iv_sticker_tab"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+      <ProgressBar
+          android:layout_width="20dp"
+          android:layout_height="20dp"
+          android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+  </FrameLayout>
+</layout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent">
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+          <LinearLayout android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_live"
+                android:orientation="vertical">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@color/cast_list_header_bg"
+                  android:paddingLeft="@dimen/margin_size_xxlarge"
+                  android:paddingTop="@dimen/margin_size_xxlarge"
+                  android:paddingBottom="@dimen/margin_size_xxlarge"
+                  android:text="@string/channel_live_video"
+                  android:textColor="@color/cast_list_header_text"
+                  android:textSize="11sp"/>
+
+              <FrameLayout android:layout_width="match_parent"
+                  android:id="@+id/live_video"
+                  android:layout_height="@dimen/home_popular_height">
+
+                <FrameLayout
+                    android:id="@+id/container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                >
+
+                  <ImageView
+                      android:id="@+id/thumbnail"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:scaleType="centerCrop"
+                      tools:ignore="ContentDescription"
+                  />
+
+                  <LinearLayout
+                      android:id="@+id/status_container"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="start"
+                      android:layout_marginLeft="@dimen/margin_size_xlarge"
+                      android:layout_marginStart="@dimen/margin_size_xlarge"
+                      android:layout_marginTop="@dimen/margin_size_xlarge"
+                      android:background="@drawable/header_live_shape"
+                  >
+
+                    <TextView
+                        android:id="@+id/status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_size_small"
+                        android:layout_marginLeft="@dimen/margin_size_medium"
+                        android:layout_marginRight="@dimen/margin_size_medium"
+                        android:layout_marginTop="@dimen/margin_size_small"
+                        android:text="@string/header_live"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/font_size_small"
+                    />
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="bottom|start"
+                      android:layout_marginBottom="@dimen/margin_size_medium"
+                      android:layout_marginLeft="@dimen/margin_size_xlarge"
+                      android:layout_marginStart="@dimen/margin_size_xlarge"
+                      android:orientation="vertical"
+                  >
+
+                    <TextView
+                        android:id="@+id/live_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_size_medium"
+                        android:shadowColor="@android:color/black"
+                        android:shadowRadius="10"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/font_size_small"
+                        android:textStyle="bold"
+                    />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_size_xxlarge"
+                        android:orientation="horizontal"
+                    >
+
+                      <androidx.cardview.widget.CardView
+                          android:layout_width="24dp"
+                          android:layout_height="24dp"
+                          app:cardCornerRadius="12dp"
+                      >
+
+                        <ImageView
+                            android:id="@+id/profile_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_dccast"
+                        />
+
+                      </androidx.cardview.widget.CardView>
+
+                      <TextView
+                          android:id="@+id/profile_name"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_gravity="center_vertical"
+                          android:layout_marginLeft="@dimen/margin_size_medium"
+                          android:layout_marginStart="@dimen/margin_size_medium"
+                          android:shadowColor="@android:color/black"
+                          android:shadowRadius="10"
+                          android:textColor="@android:color/white"
+                          android:textSize="@dimen/font_size_small"
+                      />
+
+                    </LinearLayout>
+
+                  </LinearLayout>
+
+                </FrameLayout>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/lbl_no_video"
+                    android:layout_gravity="center"
+                    android:visibility="visible"
+                    android:textColor="@color/black"
+                    android:text="Live 대기 중"/>
+
+              </FrameLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/lbl_vod_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cast_list_header_bg"
+                android:paddingLeft="@dimen/margin_size_xxlarge"
+                android:paddingTop="@dimen/margin_size_xlarge"
+                android:paddingBottom="@dimen/margin_size_xlarge"
+                android:text="@string/vod_count"
+                android:textColor="@color/cast_list_header_text"
+                android:textSize="11sp"/>
+
+            <FrameLayout android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+              <androidx.recyclerview.widget.RecyclerView
+                  android:id="@+id/recyclerView"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:paddingTop="@dimen/margin_size_xlarge"/>
+
+              <LinearLayout
+                  android:id="@+id/layout_no_data"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:orientation="vertical"
+                  android:visibility="gone"
+                  tools:ignore="UseCompoundDrawables"
+              >
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:elevation="30dp"
+                    android:layout_gravity="center_horizontal"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="no_data.json"
+                    app:lottie_loop="true"/>
+
+                <TextView
+                    android:id="@+id/no_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_size_medium"
+                    android:paddingBottom="@dimen/margin_size_xxlarge"
+                    android:text="@string/channel_vod_no_data"
+                    android:textColor="@color/colorGrey"
+                />
+
+              </LinearLayout>
+
+            </FrameLayout>
+
+          </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/dc_loader"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:elevation="30dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="dc_load.json"
+            app:lottie_loop="true"/>
+
+      </FrameLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+  </LinearLayout>
+
+</layout>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <notq.dccast.custom_view.DMotionLayout
+            android:id="@+id/mainMotionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutDescription="@xml/main_scene"
+            tools:ignore="UnusedAttribute">
+
+            <View
+                android:id="@+id/backgroundDim"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp" />
+
+            <FrameLayout
+                android:id="@+id/container_for_group_video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:elevation="20dp"
+                app:cardElevation="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingPrefix,UnusedAttribute" />
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    tools:ignore="UselessLeaf">
+
+                    <com.google.android.material.appbar.AppBarLayout
+                        android:id="@+id/app_bar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <include
+                            android:id="@+id/header"
+                            layout="@layout/layout_back_header" />
+
+                    </com.google.android.material.appbar.AppBarLayout>
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fillViewport="true">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:id="@+id/layout_header"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:padding="@dimen/margin_default">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:id="@+id/layout_start_live"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="?attr/selectableItemBackground"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:background="@drawable/group_detail_action_btn_bg"
+                                                android:drawableLeft="@drawable/ic_live"
+                                                android:drawablePadding="@dimen/margin_default"
+                                                android:gravity="center_vertical"
+                                                android:text="@string/group_detail_start_live"
+                                                android:textColor="@color/group_detail_action_btn_text" />
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/layout_upload_vod"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="@dimen/margin_size_xlarge"
+                                            android:background="?attr/selectableItemBackground"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:background="@drawable/group_detail_action_btn_bg"
+                                                android:drawableLeft="@drawable/ic_vod"
+                                                android:drawablePadding="@dimen/margin_default"
+                                                android:gravity="center_vertical"
+                                                android:text="@string/group_detail_upload_vod"
+                                                android:textColor="@color/group_detail_action_btn_text" />
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                    <de.hdodenhof.circleimageview.CircleImageView
+                                        android:id="@+id/iv_group_profile_img"
+                                        android:layout_width="130dp"
+                                        android:layout_height="130dp"
+                                        android:layout_marginLeft="@dimen/margin_size_xxlarge"
+                                        android:src="@drawable/ic_group_placeholder"/>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/description_layout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/margin_default"
+                                    android:layout_marginBottom="@dimen/margin_size_large"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:visibility="visible">
+
+                                    <TextView
+                                        android:id="@+id/lbl_group_name"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:drawablePadding="@dimen/margin_size_xlarge"
+                                        tools:text="Kardashian group"
+                                        android:textColor="@color/group_detail_name"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/lbl_group_description"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="@dimen/margin_size_xxxlarge"
+                                        android:layout_marginTop="@dimen/margin_size_medium"
+                                        android:layout_marginRight="@dimen/margin_size_xxxlarge"
+                                        android:ellipsize="end"
+                                        android:gravity="center"
+                                        android:maxLines="3"
+                                        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+                                        android:textColor="@color/group_detail_description" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.1dp"
+                                android:background="@color/colorGrey" />
+
+                            <com.google.android.material.tabs.TabLayout
+                                android:id="@+id/tab_layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/tab_height"
+                                app:tabIndicatorColor="@color/colorPrimary"
+                                app:tabMode="fixed"
+                                app:tabSelectedTextColor="@color/black"
+                                app:tabTextAppearance="@style/TabLayoutTextAppearance">
+
+                                <com.google.android.material.tabs.TabItem
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="@string/group_tab_member" />
+
+                                <com.google.android.material.tabs.TabItem
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="Live" />
+
+                                <com.google.android.material.tabs.TabItem
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="VOD" />
+
+                            </com.google.android.material.tabs.TabLayout>
+
+                            <androidx.viewpager.widget.ViewPager
+                                android:id="@+id/view_pager"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                            <!--<FrameLayout-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content">-->
+
+                            <!--<LinearLayout-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:orientation="vertical">-->
+
+                            <!--<androidx.recyclerview.widget.RecyclerView-->
+                            <!--android:id="@+id/recyclerView"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--tools:listitem="@layout/vh_group_member" />-->
+
+                            <!--<View-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="60dp" />-->
+
+                            <!--</LinearLayout>-->
+
+                            <!--<FrameLayout-->
+                            <!--android:id="@+id/layout_member_load"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="match_parent"-->
+                            <!--android:background="@color/white">-->
+
+                            <!--<ProgressBar-->
+                            <!--android:layout_width="20dp"-->
+                            <!--android:layout_height="20dp"-->
+                            <!--android:layout_gravity="center_horizontal"-->
+                            <!--android:layout_marginTop="@dimen/margin_size_xxxxlarge" />-->
+
+                            <!--</FrameLayout>-->
+
+                            <!--</FrameLayout>-->
+
+                        </LinearLayout>
+
+                    </androidx.core.widget.NestedScrollView>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/dim"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/bottom_sheet_dim"
+                    android:visibility="gone" />
+
+                <FrameLayout
+                    android:id="@+id/bottom_sheet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    app:behavior_hideable="true"
+                    app:behavior_peekHeight="0dp"
+                    app:layout_behavior="notq.dccast.util.LockableBottomSheetBehavior" />
+
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        </notq.dccast.custom_view.DMotionLayout>
+
+    </LinearLayout>
+
+</layout>

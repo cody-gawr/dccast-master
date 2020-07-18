@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <androidx.constraintlayout.motion.widget.MotionLayout
+      android:id="@+id/mainMotionLayout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layoutDescription="@xml/main_scene">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/dc_loader"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:elevation="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="dc_load.json"
+        app:lottie_loop="true"/>
+
+    <View
+        android:id="@+id/backgroundDim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="10dp"/>
+
+    <FrameLayout
+        android:id="@+id/container_for_subscribe_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:elevation="20dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/white"
+          android:orientation="vertical"
+          tools:ignore="UselessLeaf">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+            <include
+                android:id="@+id/header"
+                layout="@layout/layout_back_header"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/colorGrey"/>
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layoutSearch"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+              <LinearLayout android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:paddingLeft="@dimen/margin_size_xxlarge"
+                  android:paddingRight="@dimen/margin_size_xxlarge"
+                  android:paddingTop="@dimen/margin_size_xlarge"
+                  android:paddingBottom="@dimen/margin_size_xlarge"
+                  android:gravity="center_vertical"
+                  android:orientation="horizontal">
+
+                <ImageView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_search"
+                    android:tint="@color/black"/>
+
+                <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:id="@+id/et_search"
+                    android:hint="@string/search_hint"
+                    android:background="@android:color/transparent"
+                    android:paddingLeft="10dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/color_search_hint_black"
+                    android:textColorHint="@color/color_search_hint_black"/>
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:id="@+id/layout_sort"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:gravity="center_vertical"
+                  android:background="?attr/selectableItemBackground"
+                  android:paddingLeft="@dimen/margin_size_xxlarge"
+                  android:paddingRight="@dimen/margin_size_xxlarge"
+                  android:paddingTop="@dimen/margin_size_xlarge"
+                  android:paddingBottom="@dimen/margin_size_xlarge"
+                  android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/settings_item_text"
+                    android:textStyle="bold"
+                    android:text="@string/sort_title"/>
+
+                <TextView
+                    android:id="@+id/lbl_sort_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.4"
+                    android:layout_marginLeft="@dimen/margin_size_large"
+                    android:textColor="@color/settings_item_text"
+                    android:text="@string/subscribe_sort_recent"/>
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="@dimen/margin_size_xlarge"
+                    android:rotation="90"
+                    android:src="@drawable/ic_settings_arrow"
+                    android:tint="@color/live_settings_arrow_tint"/>
+
+              </LinearLayout>
+
+            </LinearLayout>
+
+          </LinearLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:id="@+id/refresher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent">
+
+          <FrameLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/margin_size_large"/>
+
+            <LinearLayout
+                android:id="@+id/layout_no_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone"
+                tools:ignore="UseCompoundDrawables"
+            >
+
+              <!--<ImageView-->
+              <!--android:layout_width="wrap_content"-->
+              <!--android:layout_height="wrap_content"-->
+              <!--android:layout_gravity="center_horizontal"-->
+              <!--android:src="@drawable/ic_no_data"-->
+              <!--tools:ignore="ContentDescription"-->
+              <!--/>-->
+
+              <com.airbnb.lottie.LottieAnimationView
+                  android:layout_width="120dp"
+                  android:layout_height="120dp"
+                  android:elevation="30dp"
+                  android:layout_gravity="center_horizontal"
+                  app:lottie_autoPlay="true"
+                  app:lottie_fileName="no_data.json"
+                  app:lottie_loop="true"/>
+
+              <TextView
+                  android:id="@+id/no_data"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="@dimen/margin_size_medium"
+                  android:text="@string/no_data"
+                  android:textColor="@color/colorGrey"
+              />
+
+            </LinearLayout>
+
+          </FrameLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+      </LinearLayout>
+
+      <View
+          android:id="@+id/dim"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/bottom_sheet_dim"
+          android:visibility="gone"
+      />
+
+      <FrameLayout
+          android:id="@+id/bottom_sheet"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@android:color/white"
+          app:behavior_hideable="true"
+          app:behavior_peekHeight="0dp"
+          app:layout_behavior="notq.dccast.util.LockableBottomSheetBehavior"
+      />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+  </androidx.constraintlayout.motion.widget.MotionLayout>
+
+</layout>

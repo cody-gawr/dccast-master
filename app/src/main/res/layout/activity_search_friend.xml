@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      tools:ignore="UselessLeaf">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <include
+          android:id="@+id/header"
+          layout="@layout/layout_back_header"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="@dimen/margin_size_xxlarge"
+          android:layout_marginTop="@dimen/margin_size_large"
+          android:layout_marginRight="@dimen/margin_size_xxlarge"
+          android:layout_marginBottom="@dimen/margin_size_large"
+          android:layout_weight="1"
+          android:background="@drawable/user_follow_search_bg"
+          android:gravity="center_vertical"
+          android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@color/black"
+            app:srcCompat="@drawable/ic_search"/>
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_medium"
+            android:background="@null"
+            android:hint="@string/search_hint"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/search_hint"
+            android:textSize="14sp"/>
+
+      </LinearLayout>
+
+      <TextView
+          android:id="@+id/lbl_cancel"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginRight="@dimen/margin_size_xxlarge"
+          android:gravity="center"
+          android:text="@string/search_user_cancel"
+          android:textColor="@color/colorPrimary"
+          android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <LinearLayout
+          android:id="@+id/layout_item"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbl_result_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cast_list_header_bg"
+            android:paddingLeft="@dimen/margin_size_xxlarge"
+            android:paddingTop="@dimen/margin_size_xlarge"
+            android:paddingBottom="@dimen/margin_size_xlarge"
+            android:text="@string/search_friend_result"
+            android:textColor="@color/cast_list_header_text"
+            android:textSize="11sp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/layout_no_data"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/white"
+          android:gravity="center"
+          android:orientation="vertical"
+          android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/add_friend_search_no_data"
+            android:textColor="@color/cast_list_no_item_text"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size_xxxlarge"
+            android:layout_marginBottom="@dimen/margin_size_xxxlarge"
+            android:src="@drawable/ic_no_follow"/>
+
+      </LinearLayout>
+
+      <com.airbnb.lottie.LottieAnimationView
+          android:id="@+id/dc_loader"
+          android:layout_width="120dp"
+          android:layout_height="120dp"
+          android:layout_gravity="center"
+          android:layout_marginBottom="?actionBarSize"
+          android:elevation="30dp"
+          android:visibility="gone"
+          app:lottie_autoPlay="true"
+          app:lottie_fileName="dc_load.json"
+          app:lottie_loop="true"/>
+
+    </FrameLayout>
+
+  </LinearLayout>
+
+</layout>

@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "/Users/hope/.gradle/caches/transforms-2/files-2.1/981395434b30616ca8b24179fbf48e3f/res/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,447",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,442,684"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,16",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "494,569,656,886",
+                        "endLines": "10,11,15,19",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "564,651,881,1123"
+                    }
+                },
+                {
+                    "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/values-v28/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "53",
+                        "endLines": "9",
+                        "endColumns": "10",
+                        "endOffsets": "487"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "10",
+                        "endOffsets": "489"
+                    }
+                }
+            ]
+        }
+    ]
+}

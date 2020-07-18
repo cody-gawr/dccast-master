@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf">
+
+      <com.google.android.material.appbar.AppBarLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/layout_back_header"/>
+
+      </com.google.android.material.appbar.AppBarLayout>
+
+      <androidx.core.widget.NestedScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/settings_bg"
+            android:orientation="vertical">
+
+          <notq.dccast.screens.navigation_menu.settings.SettingsItem
+              android:id="@+id/item_auto_login"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:si_checked="false"
+              app:si_ischeck="true"
+              app:si_title="@string/settings_auto_login"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="@dimen/margin_default"
+              android:paddingTop="@dimen/margin_size_xlarge"
+              android:paddingRight="@dimen/margin_default"
+              android:paddingBottom="@dimen/margin_size_xlarge"
+              android:text="@string/settings_live_settings"
+              android:textColor="@color/settings_item_sub_header"
+              android:textStyle="normal"/>
+
+          <notq.dccast.screens.navigation_menu.settings.SettingsItem
+              android:id="@+id/item_mobile_data"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:si_checked="false"
+              app:si_description="@string/settings_mobile_data_description"
+              app:si_ischeck="true"
+              app:si_title="@string/settings_mobile_data"/>
+
+          <notq.dccast.screens.navigation_menu.settings.SettingsItem
+              android:id="@+id/item_notification"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="1dp"
+              app:si_checked="false"
+              app:si_ischeck="false"
+              app:si_title="@string/settings_notification_settings"/>
+
+          <notq.dccast.screens.navigation_menu.settings.SettingsItem
+              android:id="@+id/item_history"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="1dp"
+              app:si_checked="false"
+              app:si_ischeck="false"
+              app:si_title="@string/settings_history_information"/>
+
+          <notq.dccast.screens.navigation_menu.settings.SettingsItem
+              android:id="@+id/item_security"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="1dp"
+              app:si_checked="false"
+              app:si_ischeck="true"
+              app:si_title="@string/settings_security_lock"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="@dimen/margin_default"
+              android:paddingTop="@dimen/margin_size_xlarge"
+              android:paddingRight="@dimen/margin_default"
+              android:paddingBottom="@dimen/margin_size_xlarge"
+              android:text="@string/settings_user_center"
+              android:textColor="@color/settings_item_sub_header"
+              android:textStyle="normal"/>
+
+          <notq.dccast.screens.navigation_menu.settings.SettingsItem
+              android:id="@+id/item_information"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:si_checked="false"
+              app:si_ischeck="false"
+              app:si_title="@string/settings_information"/>
+
+          <notq.dccast.screens.navigation_menu.settings.SettingsItem
+              android:id="@+id/item_version"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="1dp"
+              app:si_checked="false"
+              app:si_ischeck="false"
+              app:si_title="@string/settings_item_version"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="@dimen/margin_default"
+              android:paddingTop="@dimen/margin_size_xlarge"
+              android:paddingRight="@dimen/margin_default"
+              android:paddingBottom="@dimen/margin_size_xlarge"
+              android:text="@string/settings_terms_of_condition"
+              android:textColor="@color/settings_item_sub_header"
+              android:textStyle="normal"/>
+
+          <notq.dccast.screens.navigation_menu.settings.SettingsItem
+              android:id="@+id/item_terms"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:si_checked="false"
+              app:si_ischeck="false"
+              app:si_title="@string/settings_terms_of_condition"/>
+
+          <notq.dccast.screens.navigation_menu.settings.SettingsItem
+              android:id="@+id/item_privacy"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="1dp"
+              app:si_checked="false"
+              app:si_ischeck="false"
+              app:si_title="@string/settings_privacy"/>
+
+          <notq.dccast.screens.navigation_menu.settings.SettingsItem
+              android:id="@+id/item_license"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="1dp"
+              app:si_checked="false"
+              app:si_ischeck="false"
+              app:si_title="@string/settings_license"/>
+
+          <LinearLayout
+              android:id="@+id/layout_log_out"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/margin_size_xxxxlarge"
+              android:background="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center"
+                android:paddingLeft="@dimen/margin_default"
+                android:paddingTop="@dimen/margin_size_xxxlarge"
+                android:paddingRight="@dimen/margin_default"
+                android:paddingBottom="@dimen/margin_size_xxxlarge"
+                android:text="@string/settings_log_out"
+                android:textColor="@color/badge_text_red"/>
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+      </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/dim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bottom_sheet_dim"
+        android:visibility="gone"
+    />
+
+    <FrameLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="0dp"
+        app:layout_behavior="notq.dccast.util.LockableBottomSheetBehavior"
+    />
+
+  </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

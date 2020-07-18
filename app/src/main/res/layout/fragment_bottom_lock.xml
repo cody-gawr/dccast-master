@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/margin_size_xxxxlarge">
+
+      <TextView
+          android:id="@+id/lbl_pin"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/verify_live_lock_password"
+          android:textColor="@color/colorFav"
+          android:textStyle="bold"/>
+
+      <notq.dccast.custom_view.PinEntryEditText
+          android:id="@+id/et_pin"
+          android:layout_width="154dp"
+          android:layout_height="16dp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="@dimen/margin_size_xxxlarge"
+          android:layout_marginBottom="@dimen/margin_size_xxxlarge"
+          android:background="@null"
+          android:cursorVisible="false"
+          android:inputType="text"
+          android:maxLength="4"
+          android:textColor="@android:color/transparent"
+          android:textIsSelectable="false"
+          android:textSize="0px"
+          android:visibility="visible"
+          app:pinBackgroundDrawable="@drawable/bg_pin_enter"
+          app:pinBackgroundIsSquare="true"
+          app:pinCharacterSpacing="30dp"
+          app:pinLineColors="@color/black"
+          app:pinTextBottomPadding="4dp"/>
+
+      <TextView
+          android:id="@+id/lbl_pin_error"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/password_not_verified"
+          android:visibility="invisible"
+          android:textColor="@color/badge_text_red"
+          android:textStyle="bold"/>
+
+      <LinearLayout android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:layout_marginTop="@dimen/margin_size_xxxxlarge"
+          android:id="@+id/layout_enter"
+          android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+          <Button
+              android:id="@+id/btn_cancel"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:background="@drawable/cancel_btn"
+              android:layout_marginRight="@dimen/margin_size_xxxlarge"
+              android:gravity="center"
+              android:text="@string/confirm_no"
+              android:textAllCaps="false"
+              android:textColor="@color/white"/>
+
+          <Button
+              android:id="@+id/btn_enter"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:background="@drawable/create_group_button"
+              android:gravity="center"
+              android:text="@string/confirm_yes"
+              android:textAllCaps="false"
+              android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+      </LinearLayout>
+
+      <View android:layout_width="match_parent" android:layout_height="240dp"
+      />
+
+    </LinearLayout>
+
+  </ScrollView>
+
+</layout>

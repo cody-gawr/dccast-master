@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      tools:ignore="UselessLeaf">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <include
+          android:id="@+id/header"
+          layout="@layout/layout_back_header"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/margin_size_xxxlarge"
+        android:paddingRight="@dimen/margin_size_xxxlarge">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:paddingTop="@dimen/margin_default"
+          android:paddingBottom="@dimen/margin_default">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/upload_finish_image_height"
+            android:layout_marginRight="@dimen/margin_size_xxxlarge"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+          <LinearLayout
+              android:id="@+id/layout_title"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/title_input_layout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_size_medium"
+                android:layout_weight="1"
+                android:hint="@string/upload_finish_title_hint"
+                android:orientation="vertical"
+                android:textColorHint="@color/create_group_hint_inactive"
+                android:theme="@style/CreateGroupEditText"
+                app:boxBackgroundMode="none">
+
+              <com.google.android.material.textfield.TextInputEditText
+                  android:id="@+id/title_input_text"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@android:color/transparent"
+                  android:cursorVisible="true"
+                  android:imeOptions="actionNext"
+                  android:inputType="text"
+                  android:maxLength="40"
+                  android:paddingTop="@dimen/margin_size_large"
+                  android:paddingBottom="@dimen/margin_size_large"
+                  android:textColor="@color/black"
+                  android:textSize="12sp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/lbl_character_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.3"
+                android:text="0/40"
+                android:textColor="@color/upload_finish_character_counter"/>
+
+          </LinearLayout>
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="1dp"
+              android:layout_alignBottom="@+id/layout_title"
+              android:background="@color/colorNavigationDrawerBackground"/>
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/description_input_layout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:layout_marginTop="@dimen/margin_size_xxlarge"
+              android:hint="@string/upload_finish_description_hint"
+              android:textColorHint="@color/create_group_hint_inactive"
+              android:theme="@style/CreateGroupEditText"
+              app:boxBackgroundMode="none">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/description_input_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:cursorVisible="true"
+                android:imeOptions="actionNext"
+                android:inputType="textMultiLine"
+                android:maxLines="3"
+                android:paddingTop="@dimen/margin_size_large"
+                android:paddingBottom="@dimen/margin_size_large"
+                android:textColor="@color/black"
+                android:textSize="12sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorNavigationDrawerBackground"/>
+
+          </com.google.android.material.textfield.TextInputLayout>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="@dimen/upload_finish_image_width"
+            android:layout_height="@dimen/upload_finish_image_height"
+            android:scaleType="centerCrop"/>
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/drop_down_layout"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/margin_default"
+            android:paddingBottom="@dimen/margin_default">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="17dp"
+              android:layout_marginEnd="@dimen/margin_size_xxxlarge"
+              android:layout_marginRight="@dimen/margin_size_xxxlarge"
+              android:layout_weight="0.3"
+              android:alpha="0.7"
+              android:text="@string/vod_upload_category"
+              android:textColor="@color/upload_finish_character_counter"/>
+
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.7"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/margin_size_large"
+              android:paddingBottom="@dimen/margin_size_large">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/spinner_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/upload_vod_dropdown_bg"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorGrey"/>
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/margin_default">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_marginRight="@dimen/margin_size_xxxlarge"
+              android:layout_weight="0.3"
+              android:alpha="0.7"
+              android:text="@string/vod_upload_share"
+              android:textColor="@color/upload_finish_character_counter"/>
+
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.7"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/margin_size_large"
+              android:paddingBottom="@dimen/margin_size_large">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/spinner_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/upload_vod_dropdown_bg"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorGrey"/>
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:id="@+id/layout_gallery"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/margin_default">
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="15dp"
+              android:layout_marginRight="@dimen/margin_size_xxxlarge"
+              android:layout_weight="0.3"
+              android:alpha="0.7"
+              android:text="@string/vod_upload_dc_inside"
+              android:textColor="@color/upload_finish_character_counter"/>
+
+          <LinearLayout
+              android:id="@+id/btn_select_gallery"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.7"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/margin_size_large"
+              android:paddingBottom="@dimen/margin_size_large">
+
+            <TextView
+                android:id="@+id/gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/vod_upload_select_gallery"
+                android:background="@drawable/upload_vod_dropdown_bg"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorGrey"/>
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/post_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginTop="@dimen/margin_default"
+        android:layout_marginRight="@dimen/margin_default"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:background="@drawable/create_group_button"
+        android:gravity="center"
+        android:text="@string/vod_upload_post"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+  </LinearLayout>
+
+</layout>

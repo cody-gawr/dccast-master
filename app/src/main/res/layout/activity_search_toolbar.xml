@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@android:color/white"
+      app:contentInsetLeft="0dp"
+      app:contentInsetStart="0dp"
+      app:contentInsetStartWithNavigation="0dp"
+      >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_height"
+        android:orientation="horizontal"
+        >
+
+      <FrameLayout
+          android:id="@+id/btn_back"
+          android:layout_width="@dimen/tab_height"
+          android:layout_height="@dimen/tab_height"
+          android:background="?selectableItemBackground"
+          android:clickable="true"
+          android:focusable="true"
+          >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:tint="@color/colorPrimary"
+            app:srcCompat="@drawable/ic_back_arrow"
+            tools:ignore="ContentDescription"
+            />
+
+      </FrameLayout>
+
+      <androidx.appcompat.widget.AppCompatEditText
+          android:id="@+id/search_field"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:background="@null"
+          android:hint="@string/hint_search"
+          android:imeOptions="actionSearch"
+          android:inputType="textFilter"
+          android:textColor="@android:color/black"
+          android:textSize="14sp"
+          android:textStyle="normal"
+          tools:ignore="Autofill"
+          />
+
+      <TextView
+          android:id="@+id/searched_field"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:gravity="center_vertical"
+          android:textColor="@android:color/black"
+          android:textSize="14sp"
+          android:textStyle="bold"
+          android:visibility="gone"
+          />
+
+      <FrameLayout
+          android:id="@+id/btn_clear"
+          android:layout_width="@dimen/tab_height"
+          android:layout_height="@dimen/tab_height"
+          android:background="?selectableItemBackground"
+          android:clickable="true"
+          android:focusable="true"
+          android:visibility="gone"
+          >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_btn_clear"
+            android:tint="@color/colorPrimary"
+            tools:ignore="ContentDescription"
+            />
+
+      </FrameLayout>
+
+    </LinearLayout>
+
+  </androidx.appcompat.widget.Toolbar>
+
+</layout>

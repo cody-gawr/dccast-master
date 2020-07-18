@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+  >
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout_categories"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_category_height"
+        android:clipToPadding="false"
+        android:paddingLeft="@dimen/margin_size_medium"
+        android:paddingRight="@dimen/margin_size_medium"
+        app:tabIndicator="@drawable/tab_selector"
+        app:tabIndicatorColor="@color/colorTabIndicatorCategory"
+        app:tabIndicatorHeight="@dimen/tab_category_height"
+        app:tabMode="scrollable"
+        app:tabPaddingEnd="@dimen/margin_size_medium"
+        app:tabPaddingStart="@dimen/margin_size_medium"
+        app:tabRippleColor="@android:color/transparent"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextAppearance="@style/TabLayoutTextAppearance"
+        app:tabTextColor="#353945"
+    />
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"/>
+
+  </LinearLayout>
+
+</layout>

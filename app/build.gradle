@@ -1,0 +1,90 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+android {
+  compileSdkVersion 28
+  defaultConfig {
+    applicationId "notq.dccast"
+    minSdkVersion 21
+    targetSdkVersion 28
+    versionCode 151
+    versionName "1.5.1"
+    vectorDrawables.useSupportLibrary = true
+    multiDexEnabled = true
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+  dataBinding {
+    enabled = true
+  }
+  compileOptions {
+    sourceCompatibility 1.8
+    targetCompatibility 1.8
+  }
+}
+
+repositories {
+  flatDir {
+    dirs 'libs'
+  }
+}
+
+dependencies {
+  implementation fileTree(include: ['*.jar'], dir: 'libs')
+  //noinspection GradleCompatible
+  implementation 'com.android.support:multidex:1.0.3'
+  implementation 'androidx.appcompat:appcompat:1.1.0-alpha01'
+  implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+  implementation 'com.google.android.material:material:1.1.0-alpha03'
+  implementation 'com.github.bumptech.glide:glide:4.9.0'
+  annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+  implementation 'com.google.android.exoplayer:exoplayer:2.9.3'
+  implementation 'android.arch.navigation:navigation-fragment:1.0.0-alpha11'
+  implementation 'android.arch.navigation:navigation-ui:1.0.0-alpha11'
+  implementation 'android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha11'
+  implementation 'android.arch.navigation:navigation-ui-ktx:1.0.0-alpha11'
+  implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha3'
+  implementation 'com.android.support:support-annotations:28.0.0'
+  implementation 'com.android.support:design:28.0.0'
+  implementation 'com.android.support:support-v4:28.0.0'
+  implementation 'com.google.firebase:firebase-core:16.0.9'
+  implementation 'com.google.firebase:firebase-messaging:18.0.0'
+  implementation 'com.airbnb.android:lottie:3.0.0-beta1'
+  implementation 'com.romandanylyk:pageindicatorview:1.0.3'
+  implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+  implementation 'com.google.code.gson:gson:2.8.2'
+  implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+  implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+  implementation 'com.squareup.okhttp3:okhttp:3.12.0'
+  implementation 'joda-time:joda-time:2.1'
+  implementation 'de.hdodenhof:circleimageview:3.0.0'
+  implementation 'com.yanzhenjie:recyclerview-swipe:1.2.3'
+  implementation 'com.google.android:flexbox:1.1.0'
+  implementation 'com.pixplicity.easyprefs:library:1.9.0'
+  implementation 'com.nabinbhandari.android:permissions:3.8'
+  implementation 'com.wowza.gocoder.sdk.android:com.wowza.gocoder.sdk:1.5b7@aar'
+  implementation 'com.facebook.android:facebook-share:4.40.0'
+  implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
+
+  implementation 'org.greenrobot:eventbus:3.0.0'
+
+  implementation 'com.jakewharton.timber:timber:4.7.1'
+  implementation('io.socket:socket.io-client:1.0.0') {
+    // excluding org.json which is provided by Android
+    exclude group: 'org.json', module: 'json'
+  }
+
+
+  api 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+
+  implementation(name: 'line-sdk-4.0.8', ext: 'aar')
+  implementation group: project.KAKAO_SDK_GROUP, name: 'kakaolink',
+          version: project.KAKAO_SDK_VERSION
+  implementation project(':k4l-video-trimmer')
+}
+
+apply plugin: 'com.google.gms.google-services'

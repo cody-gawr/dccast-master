@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="image_picker_choose">
+    <item>@string/create_group_take_image</item>
+    <item>@string/create_group_pick_from_gallery</item>
+  </string-array>
+
+  <string-array name="video_picker_choose">
+    <item>@string/vod_upload_take_video</item>
+    <item>@string/vod_upload_pick_from_gallery</item>
+  </string-array>
+
+  <string-array name="popup_mode">
+    <item>@string/popup_radio</item>
+    <item>@string/popup_popup</item>
+  </string-array>
+</resources>

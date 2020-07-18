@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:animateLayoutChanges="true"
+      android:orientation="vertical"
+  >
+
+    <FrameLayout
+        android:id="@+id/pager_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_viewpager_height"
+    >
+
+      <notq.dccast.custom_view.CustomViewPager
+          android:id="@+id/viewPager"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+      />
+
+      <FrameLayout
+          android:layout_width="wrap_content"
+          android:layout_height="24dp"
+          android:layout_gravity="bottom|center_horizontal"
+      >
+
+        <com.rd.PageIndicatorView
+            android:id="@+id/pageIndicatorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:piv_animationType="swap"
+            app:piv_dynamicCount="true"
+            app:piv_interactiveAnimation="true"
+            app:piv_selectedColor="@color/colorPrimary"
+            app:piv_unselectedColor="@android:color/white"
+            app:piv_viewPager="@id/viewPager"
+            tools:piv_padding="8dp"
+            tools:piv_radius="4dp"
+        />
+
+      </FrameLayout>
+
+    </FrameLayout>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp"/>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_popular"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical">
+
+      <TextView
+          android:id="@+id/videos_type"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:gravity="start"
+          android:paddingLeft="@dimen/margin_size_xlarge"
+          android:paddingStart="@dimen/margin_size_xlarge"
+          android:layout_marginBottom="@dimen/margin_size_xlarge"
+          android:layout_marginTop="@dimen/margin_size_xlarge"
+          android:textColor="@android:color/black"
+          android:textSize="@dimen/font_size_medium"
+          android:textStyle="bold"
+          tools:ignore="RtlSymmetry"
+      />
+
+      <androidx.recyclerview.widget.RecyclerView android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/recyclerView"
+          android:orientation="vertical"/>
+
+      <View android:layout_width="match_parent" android:layout_height="1dp"/>
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+</layout>

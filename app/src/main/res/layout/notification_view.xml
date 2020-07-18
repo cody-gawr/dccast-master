@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notificationbg"
+    android:layout_width="fill_parent"
+    android:layout_height="64.0dip">
+
+
+  <LinearLayout
+      android:gravity="center_vertical"
+      android:orientation="horizontal"
+      android:id="@+id/buttons"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_toLeftOf="@id/btn_resume"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentBottom="true"
+  >
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@+id/textarea"
+        android:paddingLeft="30dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1">
+      <TextView
+          android:ellipsize="marquee"
+          android:layout_gravity="left"
+          android:fadingEdge="horizontal"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="DCCast Player"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+      />
+      <TextView
+          android:ellipsize="marquee"
+          android:layout_gravity="left"
+          android:id="@+id/txt_live_title"
+          android:fadingEdge="horizontal"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:textColor="@color/black"
+      />
+
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/btn_play"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/play_controls_notification"
+        android:src="@drawable/play_button"
+        android:paddingLeft="30dp"
+        android:scaleType="fitCenter"
+        android:layout_weight="1"/>
+    <TextView
+        android:ellipsize="marquee"
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/txt_live_time"
+        android:fadingEdge="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+    />
+  </LinearLayout>
+
+  <ImageButton
+      android:id="@+id/btn_resume"
+      android:layout_width="@dimen/notification_expanded_height"
+      android:layout_height="@dimen/notification_expanded_height"
+      android:scaleType="centerCrop"
+      android:background="@android:color/transparent"
+      android:src="@drawable/ic_splash_logo"
+      android:tint="@color/colorPrimary"
+      android:padding="10dp"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

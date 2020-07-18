@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      tools:ignore="UselessLeaf">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/layout_back_header"/>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tab_height"
+            app:tabBackground="@color/white"
+            app:tabIndicatorGravity="bottom"
+            app:tabIndicatorHeight="3dp"
+            app:tabInlineLabel="false"
+            app:tabMode="fixed"
+            app:tabPaddingBottom="3dp"
+            app:tabPaddingEnd="0dp"
+            app:tabPaddingStart="0dp"
+            app:tabPaddingTop="0dp"
+            app:tabTextAppearance="@style/TabLayoutTextAppearance"
+            app:tabTextColor="@android:color/black">
+
+          <com.google.android.material.tabs.TabItem
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:text="@string/notification_tab_notice"/>
+
+          <com.google.android.material.tabs.TabItem
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:text="@string/notification_tab_live"/>
+
+          <com.google.android.material.tabs.TabItem
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:text="@string/notification_tab_vod"/>
+
+        </com.google.android.material.tabs.TabLayout>
+
+      </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/tab_separator"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <androidx.viewpager.widget.ViewPager
+          android:id="@+id/view_pager"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    </FrameLayout>
+
+  </LinearLayout>
+
+</layout>

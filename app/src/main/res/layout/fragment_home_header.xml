@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+  <FrameLayout
+      android:id="@+id/container"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context=".screens.home.header.HomeHeader"
+      >
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"
+        />
+
+    <LinearLayout
+        android:id="@+id/status_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="@dimen/margin_size_xlarge"
+        android:layout_marginStart="@dimen/margin_size_xlarge"
+        android:layout_marginTop="@dimen/margin_size_xlarge"
+        android:background="@drawable/header_live_shape"
+        >
+
+      <TextView
+          android:id="@+id/status"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/margin_size_small"
+          android:layout_marginLeft="@dimen/margin_size_medium"
+          android:layout_marginRight="@dimen/margin_size_medium"
+          android:layout_marginTop="@dimen/margin_size_small"
+          android:text="@string/header_live"
+          android:textAllCaps="true"
+          android:textColor="@android:color/white"
+          android:textSize="@dimen/font_size_small"
+          />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="@dimen/margin_size_medium"
+        android:layout_marginLeft="@dimen/margin_size_xlarge"
+        android:layout_marginStart="@dimen/margin_size_xlarge"
+        android:orientation="vertical"
+        >
+
+      <TextView
+          android:id="@+id/live_title"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/margin_size_medium"
+          android:shadowColor="@android:color/black"
+          android:shadowRadius="10"
+          android:text="Hit live"
+          android:textColor="@android:color/white"
+          android:textSize="@dimen/font_size_small"
+          android:textStyle="bold"
+          />
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="@dimen/margin_size_xxlarge"
+          android:orientation="horizontal"
+          >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            app:cardCornerRadius="12dp"
+            >
+
+          <de.hdodenhof.circleimageview.CircleImageView
+              android:id="@+id/profile_image"
+              android:layout_width="match_parent"
+              android:layout_height="17dp"
+              android:scaleType="centerCrop"
+              android:src="@drawable/ic_dccast"
+          />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_size_medium"
+            android:layout_marginStart="@dimen/margin_size_medium"
+            android:shadowColor="@android:color/black"
+            android:shadowRadius="10"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_size_small"
+            />
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+  </FrameLayout>
+</layout>

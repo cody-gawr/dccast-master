@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/margin_size_xxlarge"
+      tools:ignore="UnusedAttribute"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorNavigationDrawerBackground"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent"
+    >
+
+      <FrameLayout
+          android:id="@+id/item_live_container"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:background="@android:color/white"
+      >
+
+        <LinearLayout
+            android:id="@+id/item_live"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:orientation="horizontal"
+        >
+
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:src="@drawable/ic_live"
+              android:tint="#383A40"
+              tools:ignore="ContentDescription"
+          />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:layout_marginLeft="@dimen/margin_size_medium"
+              android:layout_marginStart="@dimen/margin_size_medium"
+              android:text="@string/left_menu_title_2"
+              android:textColor="#383A40"
+          />
+
+        </LinearLayout>
+
+      </FrameLayout>
+
+      <Space
+          android:layout_width="@dimen/divider_size"
+          android:layout_height="match_parent"
+      />
+
+      <FrameLayout
+          android:id="@+id/item_vod_container"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:background="@android:color/white"
+      >
+
+        <LinearLayout
+            android:id="@+id/item_vod"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?selectableItemBackground"
+            android:gravity="center"
+            android:orientation="horizontal"
+        >
+
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:src="@drawable/ic_vod"
+              android:tint="#383A40"
+              tools:ignore="ContentDescription"
+          />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:layout_marginLeft="@dimen/margin_size_medium"
+              android:layout_marginStart="@dimen/margin_size_medium"
+              android:text="@string/left_menu_title_3"
+              android:textColor="#383A40"
+          />
+
+        </LinearLayout>
+
+      </FrameLayout>
+
+    </LinearLayout>
+
+  </androidx.cardview.widget.CardView>
+
+</layout>

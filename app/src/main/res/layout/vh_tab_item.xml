@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:text="@string/cast_list_tab_friends"
+      android:textSize="14sp"
+      android:id="@+id/lbl_item"
+      android:textAllCaps="false"
+      android:textStyle="bold"
+      android:textColor="@color/black"
+      fontPath="fonts/Dokdo-Regular.ttf"
+      tools:ignore="MissingPrefix"/>
+
+</LinearLayout>

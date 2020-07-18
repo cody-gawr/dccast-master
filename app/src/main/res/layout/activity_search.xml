@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+  <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      tools:context=".screens.home.search.ActivitySearch"
+      >
+
+    <notq.dccast.custom_view.DMotionLayout
+        android:id="@+id/mainMotionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/main_scene"
+        tools:ignore="UnusedAttribute"
+        >
+
+      <View
+          android:id="@+id/backgroundDim"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:elevation="10dp"
+          />
+
+      <FrameLayout
+          android:id="@+id/container_for_video_search"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:clipToPadding="false"
+          android:elevation="20dp"
+          app:cardElevation="20dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          tools:ignore="MissingPrefix,UnusedAttribute"
+          />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          >
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              >
+
+            <include
+                layout="@layout/activity_search_toolbar"
+                android:id="@+id/toolbar_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="@color/colorGrey"
+                />
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_height"
+                app:tabIndicatorColor="@color/colorPrimary"
+                app:tabMode="fixed"
+                android:visibility="gone"
+                app:tabSelectedTextColor="@color/colorPrimary"
+                app:tabTextAppearance="@style/TabLayoutTextAppearance"
+                >
+
+              <com.google.android.material.tabs.TabItem
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="@string/tab_vod"
+                  />
+
+              <com.google.android.material.tabs.TabItem
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:text="@string/tab_live"
+                  />
+
+            </com.google.android.material.tabs.TabLayout>
+
+          </LinearLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            >
+
+          <androidx.viewpager.widget.ViewPager
+              android:id="@+id/search_pager"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              />
+
+          <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/search_history_recycler_view"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              />
+
+        </FrameLayout>
+
+      </LinearLayout>
+
+    </notq.dccast.custom_view.DMotionLayout>
+
+  </LinearLayout>
+
+</layout>

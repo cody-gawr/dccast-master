@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <TextView
+      android:id="@+id/section"
+      android:layout_width="match_parent"
+      android:layout_height="56dp"
+      android:gravity="center_vertical|start"
+      android:paddingStart="@dimen/margin_size_xlarge"
+      android:background="@color/colorGrey"
+      tools:ignore="RtlSymmetry"/>
+
+</layout>

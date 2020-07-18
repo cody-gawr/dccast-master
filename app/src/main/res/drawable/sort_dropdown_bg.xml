@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+
+
+        <layer-list>
+            <item>
+                <shape>
+                    <stroke
+                        android:width="1dip"
+                        android:color="#E4E4E4" />
+
+                    <corners android:radius="5dp" />
+
+                    <solid android:color="@android:color/transparent" />
+
+                    <padding
+                        android:bottom="8.0dip"
+                        android:left="15.0dip"
+                        android:right="15.0dip"
+                        android:top="8.0dip" />
+                </shape>
+            </item>
+
+
+            <item>
+                <bitmap
+                    android:gravity="center_vertical|right"
+                    android:src="@drawable/ic_sort_arrow" />
+
+            </item>
+
+
+        </layer-list>
+
+
+    </item>
+</layer-list>

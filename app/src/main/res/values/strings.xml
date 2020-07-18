@@ -1,0 +1,696 @@
+<resources>
+  <string name="app_name">DC Cast</string>
+
+  <string name="default_notification_channel_id">dc_cast_notification_id</string>
+  <!-- Twitter Configurations -->
+  <string name="twitter_callback">https://www.dcinside.com</string>
+  <!--<string name="twitter_consumer_key">TGGjgxtGWWQfMYe1no4KSA11N</string>-->
+  <!--<string name="twitter_consumer_secret">T2G7rPQNxqRkg3IIl8Mhk59eRUWYKlf4b2O1ZLRqGw4M4u91dH</string>-->
+  <string name="twitter_consumer_key">2yGo37vnFIC6YWA7jRDTbAQHf</string>
+  <string name="twitter_consumer_secret">aAHtXzkdn4qfl3UfrEf2dS7RJfH5loFbEefJtLpOSFCvEsEGaU</string>
+  <string name="twitter_oauth_verifier">oauth_verifier</string>
+  <!-- End Configurations -->
+
+  <string name="url_privacy">https://nstatic.dcinside.com/dc/m/policy/privacy.html</string>
+  <string name="url_policy">https://nstatic.dcinside.com/dc/m/policy/policy.html</string>
+
+  <!--SODOO TEST KEY-->
+  <string name="kakao_app_key">7a38c4c26f38e8de7b5ce694cc88829c</string>
+  <string name="kakao_scheme">kakao7a38c4c26f38e8de7b5ce694cc88829c</string>
+  <!--OLD KEY-->
+  <!--<string name="kakao_app_key">99e7619cdf7f18f4bc8a2cfadb405554</string>-->
+  <!--<string name="kakao_scheme">kakao99e7619cdf7f18f4bc8a2cfadb405554</string>-->
+  <string name="kakaolink_host">kakaolink</string>
+
+  <!-- facebook -->
+  <!--SODOO TEST-->
+  <string name="facebook_app_id">391686478328052</string>
+  <!--DC Cast-->
+  <!--<string name="facebook_app_id">300679740735030</string>-->
+
+  <string name="toolbar_menu_search">search</string>
+  <string name="tab_live">Live</string>
+  <string name="tab_vod">VOD</string>
+
+  <!--=======================LEFT MENU==============================-->
+
+  <string name="left_menu_username">사용자명</string>
+  <string name="left_menu_title_0">홈</string>
+  <string name="left_menu_title_1">My 콘텐츠</string>
+  <string name="left_menu_title_2">Live 하기</string>
+  <string name="left_menu_title_3">VOD 등록</string>
+  <string name="left_menu_title_4">즐겨찾기</string>
+  <string name="left_menu_title_5">캐스트라인</string>
+
+  <string name="header_live">인기 LIVE</string>
+  <string name="bottom_sheet_title_buuz">만두 선물하기</string>
+  <string name="dumpling_field_title">만두 갯수</string>
+  <string name="hint_search">검색</string>
+
+  <string name="open">Open</string>
+  <string name="close">Close</string>
+
+  <string name="btn_send_gifts">만두 전송</string>
+  <string name="btn_see_all"><![CDATA[전체보기 >]]></string>
+
+  <!--=======================LOGIN & SIGN UP==============================-->
+
+  <!--LOGIN SCREEN-->
+  <string name="login_username_hint">사용자명</string>
+  <string name="login_password_hint">비밀번호</string>
+  <string name="login_button">로그인</string>
+  <string name="login_forget_password">비밀번호 찾기</string>
+  <string name="login_register">회원가입</string>
+
+  <string name="login_required">먼저 로그인 하십시오</string>
+
+  <!--FORGET PASSWORD SCREEN-->
+  <string name="activity_forget_password">비밀번호 찾기</string>
+
+  <!--SIGN UP SCREEN-->
+  <string name="activity_sign_up">회원가입</string>
+
+  <!--=======================SETTINGS==============================-->
+
+  <!--SETTINGS-->
+  <string name="activity_settings">설정</string>
+  <string name="settings_live_settings">설정</string>
+  <string name="settings_user_center">고객센터</string>
+  <string name="settings_terms_of_condition">약관 및 정책</string>
+  <string name="activity_set_pass_code">비밀번호 입력</string>
+  <string name="activity_enter_pass_code">비밀번호 입력</string>
+  <string name="settings_verified_success">잠금 설정이 되었습니다</string>
+  <string name="verify_set_lock_password">잠금 설정이 확인되었습니다</string>
+  <string name="settings_history_information"><![CDATA[기록 및 개인정보]]></string>
+  <string name="settings_auto_login">자동로그인</string>
+  <string name="settings_mobile_data_description">3G/LTE등 모바일 데이터로 Live 하기/보기, VOD 등록 /보기를 할 경우 알림
+    제공
+  </string>
+  <string name="settings_mobile_data">모바일 데이터 사용 제한</string>
+  <string name="settings_mobile_data_on">모바일 데이터 사용 제한 되었습니다. WiFi 에서만 자동 재생됩니다.</string>
+  <string name="settings_mobile_data_off">모바일 데이터 사용 제한이 해제되었습니다. 3G/LTE/WiFi 에서 자동 재생 됩니다.</string>
+  <string name="settings_auto_login_on">자동 로그인</string>
+  <string name="settings_auto_login_off">자동 로그인</string>
+  <string name="settings_notification_settings">알림 설정</string>
+  <string name="settings_security_lock">암호 잠금</string>
+  <string name="settings_information">서비스 문의</string>
+  <string name="settings_item_version">버전 (%1$s)</string>
+  <string name="settings_privacy">개인정보처리방침</string>
+  <string name="settings_license">라이선스</string>
+  <string name="settings_log_out">로그아웃</string>
+
+  <string name="settings_all_notification">전체 알림</string>
+  <string name="settings_live_notification">Live 알림</string>
+  <string name="settings_vod_notification">VOD 알림</string>
+  <string name="settings_chat_notification">Chat 알림</string>
+
+  <string name="logout_confirm_title">로그아웃</string>
+  <string name="logout_confirm_body">로그아웃 하시겠습니까?</string>
+  <string name="logout_confirm_yes">확인</string>
+  <string name="logout_confirm_no">취소</string>
+
+  <!--NOTIFICATION SETTINGS-->
+  <string name="activity_notification_settings">알림 설정</string>
+  <string name="clear_live_history_title">Live 최근 보기 기록 지우기</string>
+  <string name="clear_live_history_body">Live 보기 기록 삭제하시겠습니까?</string>
+  <string name="clear_live_history_yes">확인</string>
+  <string name="clear_live_history_no">취소</string>
+  <string name="clear_vod_history_title">VOD 최근 보기 기록 지우기</string>
+  <string name="clear_vod_history_body">VOD 최근 보기 기록 삭제하겠습니까?</string>
+  <string name="clear_vod_history_yes">확인</string>
+  <string name="clear_vod_history_no">취소</string>
+  <string name="clear_search_history_title">검색 기록 삭제</string>
+  <string name="clear_search_history_body">최근 보기 검색기록 삭제하시겠습니까?</string>
+  <string name="clear_search_history_yes">확인</string>
+  <string name="clear_search_history_no">취소</string>
+
+  <!--HISTORY AND INFORMATION-->
+  <string name="activity_history_information">기록 및 개인정보</string>
+  <string name="history_clear_live_history">Live 최근 보기 기록 지우기</string>
+  <string name="history_clear_vod_history">VOD 최근 보기 기록 지우기</string>
+  <string name="history_clear_search_history">검색 기록 삭제</string>
+  <string name="history_stop_recent_view">최근 보기 중지</string>
+  <string name="history_stop_recent_history">최근 보기 기록 일시 중지</string>
+  <string name="live_history_cleared">Live 최근 보기 기록이 삭제 되었습니다</string>
+  <string name="vod_history_cleared">VOD 최근 보기 기록이 삭제 되었습니다</string>
+  <string name="search_history_cleared">최근 검색 기록이 삭제 되었습니다</string>
+
+  <!--NOTIFICATION-->
+  <string name="activity_notification">알림</string>
+  <string name="notification_tab_notice">공지 사항</string>
+  <string name="notification_tab_live">Live</string>
+  <string name="notification_tab_vod">VOD</string>
+  <string name="notification_live_title_html">
+    <![CDATA[<big><b><font color=#353945>%1$s</font></b></big> <font color=#353945>just starting a new live</font> <font color=#999BA1>%2$s people watching</font>]]></string>
+  <string name="notification_notice_title_html">
+    <![CDATA[<big><b><font color=#353945>%1$s</font></b></big> <font color=#999BA1>share VOD for you</font> <font color=#999BA1>6h</font>]]></string>
+  <string name="notification_notice_check_html">
+    <![CDATA[<big><b><font color=#353945>%1$s</font></b></big> <font color=#999BA1> it\'s almost time to reward to rewind 12.17.18</font> <font color=#999BA1>6h</font>]]></string>
+  <string name="notification_vod_title_html">
+    <![CDATA[<big><b><font color=#353945>%1$s</font></b></big> <font color=#353945>just posted a new video</font> <font color=#999BA1>6h</font>]]></string>
+
+  <!--=======================MY CONTENT==============================-->
+
+  <!--FAVORITE-->
+  <string name="activity_favorite">즐겨찾기</string>
+  <string name="favorite_video_count">즐겨찾기 (%1$d)</string>
+
+  <!--MY CONTENT-->
+  <string name="activity_my_content">My 콘텐츠</string>
+  <string name="my_content_channel">내 채널</string>
+  <string name="my_content_favorite">즐겨찾기</string>
+  <string name="my_content_subscribe">구독</string>
+  <string name="my_content_recent">최근 본 Live/VOD</string>
+
+  <!--MY CHANNEL-->
+  <string name="activity_my_channel">내 채널</string>
+  <string name="my_channel_tab_home">홈</string>
+  <string name="my_channel_tab_live">라이브</string>
+  <string name="my_channel_tab_vod">VOD</string>
+  <string name="my_channel_subscribe">구독</string>
+  <string name="my_channel_followers">팔로워</string>
+  <string name="my_channel_following">팔로잉</string>
+
+  <!--MY CHANNEL SORT-->
+  <string name="my_channel_sort_recent">최근</string>
+  <string name="my_channel_sort_favorite">즐겨찾기</string>
+  <string name="my_channel_sort_title">이름</string>
+  <string name="my_channel_sort_views">조회수</string>
+
+  <!--RECENT-->
+  <string name="activity_recent">최근 본 Live/VOD</string>
+  <string name="recent_tab_live">Live</string>
+  <string name="recent_tab_vod">VOD</string>
+
+  <!--SUBSCRIBE-->
+  <string name="activity_subscribe">구독</string>
+  <string name="subscriptions_count">구독자 %1$d</string>
+  <string name="subscriptions_stat">구독자 %1$s</string>
+
+  <!--SUBSCRIBE SORT-->
+  <string name="subscribe_sort_recent">최근</string>
+  <string name="subscribe_sort_on_air">방송중</string>
+  <string name="subscribe_sort_title">이름</string>
+
+  <string name="sort_title">정렬:</string>
+
+  <!--=======================CAST LIST==============================-->
+
+  <!--CAST LIST-->
+  <string name="fragment_cast_list">캐스트 리스트</string>
+  <string name="cast_list_tab_followers">팔로워</string>
+  <string name="cast_list_tab_following">팔로잉</string>
+  <string name="cast_list_tab_friends">친구</string>
+  <string name="cast_list_tab_groups">그룹</string>
+  <string name="cast_list_following">팔로잉</string>
+  <string name="cast_list_following_no_data">닉네임/ID로 검색으로 팔로우 할 수 있습니다</string>
+  <string name="cast_list_follow">팔로우</string>
+  <string name="cast_list_add_friend">친구추가</string>
+  <string name="cast_list_confirm">확인</string>
+  <string name="followers_count">팔로워 (%1$s)</string>
+  <string name="following_count">팔로잉 (%1$s)</string>
+  <string name="unfollowing_count">언팔로잉 (%1$s)</string>
+  <string name="friends_count">내 친구 (%1$s)</string>
+  <string name="recent_followers">최근 팔로워</string>
+  <string name="my_live_history">나의 live 기록 (%1$s)</string>
+  <string name="activity_my_live_history">나의 live 기록</string>
+  <string name="recent_friend">친구</string>
+  <string name="groups_count">그룹 (%1$s)</string>
+  <string name="own_groups_count">개인 그룹 (%1$s)</string>
+
+  <string name="vod_count">최신 VOD (%1$d)</string>
+  <string name="channel_live_video">진행중인 Live가 없습니다.</string>
+
+  <!--USER FOLLOW-->
+  <string name="activity_user_follow">팔로우</string>
+  <string name="search_user_cancel">취소</string>
+
+  <string name="activity_search_followers">팔로워 검색</string>
+  <string name="activity_search_groups">그룹 검색</string>
+
+  <!--FRIEND SEARCH-->
+  <string name="activity_search_friend">친구 찾기</string>
+  <string name="search_friend_request">요청 (%1$d)</string>
+  <string name="search_friend_result">Result (%1$d)</string>
+  <string name="add_friend_search_no_data">닉네임/ID 를 입력해주세요</string>
+
+  <!--ADD FRIEND-->
+  <string name="activity_add_friend">요청</string>
+  <string name="add_friend_request">요청</string>
+  <string name="add_friend_confirm">확인</string>
+  <string name="add_friend_friends">친구</string>
+  <string name="add_friend_add_friend">친구 추가</string>
+  <string name="add_friend_request_sent">my 친구</string>
+
+  <!--CREATE GROUP-->
+  <string name="activity_create_group">그룹 만들기</string>
+  <string name="activity_update_group">업데이트 그룹</string>
+  <string name="group_detail_save">저장</string>
+  <string name="create_group_name_hint">그룹 명</string>
+  <string name="create_group_description_hint">그룹 설명</string>
+  <string name="group_detail_start_live">Live 시작</string>
+  <string name="group_detail_upload_vod">VOD 업로드</string>
+  <string name="group_live_live_share">Live 공유</string>
+  <string name="group_live_live_type">Live 타입</string>
+  <string name="group_live_group_live">그룹 Live</string>
+  <string name="group_live_camera">카메라</string>
+  <string name="group_live_settings_title">Live 팔로잉 설정</string>
+  <string name="group_live_start">Live 시작</string>
+  <string name="group_live_set_lock">잠금 설정</string>
+  <string name="group_live_chat_lock">채팅 잠금</string>
+  <string name="group_live_live_lock">Live 잠금</string>
+  <string name="group_live_cancel">취소</string>
+  <string name="create_group_add">추가</string>
+  <string name="create_group_add_button">그룹 추가</string>
+  <string name="create_group_add_people">멤버 추가</string>
+
+  <!--GROUP ADD PEOPLE-->
+  <string name="group_add_people_to">투:</string>
+  <string name="create_group_member">멤버</string>
+  <string name="create_group_leave_group">그룹 나가기</string>
+  <string name="create_group_select_action">사진 선택해주세요</string>
+  <string name="create_group_take_image">카메라</string>
+  <string name="create_group_pick_from_gallery">갤러리</string>
+  <string name="vod_upload_select_action">VOD 업로드 방식을 선택해 주세요</string>
+  <string name="vod_upload_take_video">촬영</string>
+  <string name="vod_upload_pick_from_gallery">갤러리</string>
+  <string name="activity_add_people">멤버 추가</string>
+
+  <string name="popup_mode_select">보기 옵션</string>
+  <string name="popup_radio">라디오로 듣기</string>
+  <string name="popup_popup">팝업으로 보기</string>
+
+  <!--GROUP DETAIL-->
+  <string name="group_tab_member">멤버</string>
+  <string name="group_tab_live">라이브</string>
+  <string name="group_tab_vod">VOD</string>
+
+  <string name="leave_group_confirm_title">그룹 나가기</string>
+  <string name="leave_group_confirm_body">그룹을 삭제 하시겠습니까?</string>
+  <string name="leave_group_confirm_yes">확인</string>
+  <string name="leave_group_confirm_no">취소</string>
+
+  <!--=======================VOD UPLOAD==============================-->
+
+  <!--UPLOAD FINISH-->
+  <string name="activity_upload_vod">업로드 완료</string>
+  <string name="activity_edit_vod">미디어 수정</string>
+  <string name="upload_finish_title_hint">제목</string>
+  <string name="upload_finish_description_hint">설명을 입력해 주세요.</string>
+  <string name="label_select_video">비디오 선택</string>
+  <string name="toast_cannot_retrieve_selected_video">비디오 업로드 불가</string>
+
+  <string name="vod_upload_thumbnail_choose_title">썸네일 수정</string>
+  <string name="vod_upload_thumbnail_choose_next">다음</string>
+
+  <string name="vod_upload_category">카테고리</string>
+  <string name="vod_upload_share">공개 범위</string>
+  <string name="vod_upload_dc_inside">dcinside</string>
+  <string name="vod_upload_select_gallery">갤러리 선택</string>
+
+  <string name="vod_upload_post">업로드</string>
+  <string name="vod_upload_update">최신 정보</string>
+
+  <string name="vod_share_public">모두 공개</string>
+  <string name="vod_share_private">비공개</string>
+  <string name="vod_share_under_19">19금</string>
+
+  <!--=======================HOME==============================-->
+  <!--HOME-->
+  <string name="recent">최근</string>
+  <string name="popular">인기</string>
+  <string name="home_no_data_live">게임 카테고리에 현재 진행중인 Live가 없 습니다</string>
+  <string name="home_no_data_vod">선택하신 카테고리에 VOD가 없습니다</string>
+
+  <string name="home_see_all"><![CDATA[전체보기 >]]></string>
+
+  <!--=======================WATCH VIDEO==============================-->
+  <!--VIDEO REPORT-->
+  <string name="vod_report_title">VOD 신고하기</string>
+  <string name="live_report_title">Live 신고하기</string>
+  <string name="report_dialog_title">신고하기</string>
+  <string name="report_success">VOD 신고가 완료되었습니다</string>
+  <string name="report_live_success">Live 신고가 완료되었습니다</string>
+  <string name="report_comment_success">댓글 신고가 완료되었습니다.</string>
+  <string name="vod_report_1">광고 신고</string>
+  <string name="vod_report_2">음란물 신고</string>
+  <string name="vod_report_3">욕설/비방 신고</string>
+  <string name="vod_report_4">기타 내용 신고</string>
+  <string name="vod_report_cancel">취 소</string>
+  <string name="vod_report_send">확 인</string>
+  <string name="already_reported">이미 신고 됨</string>
+
+  <!--DELETE-->
+  <string name="delete_video_confirm_body">VOD는 삭제 시 복구되지 않습니다. 삭제하시겠습니까? </string>
+  <string name="delete_video_confirm_yes">확인</string>
+  <string name="delete_video_confirm_no">취소</string>
+
+  <!--QUALITY-->
+  <string name="vod_quality_title">VOD 해상도 선택</string>
+  <string name="vod_quality_auto">자동</string>
+  <string name="vod_quality_240">240dp</string>
+  <string name="vod_quality_480">480dp</string>
+  <string name="vod_quality_720">720dp</string>
+  <string name="vod_quality_1080">1080dp</string>
+  <string name="vod_quality_section_title">기타</string>
+
+  <!--LIVE QUALITY-->
+  <string name="live_quality_title">Live 해상도 선택</string>
+  <string name="live_quality_auto">자동</string>
+  <string name="live_quality_240">저화질</string>
+  <string name="live_quality_480">중화질</string>
+  <string name="live_quality_720">고화질</string>
+  <string name="live_quality_1080">방송화질</string>
+  <string name="live_quality_section_title">기타</string>
+
+  <string name="video_user_subscribe">구독</string>
+  <string name="video_user_subscribed">구독 됨</string>
+
+  <!--SHARE-->
+  <string name="share_title">디시캐스트 보내기</string>
+  <string name="share_friends">친구</string>
+  <string name="share_to_social">링크공유</string>
+  <string name="video_shared_success">비디오 업로드 완료</string>
+  <string name="dialog_error">오류</string>
+  <string name="dont_have_facebook">페이스 북 앱이 없습니다</string>
+  <string name="cant_share_facebook">페이스북에 공유 할 수 없습니다</string>
+  <string name="dont_have_line">라인 앱이 없습니다</string>
+  <string name="cant_share_line">라인 앱에 공유할 수 없습니다</string>
+  <string name="dont_have_kakao">카카오 앱이 없습니다</string>
+  <string name="cant_share_kakao">카카오 앱에 공유할 수 없습니다</string>
+  <string name="dont_have_twitter">트위터 앱이 없습니다.</string>
+  <string name="cant_share_twitter">트위터 공유 불가능합니다.</string>
+  <string name="login_web">로그인</string>
+  <string name="view_on_the_web">웹에서 보기</string>
+
+  <!--VIEW MORE-->
+  <string name="view_more_go_to_channel">채널 보러가기</string>
+  <string name="view_more_edit">삭제수정</string>
+  <string name="view_more_delete">삭제</string>
+  <string name="view_more_share">공유</string>
+  <string name="view_more_favorite">즐겨찾기</string>
+  <string name="remove_from_favorite">즐겨찾기 해제</string>
+  <string name="add_to_favorite">즐겨찾기</string>
+
+  <!--COMMENT-->
+  <string name="comments_title">댓글</string>
+  <string name="replies_title">답글</string>
+  <string name="edit_comment">댓글 수정</string>
+  <string name="comment_edit_reply">답글</string>
+  <string name="comment_edit_edit">수정</string>
+  <string name="comment_edit_report">댓글 신고</string>
+  <string name="comment_edit_delete">삭제</string>
+
+  <!--STICKERS-->
+  <string name="stickers_title">디시콘</string>
+
+  <!--=======================MANDU==============================-->
+  <!--MANDU HISTORY-->
+  <string name="activity_mandu_history">만두 기록</string>
+  <string name="mandu_send_reach_limit">200 개가 넘는 만두는 이전 할 수 없습니다.</string>
+
+  <!--EDIT PROFILE-->
+  <string name="activity_edit_profile">프로필 수정</string>
+  <string name="edit_profile_save">저장</string>
+  <string name="hint_say_something">채팅…</string>
+  <string name="successfully_updated">업데이트 완료</string>
+
+  <string name="vod_edit_success">업데이트 완료</string>
+  <string name="vod_upload_success">VOD 업로드</string>
+  <string name="go_to_video">비디오 바로가기</string>
+  <string name="set_lock_password">비밀번호 입력해 주세요</string>
+  <string name="live_stop_success">Live 중지 완료 되었습니다</string>
+  <string name="live_lock_password">Live 비밀번호 입력해 주세요</string>
+  <string name="password_not_verified">비밀번호를 전부 입력해 주세요</string>
+  <string name="password_verified">확인 불가</string>
+
+  <!--NO DATA-->
+  <string name="no_data">보여줄 것이 없다.</string>
+  <string name="channel_vod_no_data">최신 VOD 없습니다.</string>
+  <string name="video_search_no_data">\"%1$s\" 검색 결과가 없습나다.</string>
+  <string name="video_search_no_data_empty">검색어를 입력해주세요</string>
+  <string name="my_channel_no_data">검색 결과가 없습니다.</string>
+  <string name="group_no_data">그룹이 없습니다.</string>
+  <string name="cast_line_no_data">팔로워 없습니다.</string>
+
+  <!--=======================LIVE==============================-->
+
+  <!--LIVE STREAM-->
+  <string name="live_stream_live">LIVE</string>
+  <string name="live_stream_portrait">세로</string>
+  <string name="live_stream_landscape">가로</string>
+  <string name="choose_orientation">유형</string>
+  <string name="stop_live_confirm_title">중지 및 종료</string>
+  <string name="stop_live_confirm_body">Live 방송 중지 하시겠습니까?</string>
+  <string name="stop_live_confirm_yes">확인</string>
+  <string name="stop_live_confirm_no">취소</string>
+
+  <string name="live_need_to_join">가입 요청</string>
+  <string name="video_turned_off">Live 중지 되었습니다</string>
+  <string name="audio_turned_off">녹음이 중지 되었습니다</string>
+  <string name="video_audio_turned_off">음량 및 비디오 비활성화</string>
+
+  <!--LIVE SETTINGS-->
+  <string name="activity_live_settings">Live 하기</string>
+  <string name="live_settings_live_distribute">Live 배포 범위</string>
+  <string name="live_settings_live_title">Live 제목</string>
+
+  <string name="live_settings_live_type">Live 진행 방법</string>
+  <string name="item_live_type_camera">카메라</string>
+  <string name="item_live_type_album">앨범</string>
+  <string name="item_live_type_radio_mode">라디오 모드</string>
+
+  <string name="live_settings_category_setting">카테고리 설정</string>
+  <string name="live_settings_set_lock">잠금 설정</string>
+  <string name="live_settings_broadcast_orientation">화면 회전 설정</string>
+  <string name="live_settings_broadcast_quality">방송화질</string>
+  <string name="live_settings_restricted">19금 설정</string>
+  <string name="live_settings_chat_lock">채팅 잠금</string>
+  <string name="live_settings_live_lock">Live 잠금</string>
+  <string name="live_settings_bottom_lock">Live 잠금 비밀번호 입력</string>
+  <string name="live_settings_verified_success">Live 잠금 완료되었습니다</string>
+
+  <string name="broadcast_portrait">세로 방향</string>
+  <string name="broadcast_landscape">가로 방향</string>
+
+  <string name="broadcast_block_3">채팅 차단</string>
+  <string name="broadcast_block_permanent">사용자 차단</string>
+
+  <string name="broadcast_high_quality">고화질</string>
+  <string name="broadcast_medium_quality">중화질</string>
+  <string name="broadcast_low_quality">저화질</string>
+
+  <string name="item_distribute_cast_line">일반</string>
+  <string name="item_distribute_subscriber">구독자</string>
+  <string name="item_distribute_mesh_type">메쉬형</string>
+
+  <string name="verify_live_lock_password">Live 잠금 비밀번호를 입력해 주세요.</string>
+
+  <string name="live_settings_subscriber_information">구독자 정보</string>
+  <string name="live_settings_cast_live_information">케스트라인 정보</string>
+  <string name="live_settings_followers">팔로워</string>
+  <string name="live_settings_second_followers">2차 팔로워</string>
+  <string name="live_settings_third_followers">3차 팔로워</string>
+
+  <string name="live_settings_start_live">Live 시작하기</string>
+  <string name="go_to_live">Go live</string>
+  <string name="stop_live">중지 및 종료</string>
+
+  <!--=======================VALIDATE==============================-->
+  <!--VALIDATE-->
+  <string name="validate_enter_username">Id 입력해 주세요</string>
+  <string name="validate_enter_password">비밀번호 입력해 주세요</string>
+  <string name="validate_enter_group_name">그룹명을 입력해 주세요</string>
+  <string name="validate_nickname">닉네임 입력해 주세요</string>
+  <string name="validate_enter_status">상태 메세지 입력해 주세요</string>
+  <string name="validate_phone_number">전화번호 입력해 주세요</string>
+  <string name="validate_live_title">제목을 입력해 주십시오</string>
+  <string name="validate_vod_upload_title">제목을 입력해 주세요.</string>
+  <string name="validate_vod_description_title">제목을 입력해 주세요.</string>
+  <string name="validate_live_category">카테고리를 입력해 주세요.</string>
+  <string name="validate_vod_description">설명</string>
+  <string name="validate_vod_gallery">케테고리 선택을 해주세요.</string>
+  <string name="validate_search_value">검색 값을 입력하십시오.</string>
+  <string name="validate_comment">댓글 입력</string>
+  <string name="validate_report_reason">자세한 신고내용을 입력해 주세요</string>
+  <string name="validate_change_nickname">닉네임 입력해 주세요</string>
+  <string name="validate_mandu_password">비밀번호 입력해 주세요</string>
+
+  <!--PROGRESS-->
+  <string name="progress_updating">업데이트 중…</string>
+  <string name="uploading_thumbnail">썸네일 업로드 중</string>
+  <string name="updating_profile">프로필 업데이트</string>
+  <string name="creating_live_media">Live 미디어 생성…</string>
+  <string name="please_wait">잠시만 기다려주세요…</string>
+  <string name="preparing">준비중</string>
+  <string name="uploading">업로드 중</string>
+  <string name="creating_media">생성중</string>
+  <string name="processing_media">작성중</string>
+  <string name="trimming_video">비디오 편집…</string>
+  <string name="posting_to_twitter">트위터 올리기…</string>
+
+  <!--=======================PERMISSION==============================-->
+  <!--PERMISSION-->
+  <string name="permission_warning">경고</string>
+  <string name="permission_title_rationale">승인</string>
+  <string name="need_camera_permission">카메라 접근 허용이 필요합니다. 설정해 주세요</string>
+  <string name="need_read_storage_permission">스토리지 읽기 허용이 필요합니다. 설정해 주세요</string>
+  <string name="need_storage_permission">스토리지 허용이 필요합니다. 설정해 주세요</string>
+
+  <!--=======================OTHER==============================-->
+  <!--OTHER-->
+  <string name="label_ok">OK</string>
+  <string name="label_cancel">취소</string>
+  <string name="delete">삭제</string>
+  <string name="error">오류</string>
+  <string name="error_login">아이디 또는 비밀번호가 잘못되었습니다</string>
+  <string name="error_with">오류 %1$s</string>
+  <string name="header_action_add">추가</string>
+  <string name="search_no_videos_found">비디오를 찾을 수 없습니다</string>
+  <string name="success">성공</string>
+  <string name="request_canceled">요청 취소</string>
+  <string name="add_public_comment">공개 댓글</string>
+  <string name="add_public_reply">공개 댓글</string>
+
+  <string name="edit_public_comment">공개 댓글 수정하기</string>
+  <string name="edit_public_reply">공개 답글 수정하기</string>
+  <string name="profile_status">상태 메시지</string>
+  <string name="profile_nickname">닉네임</string>
+  <string name="profile_id">ID</string>
+  <string name="profile_email">이메일 주소</string>
+  <string name="profile_phone">전화 번호</string>
+  <string name="value_share_type_19">19세 미만 금지</string>
+  <string name="value_share_type_private">비공개</string>
+  <string name="value_share_type_public">모두 공개</string>
+  <string name="live_change_nickname">닉네임 변경</string>
+  <string name="live_change_nickname_hint">닉네임</string>
+  <string name="live_change_nickname_body">한글 ?글자까지 닉네임으로 사용할 수 있습니다.</string>
+  <string name="change_nickname_verified">사용 가능한 닉네임 입니다.</string>
+  <string name="change_nickname_not_verified">이미 사용 중인 닉네임 입니다</string>
+  <string name="change_nickname_check">검사</string>
+  <string name="change_nickname_yes">확인</string>
+  <string name="change_nickname_no">취소</string>
+
+  <string name="mandu_password_title">만두 전송을 위해 비밀번호를 다시 한번 입력해 주세요.</string>
+  <string name="mandu_cancel">취소</string>
+  <string name="mandu_send">전송</string>
+  <string name="age_confirm_cancel">취 소</string>
+  <string name="age_confirm_confirm">확 인</string>
+  <string name="age_confirm_body">성인 인증이 필요합니다. 인증 하시겠습니까?</string>
+
+  <string name="my_live_history_video_count">나의 live 기록 (%1$d)</string>
+
+  <string name="comment_disabled_title">댓글 중지되었습니다</string>
+  <string name="comment_disabled_body">댓글 중지되었습니다.</string>
+  <string name="comment_disabled_yes">확인</string>
+
+  <string name="vod_delete_success">VOD 삭제가 완료 되었습니다.</string>
+  <string name="settings_update">업데이트</string>
+  <string name="on_air">ON AIR</string>
+  <string name="live">LIVE</string>
+  <string name="delete_follower_confirm">기존 팔로잉 (%1$s) 를 삭제하시겠습니까?</string>
+  <string name="delete_friend_confirm">친구에서 삭제 하시겠습니까?</string>
+  <string name="delete_group_confirm">그룹을 (%1$s) 삭제하시겠습니까?</string>
+  <string name="delete_group_member_confirm">그룹에서 삭제하시겠습니까?</string>
+  <string name="delete_group_member_success">그룹에서 삭제되었습니다.</string>
+  <string name="delete_unfollowing_confirm">기존 팔로잉 (%1$s) 를 삭제하시겠습니까?</string>
+  <string name="confirm_yes">확인</string>
+  <string name="confirm_no">취소</string>
+  <string name="tab_contact_us">문의하기</string>
+  <string name="tab_inquery_list">내 문의내역</string>
+  <string name="activity_contact_us_detail">문의하기</string>
+  <string name="contact_us_answer">답변 내용</string>
+  <string name="contact_us_information">정보</string>
+  <string name="contact_us_status">내 현재 상황 공유</string>
+  <string name="contact_us_contact_date">문의일</string>
+  <string name="contact_us_type">타입</string>
+  <string name="contact_us_title">제목</string>
+  <string name="create_contact_us_title">서비스 관련 문의 사항을 남겨주세요. \n문의답변은 ‘내 문의내역’에서 확인할 수 있습니다.
+  </string>
+  <string name="create_contact_image">파일 첨부</string>
+  <string name="create_contact_choose_image">첨부 이미지를 업로드하세요.</string>
+  <string name="create_contact_choose_image_desc">• 이미지 확장자는 jpg.jpeg.png.gif 가능합니다. \n• 개인정보 서류는
+    접수하지 않습니다.
+  </string>
+  <string name="create_contact_title_hint">문의 제목</string>
+  <string name="create_contact_type_hint">분류</string>
+  <string name="create_contact_information_hint">내용</string>
+  <string name="create_send_contact">문의하기</string>
+
+  <string name="validate_contact_title">문의 제목/내용을 입력해 주시길 바랍니다</string>
+  <string name="validate_contact_type">문의 종류를 선택해 주시길 바랍니다</string>
+  <string name="validate_contact_information">정보 입력</string>
+  <string name="contact_type_1">저작권</string>
+  <string name="contact_type_2">만두</string>
+  <string name="contact_type_3">화질/해상도</string>
+  <string name="contact_type_4">기타</string>
+  <string name="contact_type_5">청소년 유해신고</string>
+  <string name="contact_success">문의하기가 완료 되었습니다. 문의 내역은 ‘내 문의내역’에서 확인해주시길 바랍니다.</string>
+  <string name="dialog_contact_confirm">문의를 하시겠습니까?</string>
+  <string name="contact_confirm_yes">확 인</string>
+  <string name="contact_confirm_no">취 소</string>
+  <string name="password_set">암호 잠금 설정이 되었습니다</string>
+  <string name="password_not_set">암호 잠금이 해제 되었습니다.</string>
+  <string name="notification_watch">손목 시계</string>
+  <string name="subscribed">구독이 완료 되었습니다</string>
+  <string name="subscribe_cancel">구독이 취소 되었습니다</string>
+  <string name="popup_change">팝업 보기로 변경합니다</string>
+  <string name="confirm_delete_comment">댓글은 삭제 시 복구되지 않습니다. 삭제 하시겠습니까?</string>
+  <string name="buuz_max">보유한 만두가 부족하여 선물할 수 없습니다</string>
+  <string name="audio_enabled">음소거 해제</string>
+  <string name="audio_disabled">음소거</string>
+  <string name="radio_mode">라디오로 듣기</string>
+  <string name="view_popup">팝업으로 보기</string>
+  <string name="delete_dislike">싫어요를 취소하셨습니다</string>
+  <string name="create_like">좋아요를 하셨습니다</string>
+  <string name="create_dislike">싫어요를 하셨습니다</string>
+  <string name="delete_like">좋아요를 취소하셨습니다</string>
+  <string name="create_favorite">즐겨찾기에 추가했습니다</string>
+  <string name="delete_favorite">즐겨찾기가 해제되었습니다</string>
+  <string name="change_nickname_success">‘%1$s’ 닉네임으로 변경되었습니다</string>
+  <string name="vod_resolution_changed">(%1$s) 로 변경됩니다.</string>
+  <string name="resolution_toast_1080">원본화질</string>
+  <string name="resolution_toast_720">고화질</string>
+  <string name="resolution_toast_480">중화질</string>
+  <string name="resolution_toast_240">저화질</string>
+  <string name="resolution_toast_auto">자동</string>
+  <string name="channel_name">%1$s 채널</string>
+  <string name="user_blocked_from_live">해당 Live에서 접속할 수 없습니다</string>
+  <string name="mesh_type_confirm">메쉬형 Live 이용자 모집 공지
+    게임
+    메쉬형10L0ive 이용자 모집이란?
+    고화질
+    메쉬형 Live는 메쉬형 그룹에 속한 이용자
+    에게만 Live 참여를 요청할 수 있습니다.
+    메쉬형 이용자가 Live를 보면서 광고를 보 거나 터치하면 BJ와 이용자가 광고 수익 을 함께 가져 갑니다.
+    메쉬형 이용자 신청 리스트는 My콘텐츠>
+    메쉬형 이용자 에서 확인할 수 있습니다.
+  </string>
+  <string name="not_answered">답변 대기 중입니다</string>
+  <string name="admin_blocked_title">Live 중지되었습니다</string>string>
+  <string name="blocked_from_admin">관리자 잠금 설정되었습니다</string>
+  <string name="category_all">메인</string>
+
+  <string name="no_internet_connection">인터넷 상태를 확인 하십시오</string>
+  <string name="live_full">인원 수 경과 하였습니다</string>
+  <string name="comment_already_liked">이미 좋아요 눌렀습니다</string>
+  <string name="comment_already_disliked">이미 싫어요 눌렀습니다</string>
+  <string name="state_answered">답변</string>
+  <string name="contact_us_answer_date">답변일 :</string>
+  <string name="mandu_your_dumpling">%1$s의 만두</string>
+  <string name="mandu_buy">만두 구매</string>
+  <string name="mandu_unit">개</string>
+  <string name="share_facebook">페이스북</string>
+  <string name="share_line">라인</string>
+  <string name="share_kakao">카카오톡</string>
+  <string name="share_twitter">트위터</string>
+  <string name="share_more">기타</string>
+  <string name="vod_report_detail_hint">자세한 산고 내용을 입력해 주세요.</string>
+  <string name="vod_views">조회수</string>
+  <string name="search_hint">검색</string>
+  <string name="report_comment_title">댓글 신고하기</string>
+  <string name="block_end_date">차단 해제:</string>
+  <string name="comment_no_data">댓글이 없습니다</string>
+  <string name="reply_no_data">댓글이 없습니다</string>
+  <string name="user_data_using">모바일 데이터 제한이 사용 설정 되었습니다</string>
+</resources>

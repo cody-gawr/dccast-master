@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/videoPlayerWithAdPlayback"
+    android:layout_width="280dp"
+    android:layout_height="175dp"
+    android:orientation="vertical"
+    android:background="@color/search_hint">
+
+  <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+      android:id="@+id/video_player"
+      android:focusable="true"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:use_controller="false"/>
+
+  <FrameLayout
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#22000000">
+
+      <TextView
+          android:id="@+id/txt_live_title"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:paddingStart="15dp"
+          android:paddingEnd="15dp"
+          android:gravity="start|center"
+          android:text="Background"
+          android:textSize="17sp"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_expand"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_fullscreen"
+        android:layout_gravity="bottom|end"/>
+
+    <ImageButton
+        android:id="@+id/btn_exit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_close"
+        android:layout_gravity="end"/>
+  </FrameLayout>
+
+  <ProgressBar
+      android:id="@+id/progress_bar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:visibility="gone"/>
+</FrameLayout>

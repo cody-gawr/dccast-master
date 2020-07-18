@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <!--<item name="android:textSize">14sp</item>-->
+  <!--<item name="textAllCaps">false</item>-->
+  <!--<item name="android:textColor">@color/black</item>-->
+  <!--<item name="android:textAllCaps">false</item>-->
+
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:text="@string/cast_list_tab_friends"
+      android:textSize="14sp"
+      android:id="@+id/lbl_item"
+      android:textAllCaps="false"
+      android:textStyle="bold"
+      android:textColor="@color/black"
+  />
+
+  <View android:layout_width="5dp" android:layout_height="5dp"
+      android:background="@drawable/bg_badge_dot"
+      android:id="@+id/badge_dot"
+      android:visibility="gone"
+      android:layout_gravity="center"
+      android:layout_marginLeft="@dimen/margin_size_large"/>
+
+</LinearLayout>

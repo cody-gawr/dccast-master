@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_size_xlarge"
+        android:paddingTop="@dimen/margin_size_xlarge"
+        android:paddingRight="@dimen/margin_default"
+        android:paddingBottom="@dimen/margin_size_xlarge">
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="@dimen/notification_notice_user_image_size"
+          android:layout_height="@dimen/notification_notice_user_image_size"
+          android:layout_marginTop="1dp"
+          android:layout_marginBottom="1dp"
+          app:cardCornerRadius="30dp"
+          app:cardElevation="2dp">
+
+        <ImageView
+            android:id="@+id/iv_item_subscribe_user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_profile_placeholder"/>
+
+      </androidx.cardview.widget.CardView>
+
+      <LinearLayout
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="@dimen/margin_size_xlarge"
+          android:layout_marginRight="@dimen/margin_size_xlarge"
+          android:layout_weight="1"
+          android:gravity="center_vertical"
+          android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbl_item_subscribe_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/subscribe_item_text"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Khloe Kardashian"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="@dimen/margin_size_medium">
+
+          <TextView
+              android:id="@+id/lbl_item_subscribe_description"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@color/subscribe_item_description"
+              android:textSize="12sp"
+              tools:text="@string/subscriptions_stat"/>
+
+          <FrameLayout
+              android:id="@+id/layout_stat_load"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white">
+
+            <ProgressBar
+                android:layout_width="15dp"
+                android:layout_height="15dp"/>
+
+          </FrameLayout>
+
+        </FrameLayout>
+
+      </LinearLayout>
+
+      <TextView
+          android:id="@+id/lbl_on_air"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/bg_on_air"
+          android:textColor="@color/white"
+          android:visibility="gone"
+          android:padding="10dp"
+          android:textSize="12sp"
+          android:text="@string/on_air"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone">
+
+      <ProgressBar
+          android:layout_width="16dp"
+          android:layout_height="10dp"
+          android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+  </FrameLayout>
+
+</layout>

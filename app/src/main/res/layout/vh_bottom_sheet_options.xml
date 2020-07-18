@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_default"
+        android:paddingTop="@dimen/margin_size_xxxlarge"
+        android:paddingRight="@dimen/margin_default"
+        android:paddingBottom="@dimen/margin_size_xxxlarge">
+
+        <TextView
+            android:id="@+id/lbl_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cast line"
+            android:textColor="@color/bottom_sheet_text"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_live_lock_check" />
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="?attr/selectableItemBackground"
+      android:gravity="center"
+      android:orientation="vertical"
+      android:paddingLeft="@dimen/margin_default"
+      android:paddingTop="@dimen/margin_size_xxxlarge"
+      android:paddingRight="@dimen/margin_default"
+      android:paddingBottom="@dimen/margin_size_xxxlarge">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+      <TextView
+          android:id="@+id/lbl_title"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textColor="@color/settings_item_text"
+          android:textStyle="bold"
+          tools:text="Mobile data"/>
+
+      <FrameLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+
+        <notq.dccast.custom_view.CustomBlockLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+          <notq.dccast.custom_view.SwitchButton
+              android:id="@+id/switch_item"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:visibility="gone"
+              app:sb_checked="false"
+              app:sb_checked_color="@color/colorPrimary"
+              app:sb_show_indicator="false"
+              app:sb_uncheck_color="@color/check_box_border_default"/>
+
+        </notq.dccast.custom_view.CustomBlockLayout>
+
+        <ImageView
+            android:id="@+id/icon_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_settings_arrow"/>
+
+        <TextView
+            android:id="@+id/update_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_update_button"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:padding="10dp"
+            android:textSize="12sp"
+            android:text="@string/settings_update"/>
+
+      </FrameLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lbl_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_size_small"
+        android:text="@string/settings_mobile_data_description"
+        android:textColor="@color/settings_item_description"
+        android:visibility="gone"/>
+
+  </LinearLayout>
+
+</LinearLayout>

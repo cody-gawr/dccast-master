@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+  <androidx.coordinatorlayout.widget.CoordinatorLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:fitsSystemWindows="true"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf"
+    >
+
+      <com.google.android.material.appbar.AppBarLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+      >
+
+        <include
+            layout="@layout/layout_back_header"
+            android:id="@+id/header"
+        />
+
+      </com.google.android.material.appbar.AppBarLayout>
+
+      <androidx.core.widget.NestedScrollView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:fillViewport="true"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/settings_bg"
+            android:orientation="vertical"
+        >
+
+          <LinearLayout
+              android:id="@+id/item_live_title"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@android:color/white"
+              android:gravity="start|center_vertical"
+              android:orientation="horizontal"
+              android:paddingTop="@dimen/margin_size_xxxlarge"
+              android:paddingLeft="@dimen/margin_default"
+              android:paddingRight="@dimen/margin_default"
+              android:paddingBottom="@dimen/margin_size_xxxlarge">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/navbar_mobile"
+                android:layout_marginEnd="@dimen/margin_size_xxlarge"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/settings_item_text"
+                android:textStyle="bold"
+                android:text="@string/live_settings_live_title"
+                android:layout_gravity="center_vertical"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/title"
+                android:maxLength="30"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|end"
+                android:layout_weight="1"
+                android:background="@null"
+                android:textSize="@dimen/font_size_small"
+                android:paddingLeft="@dimen/margin_default"
+                android:hint="@string/live_settings_live_title"/>
+
+          </LinearLayout>
+
+          <notq.dccast.screens.navigation_menu.live.LiveSettingsItem
+              android:id="@+id/item_live_distribute"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:lsi_checked="false"
+              app:lsi_has_arrow="true"
+              android:layout_marginTop="1dp"
+              android:visibility="visible"
+              app:lsi_icon="@drawable/ic_live_settings_live_distribute"
+              app:lsi_ischeck="false"
+              app:lsi_title="@string/live_settings_live_distribute"
+              app:lsi_value="@string/item_distribute_subscriber"
+          />
+
+          <notq.dccast.screens.navigation_menu.live.LiveSettingsItem
+              android:id="@+id/item_live_type"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="1dp"
+              app:lsi_checked="false"
+              app:lsi_has_arrow="false"
+              app:lsi_icon="@drawable/ic_live_settings_live_type"
+              app:lsi_ischeck="false"
+              app:lsi_title="@string/live_settings_live_type"
+              app:lsi_value="@string/item_live_type_camera"
+          />
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingBottom="@dimen/margin_size_xlarge"
+              android:paddingLeft="@dimen/margin_default"
+              android:paddingRight="@dimen/margin_default"
+              android:paddingTop="@dimen/margin_size_xlarge"
+              android:text="@string/settings_live_settings"
+              android:textColor="@color/settings_item_sub_header"
+              android:textStyle="normal"
+          />
+
+          <notq.dccast.screens.navigation_menu.live.LiveSettingsItem
+              android:id="@+id/item_broadcast_orientation"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:lsi_checked="false"
+              app:lsi_has_arrow="false"
+              app:lsi_icon="@drawable/ic_live_settings_orientation"
+              app:lsi_ischeck="false"
+              app:lsi_title="@string/live_settings_broadcast_orientation"
+              app:lsi_value="@string/broadcast_portrait"
+          />
+
+          <notq.dccast.screens.navigation_menu.live.LiveSettingsItem
+              android:id="@+id/item_category_setting"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="1dp"
+              app:lsi_checked="false"
+              app:lsi_has_arrow="false"
+              app:lsi_icon="@drawable/ic_live_settings_category_settings"
+              app:lsi_ischeck="false"
+              app:lsi_title="@string/live_settings_category_setting"
+              app:lsi_value="@string/validate_live_category"
+          />
+
+          <notq.dccast.screens.navigation_menu.live.LiveSettingsItem
+              android:id="@+id/item_set_lock"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="1dp"
+              app:lsi_checked="false"
+              app:lsi_has_arrow="false"
+              app:lsi_icon="@drawable/ic_live_settings_set_lock"
+              app:lsi_ischeck="false"
+              app:lsi_title="@string/live_settings_set_lock"
+              app:lsi_value="100"
+          />
+
+          <notq.dccast.screens.navigation_menu.live.LiveSettingsItem
+              android:id="@+id/item_broadcast_quality"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="1dp"
+              app:lsi_checked="false"
+              app:lsi_has_arrow="false"
+              app:lsi_icon="@drawable/ic_live_settings_broadcast"
+              app:lsi_ischeck="false"
+              app:lsi_title="@string/live_settings_broadcast_quality"
+              app:lsi_value="@string/broadcast_high_quality"
+          />
+
+          <notq.dccast.screens.navigation_menu.live.LiveSettingsItem
+              android:id="@+id/item_restricted"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="1dp"
+              app:lsi_checked="true"
+              app:lsi_icon="@drawable/ic_live_settings_cross"
+              app:lsi_ischeck="true"
+              app:lsi_title="@string/live_settings_restricted"
+          />
+
+          <notq.dccast.screens.navigation_menu.live.LiveSettingsItem
+              android:id="@+id/item_chat_lock"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="1dp"
+              app:lsi_checked="false"
+              app:lsi_icon="@drawable/ic_live_settings_chat_lock"
+              app:lsi_ischeck="true"
+              app:lsi_title="@string/live_settings_chat_lock"
+          />
+
+          <notq.dccast.screens.navigation_menu.live.LiveSettingsItem
+              android:id="@+id/item_live_lock"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="1dp"
+              app:lsi_checked="false"
+              app:lsi_icon="@drawable/ic_live_settings_live_lock"
+              app:lsi_ischeck="true"
+              app:lsi_title="@string/live_settings_live_lock"
+          />
+
+          <Button
+              android:id="@+id/start_live_btn"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="bottom"
+              android:layout_marginBottom="@dimen/margin_default"
+              android:layout_marginLeft="@dimen/margin_default"
+              android:layout_marginRight="@dimen/margin_default"
+              android:layout_marginTop="@dimen/margin_default"
+              android:background="@drawable/create_group_button"
+              android:gravity="center"
+              android:text="@string/live_settings_start_live"
+              android:textAllCaps="false"
+              android:textColor="@color/white"
+          />
+
+        </LinearLayout>
+
+      </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/dim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bottom_sheet_dim"
+        android:visibility="gone"
+    />
+
+    <FrameLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="0dp"
+        app:layout_behavior="notq.dccast.util.LockableBottomSheetBehavior"
+    />
+
+  </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

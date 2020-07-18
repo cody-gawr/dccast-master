@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+    >
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:text="@string/share_title"
+          android:textColor="@android:color/black"
+      />
+
+      <Space
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+      />
+
+      <FrameLayout
+          android:id="@+id/btn_share_close"
+          android:layout_width="44dp"
+          android:layout_height="match_parent"
+          android:layout_marginEnd="@dimen/margin_size_medium"
+          android:layout_marginRight="@dimen/margin_size_medium"
+          android:background="?attr/selectableItemBackground"
+          android:clickable="true"
+          android:focusable="true"
+      >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_close"
+            tools:ignore="ContentDescription"
+        />
+
+      </FrameLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+    />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:padding="@dimen/margin_size_xlarge"
+      >
+
+        <TextView
+            android:id="@+id/title_friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/share_friends"
+            android:textColor="@android:color/black"
+        />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/friends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size_large"
+            android:layout_marginBottom="20dp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/share_to_social"
+            android:textColor="@android:color/black"
+            tools:ignore="RtlHardcoded"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/share_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size_large"
+        />
+
+      </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+  </LinearLayout>
+
+</layout>

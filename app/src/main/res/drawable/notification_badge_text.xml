@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners android:radius="4dp" />
+
+    <solid android:color="@color/badge_text_red" />
+
+    <padding
+        android:bottom="@dimen/margin_size_small"
+        android:left="@dimen/margin_size_medium"
+        android:right="@dimen/margin_size_medium"
+        android:top="@dimen/margin_size_small" />
+
+</shape>

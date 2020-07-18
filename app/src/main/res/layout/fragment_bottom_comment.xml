@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+  <androidx.coordinatorlayout.widget.CoordinatorLayout
+      android:id="@+id/main_layout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+        >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="44dp"
+              android:background="@android:color/white"
+              android:orientation="horizontal"
+          >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/comments_title"
+                android:textColor="@android:color/black"
+            />
+
+            <TextView
+                android:id="@+id/total_comments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="-"
+                tools:ignore="HardcodedText"
+            />
+
+            <FrameLayout
+                android:id="@+id/btn_refresh"
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+            >
+
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:src="@drawable/ic_comment_refresh"
+                  tools:ignore="ContentDescription"
+              />
+
+            </FrameLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+            />
+
+            <FrameLayout
+                android:id="@+id/btn_comment_close"
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/margin_size_medium"
+                android:layout_marginRight="@dimen/margin_size_medium"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+            >
+
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:src="@drawable/ic_close"
+                  tools:ignore="ContentDescription"
+              />
+
+            </FrameLayout>
+
+          </LinearLayout>
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="0.5dp"
+              android:background="@android:color/darker_gray"
+          />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        >
+
+          <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/comments_recycler_view"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+          />
+
+          <ProgressBar
+              android:id="@+id/progress_bar_vod"
+              android:layout_width="56dp"
+              android:layout_height="56dp"
+              android:layout_gravity="center"
+              style="@android:style/Widget.Holo.ProgressBar.Large"
+          />
+
+        </FrameLayout>
+
+      </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/reply_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        app:behavior_hideable="true"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+        app:behavior_peekHeight="0dp">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@android:color/white"
+          android:orientation="vertical"
+      >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+        >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="44dp"
+              android:background="@android:color/white"
+              android:orientation="horizontal"
+          >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/replies_title"
+                android:textColor="@android:color/black"
+            />
+
+            <TextView
+                android:id="@+id/total_replies"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="0"
+                tools:ignore="HardcodedText,RtlHardcoded"
+            />
+
+            <FrameLayout
+                android:id="@+id/btn_reply_close"
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/margin_size_medium"
+                android:layout_marginRight="@dimen/margin_size_medium"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                tools:ignore="RtlHardcoded">
+
+              <ImageView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:src="@drawable/ic_close"
+                  tools:ignore="ContentDescription"
+              />
+
+            </FrameLayout>
+
+          </LinearLayout>
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="0.5dp"
+              android:background="@android:color/darker_gray"
+          />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reply_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity"
+        />
+
+      </LinearLayout>
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/dim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bottom_sheet_dim"
+        android:visibility="gone"
+    />
+
+    <LinearLayout
+        android:id="@+id/report_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/margin_size_large"
+        android:paddingRight="@dimen/margin_size_large"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="0dp"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    >
+
+      <TextView
+          android:id="@+id/btn_reply"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:background="?selectableItemBackground"
+          android:clickable="true"
+          android:drawableLeft="@drawable/ic_comment"
+          android:drawablePadding="@dimen/margin_size_xlarge"
+          android:focusable="true"
+          android:gravity="center_vertical|left"
+          android:paddingLeft="@dimen/margin_size_medium"
+          android:text="@string/comment_edit_reply"
+          tools:ignore="RtlHardcoded,RtlSymmetry"
+      />
+
+      <TextView
+          android:id="@+id/btn_edit"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:background="?selectableItemBackground"
+          android:clickable="true"
+          android:drawableLeft="@drawable/ic_edit"
+          android:drawablePadding="@dimen/margin_size_xlarge"
+          android:focusable="true"
+          android:gravity="center_vertical|left"
+          android:paddingLeft="@dimen/margin_size_medium"
+          android:text="@string/comment_edit_edit"
+          tools:ignore="RtlHardcoded,RtlSymmetry"
+      />
+
+      <TextView
+          android:id="@+id/btn_report"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:background="?selectableItemBackground"
+          android:clickable="true"
+          android:drawableLeft="@drawable/ic_report"
+          android:drawablePadding="@dimen/margin_size_xlarge"
+          android:focusable="true"
+          android:gravity="center_vertical|left"
+          android:paddingLeft="@dimen/margin_size_medium"
+          android:text="@string/comment_edit_report"
+          tools:ignore="RtlHardcoded,RtlSymmetry"
+      />
+
+      <TextView
+          android:id="@+id/btn_delete"
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:background="?selectableItemBackground"
+          android:clickable="true"
+          android:drawableLeft="@drawable/ic_delete"
+          android:drawablePadding="@dimen/margin_size_xlarge"
+          android:focusable="true"
+          android:gravity="center_vertical|left"
+          android:paddingLeft="@dimen/margin_size_medium"
+          android:text="@string/comment_edit_delete"
+          android:textColor="#E42020"
+          tools:ignore="RtlHardcoded,RtlSymmetry"
+      />
+
+    </LinearLayout>
+
+  </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

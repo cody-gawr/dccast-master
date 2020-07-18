@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_pressed="false" android:state_selected="false">
+    <layer-list>
+      <item
+          android:bottom="@dimen/margin_size_medium"
+          android:top="@dimen/margin_size_medium">
+        <shape android:shape="rectangle">
+          <solid android:color="@color/colorTabIndicatorToolbar"/>
+          <corners android:radius="@dimen/tab_height_half"/>
+          <padding
+              android:right="@dimen/margin_size_xxxlarge"
+              android:left="@dimen/margin_size_xxxlarge"
+              android:top="@dimen/margin_size_medium"
+              android:bottom="@dimen/margin_size_medium"/>
+        </shape>
+      </item>
+    </layer-list>
+  </item>
+</selector>

@@ -1,0 +1,478 @@
+[
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_favorite.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_favorite.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_contact_us.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_contact_us.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_live_chat.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_live_chat.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_comment_body.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_comment_body.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_group_add_people.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_group_add_people.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_back_header_subscribe.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/layout_back_header_subscribe.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_cast_follower.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_cast_follower.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_cast.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_cast.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_related_video_header.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_related_video_header.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search_followers.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_search_followers.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_content_recent.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_content_recent.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_live_stream.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_live_stream.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_group_member.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_group_member.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_sticker_tab.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_sticker_tab.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_bottom_live_settings.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_bottom_live_settings.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_notification_vod_item.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_notification_vod_item.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_trimmer.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_trimmer.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add_friend.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_add_friend.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home_list.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_home_list.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_change_nickname.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/dialog_change_nickname.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_contact_list.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_contact_list.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_home_main_header.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_home_main_header.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_vod_galley_item.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_vod_galley_item.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_mandu_history_web_view.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_mandu_history_web_view.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_cast_add_friend.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_cast_add_friend.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_my_channel.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_my_channel.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_channel.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_my_channel.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_upload_vod.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_upload_vod.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_following.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_following.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_subscribe.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_subscribe.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_my_live_history.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_my_live_history.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_notification_live_item.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_notification_live_item.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search_friend.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_search_friend.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_notification_vod.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_notification_vod.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_cast_group.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_cast_group.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_create_group.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_create_group.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_bottom_sheet_options.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_bottom_sheet_options.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_video_settings.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/dialog_video_settings.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_notification_settings.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_notification_settings.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_home_sub_header.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_home_sub_header.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_select_gallery.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_select_gallery.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_bottom_sort.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_bottom_sort.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_notification_notice.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_notification_notice.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_nav_menu_2.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_nav_menu_2.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_notification_notice_item.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_notification_notice_item.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_cast_search_friend.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_cast_search_friend.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_bottom_comment.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_bottom_comment.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_web_view.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_web_view.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_group_member.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_group_member.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_contact_us.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_contact_us.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_bottom_lock.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_bottom_lock.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_friends.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_friends.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_mandu_history.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_mandu_history.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_share_and_friends.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_share_and_friends.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_recent.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_recent.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_group_video.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_group_video.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/test.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/test.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_subscribe.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_subscribe.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_bottom_add_comment.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_bottom_add_comment.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_home_video.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_home_video.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_header_loading.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/layout_header_loading.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_age_confirm.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/dialog_age_confirm.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_ads.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/layout_ads.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_search_history.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_search_history.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_forget_password.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_forget_password.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_live_history.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_my_live_history.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_sign_up.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_content.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_my_content.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_bottom_live_title.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_bottom_live_title.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_home_category.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_home_category.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_video_report.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/dialog_video_report.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search_groups.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_search_groups.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_search_result_page.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_search_result_page.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_nav_category_item.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_nav_category_item.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_edit_profile.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add_people.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_add_people.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_notification_live.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_notification_live.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_home_load_more.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_home_load_more.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_popular_item.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_popular_item.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_video.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_video.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_home_no_data.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_home_no_data.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_contact_us_detail.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_contact_us_detail.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_cast_recent_follower.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_cast_recent_follower.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_thumbnail_chooser.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_thumbnail_chooser.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_vod_galley_section.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_vod_galley_section.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_back_header.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/layout_back_header.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_followers.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_followers.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_cast_friend.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_cast_friend.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_bottom_options.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_bottom_options.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_stickers.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_stickers.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_home_popular_header.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_home_popular_header.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_bottom_sticker.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_bottom_sticker.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_favorite.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_favorite.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_settings.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_mandu_password.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/dialog_mandu_password.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_nav_menu.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_nav_menu.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_sticker_pagination.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_sticker_pagination.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_share.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/dialog_share.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_comment_no_data.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_comment_no_data.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_nav_profile.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_nav_profile.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_recent.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_recent.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_comment_write.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_comment_write.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_contact.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_contact.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_notification.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_notification.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/vh_nav_category.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/vh_nav_category.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_user_follow.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_user_follow.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_bottom_buuz.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_bottom_buuz.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_group_detail.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_group_detail.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_live_settings.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_live_settings.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_groups.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_groups.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search_toolbar.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_search_toolbar.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_history_information.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_history_information.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home_header.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_home_header.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home_toolbar.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/activity_home_toolbar.xml"
+    },
+    {
+        "merged": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_bottom_set_lock.xml",
+        "source": "/Volumes/Data/Oogway/workspace/live_android/dccast-master/app/src/main/res/layout/fragment_bottom_set_lock.xml"
+    }
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="505dp"
+                android:height="196dp" />
+
+            <solid android:color="@color/login_half_oval" />
+        </shape>
+    </item>
+</layer-list>

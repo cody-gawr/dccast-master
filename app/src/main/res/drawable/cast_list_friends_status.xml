@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners android:radius="10dp" />
+
+    <solid android:color="@color/cast_list_friends_status" />
+
+    <padding
+        android:bottom="@dimen/margin_size_large"
+        android:left="@dimen/margin_size_xxxlarge"
+        android:right="@dimen/margin_size_xxxlarge"
+        android:top="@dimen/margin_size_large" />
+
+</shape>

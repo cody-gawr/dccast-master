@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+
+  <Transition
+      app:constraintSetEnd="@id/collapsed"
+      app:constraintSetStart="@id/expanded"
+      app:duration="300"
+      app:interpolator="easeInOut">
+
+    <OnSwipe
+        app:dragDirection="dragUp"
+        app:maxAcceleration="200"
+        app:touchAnchorId="@+id/videoViewContainer"
+        app:touchAnchorSide="top"/>
+
+    <KeyFrameSet>
+      <!-- videoView -->
+      <KeyAttribute
+          app:framePosition="0"
+          app:target="@id/videoView">
+        <CustomAttribute
+            app:attributeName="EndPadding"
+            app:customDimension="0dp"/>
+      </KeyAttribute>
+
+      <KeyAttribute
+          app:framePosition="100"
+          app:target="@id/videoView">
+        <CustomAttribute
+            app:attributeName="EndPadding"
+            app:customDimension="@dimen/video_view_right_padding"/>
+      </KeyAttribute>
+
+      <!-- ads videoView -->
+      <KeyAttribute
+          app:framePosition="0"
+          app:target="@id/layout_video_ads">
+        <CustomAttribute
+            app:attributeName="EndPadding"
+            app:customDimension="0dp"/>
+      </KeyAttribute>
+
+      <KeyAttribute
+          app:framePosition="100"
+          app:target="@id/layout_video_ads">
+        <CustomAttribute
+            app:attributeName="EndPadding"
+            app:customDimension="@dimen/video_view_right_padding"/>
+      </KeyAttribute>
+
+      <!--END-->
+
+      <KeyAttribute
+          app:framePosition="0"
+          app:target="@id/progress_bar_vod">
+        <CustomAttribute
+            app:attributeName="EndPadding"
+            app:customDimension="0dp"/>
+      </KeyAttribute>
+
+      <KeyAttribute
+          app:framePosition="100"
+          app:target="@id/progress_bar_vod">
+        <CustomAttribute
+            app:attributeName="EndPadding"
+            app:customDimension="@dimen/video_view_right_padding"/>
+      </KeyAttribute>
+
+      <KeyAttribute
+          app:framePosition="0"
+          app:target="@id/videoViewContainer">
+        <CustomAttribute
+            app:attributeName="cardElevation"
+            app:customDimension="5dp"/>
+      </KeyAttribute>
+
+      <KeyAttribute
+          app:framePosition="100"
+          app:target="@id/videoViewContainer">
+        <CustomAttribute
+            app:attributeName="cardElevation"
+            app:customDimension="0dp"/>
+      </KeyAttribute>
+
+      <!-- controlView -->
+      <KeyAttribute
+          app:framePosition="0"
+          app:target="@id/controllers">
+        <CustomAttribute
+            app:attributeName="elevation"
+            app:customDimension="10dp"/>
+
+        <CustomAttribute
+            app:attributeName="EndPadding"
+            app:customDimension="0dp"/>
+      </KeyAttribute>
+
+      <KeyAttribute
+          app:framePosition="3"
+          app:target="@id/controllers">
+        <CustomAttribute
+            app:attributeName="elevation"
+            app:customDimension="0dp"/>
+
+        <CustomAttribute
+            app:attributeName="EndPadding"
+            app:customDimension="@dimen/video_view_right_padding"/>
+      </KeyAttribute>
+
+      <KeyAttribute
+          android:alpha="1"
+          app:framePosition="100"
+          app:target="@id/collapsedControlLayout">
+      </KeyAttribute>
+
+      <KeyAttribute
+          android:alpha="0"
+          app:framePosition="0"
+          app:target="@id/collapsedControlLayout">
+      </KeyAttribute>
+
+    </KeyFrameSet>
+
+  </Transition>
+
+  <ConstraintSet android:id="@+id/expanded">
+
+    <Constraint
+        android:id="@id/videoViewContainer"
+        android:layout_height="203dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Constraint
+        android:id="@id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoViewContainer"/>
+
+    <Constraint
+        android:id="@+id/state_detector"
+        android:layout_height="1dp"/>
+
+    <Constraint
+        android:id="@+id/skip_ads"
+        android:layout_height="40dp"/>
+
+  </ConstraintSet>
+
+  <ConstraintSet android:id="@+id/collapsed">
+    <Constraint
+        android:id="@id/videoViewContainer"
+        android:layout_height="@dimen/collapsed_video_container"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Constraint
+        android:id="@id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoViewContainer"/>
+
+    <Constraint
+        android:id="@+id/state_detector"
+        android:layout_height="0dp"/>
+
+    <Constraint
+        android:id="@+id/skip_ads"
+        android:layout_height="0dp"/>
+
+  </ConstraintSet>
+
+</MotionScene>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+      <FrameLayout
+          android:id="@+id/edit_comment_bottom_sheet"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom"
+          android:orientation="vertical"
+          app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+        >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@android:color/white"
+              android:orientation="vertical"
+          >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@android:color/white"
+                android:orientation="horizontal"
+            >
+
+              <TextView
+                  android:id="@+id/lblTitle"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:text="@string/add_public_comment"
+                  android:textColor="@android:color/black"
+              />
+
+              <Space
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+              />
+
+              <FrameLayout
+                  android:id="@+id/btn_edit_comment_close"
+                  android:layout_width="44dp"
+                  android:layout_height="match_parent"
+                  android:layout_marginEnd="@dimen/margin_size_medium"
+                  android:layout_marginRight="@dimen/margin_size_medium"
+                  android:background="?attr/selectableItemBackground"
+                  android:clickable="true"
+                  android:focusable="true"
+              >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_close"
+                    tools:ignore="ContentDescription"
+                />
+
+              </FrameLayout>
+
+            </LinearLayout>
+
+            <View android:layout_width="match_parent" android:layout_height="0.1dp"
+                android:background="@color/recycler_swipe_color_text_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+            >
+
+              <androidx.cardview.widget.CardView
+                  android:layout_width="32dp"
+                  android:layout_height="32dp"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginStart="20dp"
+                  app:cardCornerRadius="16dp"
+              >
+
+                <ImageView
+                    android:id="@+id/iv_edit_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_profile_placeholder"
+                    tools:ignore="ContentDescription"
+                />
+
+              </androidx.cardview.widget.CardView>
+
+              <LinearLayout
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_weight="1"
+              >
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/add_comment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:hint="@string/add_public_comment"
+                    android:inputType="textMultiLine"
+                    android:minHeight="60dp"
+                    android:maxHeight="100dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:overScrollMode="always"
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/font_size_medium"
+                    tools:ignore="Autofill,HardcodedText,RtlHardcoded"
+                />
+
+                <FrameLayout
+                    android:id="@+id/btn_send_sticker"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="?selectableItemBackgroundBorderless"
+                    tools:ignore="RtlHardcoded"
+                >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:src="@drawable/ic_comment_sticker"
+                      tools:ignore="ContentDescription"
+                      />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/btn_send_comment"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="?selectableItemBackgroundBorderless"
+                    tools:ignore="RtlHardcoded"
+                >
+
+                  <ImageView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:src="@drawable/ic_message_send"
+                      tools:ignore="ContentDescription"
+                  />
+
+                </FrameLayout>
+
+              </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@android:color/darker_gray"
+            />
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+      </FrameLayout>
+
+    </FrameLayout>
+
+  </ScrollView>
+
+</layout>

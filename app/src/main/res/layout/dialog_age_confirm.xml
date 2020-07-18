@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:padding="@dimen/margin_size_xxlarge"
+      android:orientation="vertical"
+  >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin_size_xlarge"
+        android:text="@string/age_confirm_body"
+        android:layout_marginLeft="@dimen/margin_size_xxxlarge"
+        android:layout_marginRight="@dimen/margin_size_xxxlarge"
+        android:layout_marginBottom="@dimen/margin_size_xxlarge"
+        android:textStyle="bold"
+        android:alpha="0.5"
+        android:textColor="@color/group_add_member"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+      <Button
+          android:id="@+id/cancel_confirm"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textAllCaps="false"
+          android:layout_marginRight="16dp"
+          android:background="@color/colorGrey"
+          android:text="@string/age_confirm_cancel"/>
+
+      <Button
+          android:id="@+id/confirm_confirm"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:textAllCaps="false"
+          android:layout_height="wrap_content"
+          android:background="@drawable/create_group_button"
+          android:textColor="@color/white"
+          android:text="@string/age_confirm_confirm"/>
+
+    </LinearLayout>
+
+  </LinearLayout>
+
+</layout>
+

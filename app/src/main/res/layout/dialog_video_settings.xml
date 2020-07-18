@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+  <androidx.core.widget.NestedScrollView android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    >
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="#F8F8F8"
+          android:id="@+id/resolution_title"
+          android:gravity="center_vertical|start"
+          android:padding="@dimen/margin_size_xlarge"
+          android:text="@string/vod_quality_title"
+          android:textColor="@color/colorPrimary"
+      />
+
+      <RadioGroup
+          android:id="@+id/resolution_group"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:checkedButton="@+id/resolution_0"
+          android:layout_marginLeft="@dimen/margin_size_xlarge"
+          android:layout_marginRight="@dimen/margin_size_xlarge"
+          android:layout_marginTop="@dimen/margin_size_medium"
+      >
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resolution_0"
+            android:text="@string/vod_quality_auto"
+            tools:ignore="HardcodedText"
+        />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resolution_1"
+            android:text="@string/vod_quality_240"
+            tools:ignore="HardcodedText"
+        />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resolution_2"
+            android:text="@string/vod_quality_480"
+            tools:ignore="HardcodedText"
+        />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/resolution_3"
+            android:text="@string/vod_quality_720"
+            tools:ignore="HardcodedText"
+        />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vod_quality_1080"
+            android:id="@+id/resolution_4"
+            tools:ignore="HardcodedText"
+        />
+
+      </RadioGroup>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_vertical|start"
+          android:paddingTop="@dimen/margin_size_xlarge"
+          android:paddingLeft="@dimen/margin_size_xlarge"
+          android:paddingRight="@dimen/margin_size_xlarge"
+          android:text="@string/vod_quality_section_title"
+      />
+
+      <TextView
+          android:id="@+id/report"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingBottom="@dimen/margin_size_xlarge"
+          android:paddingTop="@dimen/margin_size_xlarge"
+          android:layout_marginLeft="@dimen/margin_size_xlarge"
+          android:layout_marginRight="@dimen/margin_size_xlarge"
+          android:text="@string/report_dialog_title"
+          android:background="?android:selectableItemBackground"
+          android:textColor="@android:color/black"
+          android:textStyle="bold"
+      />
+
+      <LinearLayout android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:visibility="visible"
+          android:id="@+id/pop_up">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|start"
+            android:paddingTop="@dimen/margin_size_xlarge"
+            android:paddingLeft="@dimen/margin_size_xlarge"
+            android:paddingRight="@dimen/margin_size_xlarge"
+            android:text="보기 옵션"
+        />
+
+        <TextView
+            android:id="@+id/view_as_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_size_xlarge"
+            android:paddingTop="@dimen/margin_size_xlarge"
+            android:layout_marginLeft="@dimen/margin_size_xlarge"
+            android:layout_marginRight="@dimen/margin_size_xlarge"
+            android:background="?android:selectableItemBackground"
+            android:textColor="@android:color/black"
+            android:text="@string/radio_mode"
+            android:textStyle="bold"
+        />
+
+        <TextView
+            android:id="@+id/view_as_pop_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_size_xlarge"
+            android:paddingTop="@dimen/margin_size_xlarge"
+            android:layout_marginLeft="@dimen/margin_size_xlarge"
+            android:layout_marginRight="@dimen/margin_size_xlarge"
+            android:background="?android:selectableItemBackground"
+            android:textColor="@android:color/black"
+            android:text="@string/view_popup"
+            android:textStyle="bold"
+        />
+
+      </LinearLayout>
+
+      <LinearLayout android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:visibility="gone"
+          android:id="@+id/change_nickname">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|start"
+            android:paddingTop="@dimen/margin_size_xlarge"
+            android:paddingLeft="@dimen/margin_size_xlarge"
+            android:paddingRight="@dimen/margin_size_xlarge"
+            android:text="@string/live_change_nickname"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/margin_size_xlarge"
+            android:paddingTop="@dimen/margin_size_xlarge"
+            android:layout_marginLeft="@dimen/margin_size_xlarge"
+            android:layout_marginRight="@dimen/margin_size_xlarge"
+            android:background="?android:selectableItemBackground"
+            android:textColor="@android:color/black"
+            android:text="@string/live_change_nickname"
+            android:textStyle="bold"
+        />
+
+      </LinearLayout>
+
+    </LinearLayout>
+
+  </androidx.core.widget.NestedScrollView>
+
+</layout>
+

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:attrs="http://schemas.android.com/tools"
+>
+  <FrameLayout
+      android:id="@+id/sticker_bottom_sheet"
+      android:layout_width="match_parent"
+      android:layout_height="350dp"
+      android:background="@android:color/white"
+      android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+    >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+      >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+        >
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:text="@string/stickers_title"
+              android:textColor="@android:color/black"
+          />
+
+          <TextView
+              android:id="@+id/total_stickers"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:layout_weight="1"
+              android:gravity="left"
+              android:text="0"
+              attrs:ignore="HardcodedText,RtlHardcoded"
+          />
+
+          <FrameLayout
+              android:id="@+id/btn_sticker_close"
+              android:layout_width="44dp"
+              android:layout_height="match_parent"
+              android:layout_marginEnd="@dimen/margin_size_medium"
+              android:layout_marginRight="@dimen/margin_size_medium"
+              android:background="?android:attr/selectableItemBackground"
+              android:clickable="true"
+              android:focusable="true"
+              attrs:ignore="RtlHardcoded">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_close"
+                attrs:ignore="ContentDescription"
+            />
+
+          </FrameLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray"
+        />
+
+      </LinearLayout>
+
+      <FrameLayout android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+          <!--<androidx.recyclerview.widget.RecyclerView-->
+          <!--android:id="@+id/sticker_recycler_view"-->
+          <!--android:layout_width="match_parent"-->
+          <!--android:layout_height="0dp"-->
+          <!--android:layout_weight="1"-->
+          <!--attrs:context=".MainActivity"-->
+          <!--/>-->
+
+          <FrameLayout
+              android:id="@+id/pager_container"
+              android:layout_width="match_parent"
+              android:layout_height="210dp"
+          >
+
+            <notq.dccast.custom_view.CustomViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+            />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_size_large"
+                android:layout_gravity="bottom|center_horizontal"
+            >
+
+              <com.rd.PageIndicatorView
+                  android:id="@+id/pageIndicatorView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:visibility="gone"
+                  app:piv_animationType="swap"
+                  app:piv_dynamicCount="true"
+                  app:piv_interactiveAnimation="true"
+                  app:piv_selectedColor="@color/colorPrimary"
+                  app:piv_unselectedColor="@color/settings_item_description"
+                  app:piv_viewPager="@id/viewPager"
+                  app:piv_radius="3dp"
+              />
+
+            </FrameLayout>
+
+          </FrameLayout>
+
+          <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/tab_recycler_view"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#E4E4E4"
+              attrs:context=".MainActivity"
+          />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_bar_sticker"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            style="@android:style/Widget.Holo.ProgressBar.Large"
+        />
+
+      </FrameLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/dim3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bottom_sheet_dim"
+        android:visibility="gone"
+    />
+  </FrameLayout>
+
+</layout>

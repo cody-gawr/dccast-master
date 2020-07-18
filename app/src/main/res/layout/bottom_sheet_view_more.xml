@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@android:color/white"
+      tools:ignore="RtlHardcoded,RtlSymmetry,HardcodedText">
+
+    <TextView
+        android:id="@+id/btn_go_to_channel"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableLeft="@drawable/ic_go_to_channel"
+        android:drawableStart="@drawable/ic_go_to_channel"
+        android:drawablePadding="@dimen/margin_size_xxlarge"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="@dimen/margin_size_xxlarge"
+        android:text="@string/view_more_go_to_channel"
+        tools:ignore="RtlHardcoded,RtlSymmetry"
+    />
+
+    <TextView
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableLeft="@drawable/ic_view_more_edit"
+        android:drawableStart="@drawable/ic_view_more_edit"
+        android:drawablePadding="@dimen/margin_size_xxlarge"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="@dimen/margin_size_xxlarge"
+        android:text="@string/view_more_edit"
+        tools:ignore="RtlHardcoded,RtlSymmetry"
+    />
+
+    <TextView
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableLeft="@drawable/ic_delete"
+        android:drawableStart="@drawable/ic_delete"
+        android:drawablePadding="@dimen/margin_size_xxlarge"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="@dimen/margin_size_xxlarge"
+        android:text="@string/view_more_delete"
+        tools:ignore="RtlHardcoded,RtlSymmetry"
+    />
+
+    <TextView
+        android:id="@+id/btn_share"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableLeft="@drawable/ic_view_more_share"
+        android:drawableStart="@drawable/ic_view_more_share"
+        android:drawablePadding="@dimen/margin_size_xxlarge"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="@dimen/margin_size_xxlarge"
+        android:text="@string/view_more_share"
+        tools:ignore="RtlHardcoded,RtlSymmetry"
+    />
+
+    <TextView
+        android:id="@+id/btn_favorite"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableLeft="@drawable/ic_view_more_favorite"
+        android:drawableStart="@drawable/ic_view_more_favorite"
+        android:drawablePadding="@dimen/margin_size_xxlarge"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="@dimen/margin_size_xxlarge"
+        android:text="@string/view_more_favorite"
+        tools:ignore="RtlHardcoded,RtlSymmetry"
+    />
+
+  </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

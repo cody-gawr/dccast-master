@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/colorPrimary"
+      app:contentInsetLeft="0dp"
+      app:contentInsetStart="0dp"
+      app:contentInsetStartWithNavigation="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal">
+
+      <FrameLayout
+          android:id="@+id/back_button"
+          android:layout_width="@dimen/tab_height"
+          android:layout_height="@dimen/tab_height"
+          android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/icon_back_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_back_arrow"
+            tools:ignore="ContentDescription"/>
+
+      </FrameLayout>
+
+      <TextView
+          android:id="@+id/lbl_header"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:layout_marginLeft="@dimen/tab_height"
+          android:text="@string/activity_settings"
+          android:textColor="@color/white"
+          android:textStyle="bold"/>
+
+      <FrameLayout
+          android:id="@+id/layout_loading"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_alignParentRight="true"
+          android:layout_gravity="center_vertical"
+          android:layout_marginRight="@dimen/margin_size_xxlarge"
+          android:layout_marginLeft="@dimen/margin_size_xxlarge">
+
+        <ProgressBar android:layout_width="20dp" android:layout_height="20dp"
+            android:theme="@style/ProgressBarWhite"
+            android:layout_gravity="center"/>
+
+      </FrameLayout>
+
+    </RelativeLayout>
+
+  </androidx.appcompat.widget.Toolbar>
+
+</layout>

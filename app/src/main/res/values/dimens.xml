@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- OTHER SIZES -->
+  <dimen name="divider_size">0.5dp</dimen>
+  <dimen name="video_view_right_padding">270dp</dimen>
+  <dimen name="toolbar_height">50dp</dimen>
+
+  <!-- MARGIN SIZES -->
+  <dimen name="margin_size_xsmall">2dp</dimen>
+  <dimen name="margin_size_small">4dp</dimen>
+  <dimen name="margin_size_medium">6dp</dimen>
+  <dimen name="margin_size_large">8dp</dimen>
+  <dimen name="margin_size_xlarge">12dp</dimen>
+  <dimen name="margin_size_xxlarge">16dp</dimen>
+  <dimen name="margin_size_xxxlarge">25dp</dimen>
+  <dimen name="margin_size_xxxxlarge">40dp</dimen>
+  <dimen name="margin_default">20dp</dimen>
+
+  <!-- TAB -->
+  <dimen name="tab_height">52dp</dimen>
+  <dimen name="tab_height_half">22dp</dimen>
+  <dimen name="tab_category_height_half">21dp</dimen>
+  <dimen name="tab_category_height">42dp</dimen>
+
+  <!-- LEFT MENU -->
+  <dimen name="left_menu_width">320dp</dimen>
+  <dimen name="left_menu_icon_size">24dp</dimen>
+  <dimen name="left_menu_profile_image_size">48dp</dimen>
+  <dimen name="left_menu_profile_image_size_half">24dp</dimen>
+  <dimen name="left_menu_item_height">106dp</dimen>
+
+  <!-- FONT SIZES -->
+  <dimen name="font_size_small">12sp</dimen>
+  <dimen name="font_size_medium">14sp</dimen>
+  <dimen name="font_size_large">16sp</dimen>
+  <dimen name="home_viewpager_height">225dp</dimen>
+  <dimen name="home_popular_height">160dp</dimen>
+
+  <!--NOTIFICATION-->
+  <dimen name="notification_live_user_image_size">64dp</dimen>
+  <dimen name="notification_notice_user_image_size">60dp</dimen>
+  <dimen name="notification_notice_image_size">52dp</dimen>
+  <dimen name="notification_live_watch_margin">35dp</dimen>
+
+  <!--MY CHANNEL-->
+  <dimen name="my_channel_user_image_size">80dp</dimen>
+
+  <!--CAST LIST-->
+  <dimen name="cast_list_follow_user_image_size">50dp</dimen>
+  <dimen name="cast_list_group_user_image_size_no_border">42dp</dimen>
+  <dimen name="cast_list_group_user_image_size">48dp</dimen>
+  <dimen name="cast_list_group_user_image_size_half">14dp</dimen>
+  <dimen name="swipe_menu_width">70dp</dimen>
+  <!--UPLOAD-->
+  <dimen name="upload_finish_image_width">100dp</dimen>
+  <dimen name="upload_finish_image_height">140dp</dimen>
+  <!--GROUP DETAIL-->
+  <dimen name="group_profile_image_size">120dp</dimen>
+  <dimen name="fab_margin">16dp</dimen>
+  <dimen name="collapsed_video_container">68dp</dimen>
+  <dimen name="dialog_preview_height">250dp</dimen>
+
+  <dimen name="notification_expanded_height">64.0dip</dimen>
+  <dimen name="play_controls_notification">48.0dip</dimen>
+  <dimen name="list_banner_height">60dp</dimen>
+
+</resources>

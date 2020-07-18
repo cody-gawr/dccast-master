@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/white"
+      android:orientation="vertical"
+      tools:ignore="UselessLeaf">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <include
+          android:id="@+id/header"
+          layout="@layout/layout_back_header"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <androidx.core.widget.NestedScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+          <FrameLayout android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@android:color/transparent">
+
+            <FrameLayout
+                android:layout_width="@dimen/group_profile_image_size"
+                android:layout_height="@dimen/group_profile_image_size"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_size_xxxlarge"
+                android:layout_marginBottom="@dimen/margin_size_xxxxlarge">
+
+              <de.hdodenhof.circleimageview.CircleImageView
+                  android:id="@+id/iv_profile_img"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:src="@drawable/ic_group_placeholder"/>
+
+              <FrameLayout
+                  android:id="@+id/layout_load_image"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_gravity="center"
+                  android:visibility="gone">
+
+                <ProgressBar
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"/>
+
+              </FrameLayout>
+
+            </FrameLayout>
+
+            <androidx.cardview.widget.CardView android:layout_width="60dp"
+                android:id="@+id/iv_change"
+                android:layout_height="60dp"
+                app:cardCornerRadius="30dp"
+                android:layout_gravity="bottom|center"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_marginBottom="25dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="6dp">
+
+              <ImageView android:layout_width="wrap_content" android:layout_height="25dp"
+                  android:src="@drawable/ic_camera_black"
+                  android:layout_gravity="center"/>
+
+            </androidx.cardview.widget.CardView>
+
+          </FrameLayout>
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/name_input_layout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/margin_default"
+              android:layout_marginRight="@dimen/margin_default"
+              android:hint="@string/create_group_name_hint"
+              android:textColorHint="@color/create_group_hint_inactive"
+              android:theme="@style/CreateGroupEditText"
+              app:boxBackgroundMode="none">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name_input_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:cursorVisible="true"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingTop="@dimen/margin_size_large"
+                android:paddingBottom="@dimen/margin_size_large"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorNavigationDrawerBackground"/>
+
+          </com.google.android.material.textfield.TextInputLayout>
+
+          <com.google.android.material.textfield.TextInputLayout
+              android:id="@+id/description_input_layout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/margin_default"
+              android:layout_marginTop="@dimen/margin_size_xxlarge"
+              android:layout_marginRight="@dimen/margin_default"
+              android:layout_marginBottom="@dimen/margin_size_xxxxlarge"
+              android:hint="@string/create_group_description_hint"
+              android:textColorHint="@color/create_group_hint_inactive"
+              android:theme="@style/CreateGroupEditText"
+              app:boxBackgroundMode="none">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/description_input_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:cursorVisible="true"
+                android:imeOptions="actionNext"
+                android:inputType="textMultiLine"
+                android:paddingTop="@dimen/margin_size_large"
+                android:paddingBottom="@dimen/margin_size_large"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorNavigationDrawerBackground"/>
+
+          </com.google.android.material.textfield.TextInputLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/group_add_member_header_bg"
+              android:orientation="horizontal"
+              android:paddingLeft="@dimen/margin_default"
+              android:paddingTop="@dimen/margin_size_xlarge"
+              android:paddingRight="@dimen/margin_default"
+              android:paddingBottom="@dimen/margin_size_xlarge">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/create_group_member"
+                android:textColor="@color/group_add_member"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lbl_add_people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_group_add_people"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+
+          </LinearLayout>
+
+          <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/recyclerView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:visibility="visible"
+              tools:listitem="@layout/vh_group_member"/>
+
+          <LinearLayout
+              android:id="@+id/leave_group"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/group_add_member_header_bg"
+              android:orientation="horizontal"
+              android:paddingLeft="@dimen/margin_default"
+              android:paddingTop="@dimen/margin_size_xxlarge"
+              android:paddingRight="@dimen/margin_default"
+              android:paddingBottom="@dimen/margin_size_xxlarge"
+              android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/create_group_leave_group"
+                android:textColor="@color/badge_text_red"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+          </LinearLayout>
+
+        </LinearLayout>
+
+      </androidx.core.widget.NestedScrollView>
+
+      <Button
+          android:id="@+id/create_group_btn"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="bottom"
+          android:layout_marginLeft="@dimen/margin_default"
+          android:layout_marginRight="@dimen/margin_default"
+          android:layout_marginBottom="@dimen/margin_default"
+          android:background="@drawable/create_group_button"
+          android:gravity="center"
+          android:text="@string/create_group_add_button"
+          android:textAllCaps="false"
+          android:textColor="@color/white"
+          android:visibility="gone"/>
+
+    </FrameLayout>
+
+  </LinearLayout>
+
+</layout>

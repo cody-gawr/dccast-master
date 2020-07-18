@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/layout_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_size_xxlarge"
+        android:paddingTop="@dimen/margin_size_xlarge"
+        android:paddingRight="@dimen/margin_size_xxlarge"
+        android:paddingBottom="@dimen/margin_size_xlarge">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_user"
+            android:layout_width="@dimen/cast_list_follow_user_image_size"
+            android:layout_height="@dimen/cast_list_follow_user_image_size"
+            android:src="@drawable/ic_notification_placeholder" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_size_xlarge"
+            android:layout_marginLeft="@dimen/margin_size_xlarge"
+            android:layout_marginEnd="@dimen/margin_size_xlarge"
+            android:layout_marginRight="@dimen/margin_size_xlarge"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lbl_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Kendall Jenner"
+                android:textColor="@color/recent_user_name"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lbl_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="93.5K Followers, 300 videos"
+                android:textColor="@color/recent_user_description"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_selected"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/group_add_people_choose_bg" />
+
+    </LinearLayout>
+
+</layout>

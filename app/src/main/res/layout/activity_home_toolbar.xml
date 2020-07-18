@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+  <com.google.android.material.appbar.AppBarLayout
+      android:id="@+id/app_bar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+  >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+    >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/tab_height"
+          android:orientation="horizontal"
+      >
+
+        <FrameLayout
+            android:id="@+id/home_button"
+            android:layout_width="@dimen/tab_height"
+            android:layout_height="@dimen/tab_height"
+        >
+
+          <ImageView
+              android:id="@+id/home_button_image"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              app:srcCompat="@drawable/ic_menu"
+              tools:ignore="ContentDescription" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+        >
+
+          <TextView
+              android:id="@+id/toolbar_title"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:textColor="@color/white"
+              android:textStyle="bold"
+              android:visibility="gone"
+              tools:text="Cast list"
+          />
+
+          <com.google.android.material.tabs.TabLayout
+              android:id="@+id/tab_layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="@dimen/margin_size_large"
+              android:layout_marginRight="@dimen/margin_size_large"
+              android:layout_toRightOf="@+id/home_button"
+              android:visibility="visible"
+              app:tabIndicator="@drawable/tab_selector"
+              app:tabIndicatorColor="@color/colorTabIndicatorToolbar"
+              app:tabIndicatorHeight="@dimen/tab_height"
+              app:tabMode="fixed"
+              app:tabRippleColor="@android:color/transparent"
+              app:tabSelectedTextColor="@android:color/white"
+              app:tabTextAppearance="@style/TabLayoutTextAppearance"
+              app:tabTextColor="#EFECEC"
+          >
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/tab_live"
+            />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/tab_vod"
+            />
+
+          </com.google.android.material.tabs.TabLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/search_button"
+            android:layout_width="@dimen/tab_height"
+            android:layout_height="@dimen/tab_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            tools:ignore="ObsoleteLayoutParam"
+        >
+
+          <ImageView
+              android:id="@+id/search_button_image"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              app:srcCompat="@drawable/ic_search"
+              tools:ignore="ContentDescription"
+          />
+
+        </FrameLayout>
+
+      </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+  </com.google.android.material.appbar.AppBarLayout>
+
+</layout>

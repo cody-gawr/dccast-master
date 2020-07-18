@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/white"
+      android:orientation="vertical"
+      tools:ignore="UselessLeaf">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/layout_back_header"/>
+
+        <LinearLayout
+            android:id="@+id/layout_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_default"
+            android:paddingTop="@dimen/margin_default"
+            android:paddingRight="@dimen/margin_default"
+            android:paddingBottom="@dimen/margin_default">
+
+          <TextView
+              android:id="@+id/lbl_my_history"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/my_live_history_video_count"
+              android:textColor="@color/settings_item_text"
+              android:textStyle="bold"/>
+
+        </LinearLayout>
+
+      </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"/>
+
+  </LinearLayout>
+
+</layout>
